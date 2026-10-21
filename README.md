@@ -12,6 +12,7 @@ This new build runs the original game logic through ahead-of-time ARM/Thumb-to-A
 - Full Resolution: the app now renders at full resolution. While the source images and artwork are still quite low-resolution (they were designed for iPhone 3G, after all), this does provide a slight boost in visual quality.
 - Fill Screen: if you are using iPhone Duo, you'll notice that the aspect ratios of the displays are very close to that of a 3.5-inch iPhone. This option fills the screen so you don't have slight black bars on the side.
 - 60 FPS: while the original game did target 60 FPS, it never had the hardware for it. Now it does!
+- App Multitasking: being an iPhone OS 2 app, the original Chuzzle has no concept of multitasking and fully relaunches any time the app closes. This new build will simply save your game and suspend the app, so you don’t have to relaunch every time.
 - App Icon: I have "remastered" the app icon with Icon Composer with full support for Default, Dark, Clear, and Tinted modes.
 
 ### Notes
@@ -28,8 +29,9 @@ Alternatively, you can build and run **Chuzzle.xcodeproj** with your own Apple d
 
 The deployment target is iOS/iPadOS 15.0. Testing has focused on recent OS versions, an iPhone 18 Pro simulator, and a 13-inch M4 iPad Pro; older supported OS versions have not all been tested. The simulator build currently targets Apple silicon Macs.
 
-## Build from Source
+### Build from Source
 *Written by AI agent*
+
 You need a Mac with full Xcode, Python 3, Rust, and CMake. The tested tools are Xcode 27.1, Rust 1.99.0, and CMake 4.3.5. Rust is pinned in `rust-toolchain.toml`; crate sources and the modified SDL2 source are included.
 
 1. Install the Rust toolchain and both Apple ARM64 targets described in [BUILDING.md](BUILDING.md).
