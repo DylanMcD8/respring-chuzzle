@@ -9,7 +9,7 @@ for f in r.rglob('*'):
  if not f.is_file():continue
  assert f.suffix not in ('.mobileprovision','.p12','.p8','.key'),f'Private signing file: {f.relative_to(r)}'
  assert f.stat().st_size<100*1024*1024,f'File exceeds GitHub normal-file limit: {f.relative_to(r)}'
-for name in ('icon.png','menu.png','gameplay.png'):assert (r/'docs/images'/name).is_file(),name
+for name in ('ChuzzleRespringHeader.webp',):assert (r/'docs/images'/name).is_file(),name
 with zipfile.ZipFile(r/'OriginalPort/Original/Chuzzle.ipa') as z:
  assert z.testzip() is None
  assert all(n.startswith('Payload/') for n in z.namelist()),'Original archive has non-app metadata'

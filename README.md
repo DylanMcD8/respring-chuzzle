@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/icon.png" width="160" alt="Chuzzle app icon">
+  <img src="docs/images/ChuzzleRespringHeader.webp" width="800" alt="Respring – Chuzzle">
 </p>
 
 # Respring – Chuzzle
@@ -20,11 +20,6 @@ This new build runs the original game logic through ahead-of-time ARM/Thumb-to-A
 - It's not perfect! There may still be crashes. If you experience a crash or some other issue, please open an Issue on this repository.
 
 As stated before, this project was achieved through the usage of generative AI. Outside of this README and Releases release notes, most things were written by an AI agent.
-
-<p align="center">
-  <img src="docs/images/menu.png" width="280" alt="Chuzzle main menu on an iPhone simulator">
-  <img src="docs/images/gameplay.png" width="280" alt="Original Chuzzle gameplay on an iPhone simulator">
-</p>
 
 ## How to Install
 Download **Chuzzle.ipa** from [Releases](https://github.com/DylanMcD8/respring-chuzzle/releases). It is an **unsigned ARM64 device IPA**: use your own signing/sideloading workflow to sign it for your device. I recommend [Sideloadly](https://sideloadly.io).
