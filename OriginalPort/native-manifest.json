@@ -1,0 +1,7325 @@
+{
+  "method": "ahead-of-time partial evaluation of ARM semantics",
+  "original_sha256": "c2c017d34c5858d1857e5e8b947d7f16325a46f5e9db32219a3c28689040cd08",
+  "classes": [
+    "*"
+  ],
+  "function_count": 1460,
+  "translated_word_addresses": 167779,
+  "page_count": 657,
+  "sections": [
+    {
+      "name": "__text",
+      "address": "0x233c",
+      "size": 668944
+    },
+    {
+      "name": "__symbol_stub4",
+      "address": "0xa584c",
+      "size": 2172
+    }
+  ],
+  "untranslated": "stops shipping builds; optional aot-reference interpreter for development",
+  "functions": [
+    {
+      "address": "0x233c",
+      "end": "0x2428",
+      "name": "__static_initialization_and_destruction_0(int, int)"
+    },
+    {
+      "address": "0x2428",
+      "end": "0x2438",
+      "name": "__GLOBAL__I_gPopRainbow"
+    },
+    {
+      "address": "0x2438",
+      "end": "0x2480",
+      "name": "__static_initialization_and_destruction_0(int, int)"
+    },
+    {
+      "address": "0x2480",
+      "end": "0x2490",
+      "name": "__GLOBAL__I_gBubbleSpline"
+    },
+    {
+      "address": "0x2490",
+      "end": "0x25c8",
+      "name": "__static_initialization_and_destruction_0(int, int)"
+    },
+    {
+      "address": "0x25c8",
+      "end": "0x25d8",
+      "name": "__GLOBAL__I_gChuzzleColorMax"
+    },
+    {
+      "address": "0x25d8",
+      "end": "0x284c",
+      "name": "__static_initialization_and_destruction_0(int, int)"
+    },
+    {
+      "address": "0x284c",
+      "end": "0x285c",
+      "name": "__GLOBAL__I_gChuzzleBaseColors"
+    },
+    {
+      "address": "0x285c",
+      "end": "0x2904",
+      "name": "__static_initialization_and_destruction_0(int, int)"
+    },
+    {
+      "address": "0x2904",
+      "end": "0x2914",
+      "name": "__GLOBAL__I_gCharmPos"
+    },
+    {
+      "address": "0x2914",
+      "end": "0x29e0",
+      "name": "__static_initialization_and_destruction_0(int, int)"
+    },
+    {
+      "address": "0x29e0",
+      "end": "0x29f0",
+      "name": "__GLOBAL__I_gOut"
+    },
+    {
+      "address": "0x29f0",
+      "end": "0x2abc",
+      "name": "__static_initialization_and_destruction_0(int, int)"
+    },
+    {
+      "address": "0x2abc",
+      "end": "0x2acc",
+      "name": "__GLOBAL__I_gRainbow"
+    },
+    {
+      "address": "0x2acc",
+      "end": "0x2d44",
+      "name": "__static_initialization_and_destruction_0(int, int)"
+    },
+    {
+      "address": "0x2d44",
+      "end": "0x2d54",
+      "name": "__GLOBAL__I_gTrophySpot"
+    },
+    {
+      "address": "0x2d54",
+      "end": "0x2ff8",
+      "name": "__static_initialization_and_destruction_0(int, int)"
+    },
+    {
+      "address": "0x2ff8",
+      "end": "0x3008",
+      "name": "__GLOBAL__I_gBackgroundSwitch"
+    },
+    {
+      "address": "0x3008",
+      "end": "0x3090",
+      "name": "BSpline::BSpline()"
+    },
+    {
+      "address": "0x3090",
+      "end": "0x3094",
+      "name": "BSpline::BSpline()"
+    },
+    {
+      "address": "0x3094",
+      "end": "0x30d0",
+      "name": "GetTickCount()"
+    },
+    {
+      "address": "0x30d0",
+      "end": "0x3154",
+      "name": "IsIPodMusicPlaying()"
+    },
+    {
+      "address": "0x3154",
+      "end": "0x3170",
+      "name": "Console::Console()"
+    },
+    {
+      "address": "0x3170",
+      "end": "0x31b4",
+      "name": "Graphics::SetPageSize(int, int)"
+    },
+    {
+      "address": "0x31b4",
+      "end": "0x3260",
+      "name": "Graphics::Construct()"
+    },
+    {
+      "address": "0x3260",
+      "end": "0x3650",
+      "name": "Graphics::Graphics()"
+    },
+    {
+      "address": "0x3650",
+      "end": "0x3654",
+      "name": "Graphics::Graphics()"
+    },
+    {
+      "address": "0x3654",
+      "end": "0x36e4",
+      "name": "List::GuaranteeSize(int)"
+    },
+    {
+      "address": "0x36e4",
+      "end": "0x3710",
+      "name": "List::List()"
+    },
+    {
+      "address": "0x3710",
+      "end": "0x37ac",
+      "name": "List::SetSize(int)"
+    },
+    {
+      "address": "0x37ac",
+      "end": "0x3830",
+      "name": "List::~List()"
+    },
+    {
+      "address": "0x3830",
+      "end": "0x3834",
+      "name": "List::~List()"
+    },
+    {
+      "address": "0x3834",
+      "end": "0x38a4",
+      "name": "Math::AngleToVector(float)"
+    },
+    {
+      "address": "0x38a4",
+      "end": "0x3b08",
+      "name": "Math::Math()"
+    },
+    {
+      "address": "0x3b08",
+      "end": "0x3b0c",
+      "name": "Math::Math()"
+    },
+    {
+      "address": "0x3b0c",
+      "end": "0x3b34",
+      "name": "Matrix::Matrix()"
+    },
+    {
+      "address": "0x3b34",
+      "end": "0x3b44",
+      "name": "Matrix::~Matrix()"
+    },
+    {
+      "address": "0x3b44",
+      "end": "0x3b90",
+      "name": "Random::Seed(int)"
+    },
+    {
+      "address": "0x3b90",
+      "end": "0x3bbc",
+      "name": "Random::Random()"
+    },
+    {
+      "address": "0x3bbc",
+      "end": "0x3cec",
+      "name": "Audio::Audio()"
+    },
+    {
+      "address": "0x3cec",
+      "end": "0x3cf0",
+      "name": "Audio::Audio()"
+    },
+    {
+      "address": "0x3cf0",
+      "end": "0x3d00",
+      "name": "Rect::~Rect()"
+    },
+    {
+      "address": "0x3d00",
+      "end": "0x3d24",
+      "name": "Rect::Rect()"
+    },
+    {
+      "address": "0x3d24",
+      "end": "0x3d70",
+      "name": "start"
+    },
+    {
+      "address": "0x3d70",
+      "end": "0x3d90",
+      "name": "dyld_stub_binding_helper"
+    },
+    {
+      "address": "0x3d90",
+      "end": "0x3e04",
+      "name": "_main"
+    },
+    {
+      "address": "0x3e04",
+      "end": "0x3e20",
+      "name": "Animator_BoomHalo::~Animator_BoomHalo()"
+    },
+    {
+      "address": "0x3e20",
+      "end": "0x3e48",
+      "name": "Animator_BoomHalo::~Animator_BoomHalo()"
+    },
+    {
+      "address": "0x3e48",
+      "end": "0x3e90",
+      "name": "Animator_BoomHalo::Update()"
+    },
+    {
+      "address": "0x3e90",
+      "end": "0x3ea8",
+      "name": "Animator_BoomHalo::Notify(void*)"
+    },
+    {
+      "address": "0x3ea8",
+      "end": "0x4154",
+      "name": "Animator_BoomHalo::Draw()"
+    },
+    {
+      "address": "0x4154",
+      "end": "0x4444",
+      "name": "Animator_BoomHalo::Animator_BoomHalo(ChuzzleApp*, Chuzzle*)"
+    },
+    {
+      "address": "0x4444",
+      "end": "0x4448",
+      "name": "Animator_BoomHalo::Animator_BoomHalo(ChuzzleApp*, Chuzzle*)"
+    },
+    {
+      "address": "0x4448",
+      "end": "0x444c",
+      "name": "Object::UpdateSlice(float)"
+    },
+    {
+      "address": "0x444c",
+      "end": "0x4450",
+      "name": "Object::AppActivate()"
+    },
+    {
+      "address": "0x4450",
+      "end": "0x4454",
+      "name": "Object::AppDeactivate()"
+    },
+    {
+      "address": "0x4454",
+      "end": "0x4464",
+      "name": "Object::Pause()"
+    },
+    {
+      "address": "0x4464",
+      "end": "0x447c",
+      "name": "Object::Unpause()"
+    },
+    {
+      "address": "0x447c",
+      "end": "0x46b4",
+      "name": "Matrix::Multiply(Matrix*)"
+    },
+    {
+      "address": "0x46b4",
+      "end": "0x4758",
+      "name": "Graphics::SetColor(Color)"
+    },
+    {
+      "address": "0x4758",
+      "end": "0x475c",
+      "name": "Object::Notify(void*)"
+    },
+    {
+      "address": "0x475c",
+      "end": "0x48a0",
+      "name": "Matrix::RotateZ(float)"
+    },
+    {
+      "address": "0x48a0",
+      "end": "0x4b3c",
+      "name": "Animator_EscapingEye::~Animator_EscapingEye()"
+    },
+    {
+      "address": "0x4b3c",
+      "end": "0x4b40",
+      "name": "Animator_EscapingEye::~Animator_EscapingEye()"
+    },
+    {
+      "address": "0x4b40",
+      "end": "0x4de4",
+      "name": "Animator_EscapingEye::~Animator_EscapingEye()"
+    },
+    {
+      "address": "0x4de4",
+      "end": "0x4ea0",
+      "name": "Animator_FreeEye::Draw()"
+    },
+    {
+      "address": "0x4ea0",
+      "end": "0x5078",
+      "name": "Animator_FreeEye::Update()"
+    },
+    {
+      "address": "0x5078",
+      "end": "0x52a8",
+      "name": "Animator_EscapingEye::Draw()"
+    },
+    {
+      "address": "0x52a8",
+      "end": "0x55cc",
+      "name": "Animator_FreeEye::Animator_FreeEye(GameInterface*, bool)"
+    },
+    {
+      "address": "0x55cc",
+      "end": "0x55d4",
+      "name": "Animator_FreeEye::Animator_FreeEye(GameInterface*, bool)"
+    },
+    {
+      "address": "0x55d4",
+      "end": "0x5ab4",
+      "name": "Animator_EscapingEye::Animator_EscapingEye(GameInterface*, Point, Chuzzle*, int)"
+    },
+    {
+      "address": "0x5ab4",
+      "end": "0x5ab8",
+      "name": "Animator_EscapingEye::Animator_EscapingEye(GameInterface*, Point, Chuzzle*, int)"
+    },
+    {
+      "address": "0x5ab8",
+      "end": "0x63a4",
+      "name": "Animator_EscapingEye::Update()"
+    },
+    {
+      "address": "0x63a4",
+      "end": "0x6414",
+      "name": "Math::PointAtAngle2D(Point, Point)"
+    },
+    {
+      "address": "0x6414",
+      "end": "0x64e0",
+      "name": "Animator_FreeEye::~Animator_FreeEye()"
+    },
+    {
+      "address": "0x64e0",
+      "end": "0x65b4",
+      "name": "Animator_FreeEye::~Animator_FreeEye()"
+    },
+    {
+      "address": "0x65b4",
+      "end": "0x65d0",
+      "name": "Animator_Fuzz::~Animator_Fuzz()"
+    },
+    {
+      "address": "0x65d0",
+      "end": "0x65f8",
+      "name": "Animator_Fuzz::~Animator_Fuzz()"
+    },
+    {
+      "address": "0x65f8",
+      "end": "0x66d8",
+      "name": "Animator_Fuzz::Update()"
+    },
+    {
+      "address": "0x66d8",
+      "end": "0x6938",
+      "name": "Animator_Fuzz::Animator_Fuzz(ChuzzleApp*, Point, Color)"
+    },
+    {
+      "address": "0x6938",
+      "end": "0x6984",
+      "name": "Animator_Fuzz::Animator_Fuzz(ChuzzleApp*, Point, Color)"
+    },
+    {
+      "address": "0x6984",
+      "end": "0x6b34",
+      "name": "Animator_Fuzz::Draw()"
+    },
+    {
+      "address": "0x6b34",
+      "end": "0x6c00",
+      "name": "Animator_Hint::~Animator_Hint()"
+    },
+    {
+      "address": "0x6c00",
+      "end": "0x6cd4",
+      "name": "Animator_Hint::~Animator_Hint()"
+    },
+    {
+      "address": "0x6cd4",
+      "end": "0x6d18",
+      "name": "Animator_Hint::Update()"
+    },
+    {
+      "address": "0x6d18",
+      "end": "0x706c",
+      "name": "Animator_Hint::Draw()"
+    },
+    {
+      "address": "0x706c",
+      "end": "0x7990",
+      "name": "Animator_Hint::Animator_Hint(ChuzzleApp*, Point, Point, bool)"
+    },
+    {
+      "address": "0x7990",
+      "end": "0x799c",
+      "name": "Animator_Hint::Animator_Hint(ChuzzleApp*, Point, Point, bool)"
+    },
+    {
+      "address": "0x799c",
+      "end": "0x8788",
+      "name": "Animator_Hint::DrawEx()"
+    },
+    {
+      "address": "0x8788",
+      "end": "0x87d4",
+      "name": "Point::SetLength(float)"
+    },
+    {
+      "address": "0x87d4",
+      "end": "0x87f0",
+      "name": "Animator_Light::~Animator_Light()"
+    },
+    {
+      "address": "0x87f0",
+      "end": "0x8818",
+      "name": "Animator_Light::~Animator_Light()"
+    },
+    {
+      "address": "0x8818",
+      "end": "0x88ac",
+      "name": "Animator_Light::Update()"
+    },
+    {
+      "address": "0x88ac",
+      "end": "0x8ee0",
+      "name": "Animator_Light::Animator_Light(ChuzzleApp*)"
+    },
+    {
+      "address": "0x8ee0",
+      "end": "0x8ee4",
+      "name": "Animator_Light::Animator_Light(ChuzzleApp*)"
+    },
+    {
+      "address": "0x8ee4",
+      "end": "0x919c",
+      "name": "Animator_Light::Draw()"
+    },
+    {
+      "address": "0x919c",
+      "end": "0x91b8",
+      "name": "Animator_Rainbow::~Animator_Rainbow()"
+    },
+    {
+      "address": "0x91b8",
+      "end": "0x91e0",
+      "name": "Animator_Rainbow::~Animator_Rainbow()"
+    },
+    {
+      "address": "0x91e0",
+      "end": "0x9220",
+      "name": "Animator_Rainbow::Update()"
+    },
+    {
+      "address": "0x9220",
+      "end": "0x9508",
+      "name": "Animator_Rainbow::Animator_Rainbow(ChuzzleApp*, Point, int)"
+    },
+    {
+      "address": "0x9508",
+      "end": "0x950c",
+      "name": "Animator_Rainbow::Animator_Rainbow(ChuzzleApp*, Point, int)"
+    },
+    {
+      "address": "0x950c",
+      "end": "0x972c",
+      "name": "Animator_Rainbow::Draw()"
+    },
+    {
+      "address": "0x972c",
+      "end": "0x9748",
+      "name": "Animator_RetroCircle::~Animator_RetroCircle()"
+    },
+    {
+      "address": "0x9748",
+      "end": "0x9770",
+      "name": "Animator_RetroCircle::~Animator_RetroCircle()"
+    },
+    {
+      "address": "0x9770",
+      "end": "0x97b4",
+      "name": "Animator_RetroCircle::Update()"
+    },
+    {
+      "address": "0x97b4",
+      "end": "0x97d0",
+      "name": "Animator_RetroCircle2::~Animator_RetroCircle2()"
+    },
+    {
+      "address": "0x97d0",
+      "end": "0x97f8",
+      "name": "Animator_RetroCircle2::~Animator_RetroCircle2()"
+    },
+    {
+      "address": "0x97f8",
+      "end": "0x9858",
+      "name": "Animator_RetroCircle2::Update()"
+    },
+    {
+      "address": "0x9858",
+      "end": "0x9aec",
+      "name": "Animator_RetroCircle2::Animator_RetroCircle2(ChuzzleApp*, Point)"
+    },
+    {
+      "address": "0x9aec",
+      "end": "0x9af0",
+      "name": "Animator_RetroCircle2::Animator_RetroCircle2(ChuzzleApp*, Point)"
+    },
+    {
+      "address": "0x9af0",
+      "end": "0x9b80",
+      "name": "Animator_RetroCircle::Draw()"
+    },
+    {
+      "address": "0x9b80",
+      "end": "0x9cd0",
+      "name": "Animator_RetroCircle::Animator_RetroCircle(ChuzzleApp*, Point)"
+    },
+    {
+      "address": "0x9cd0",
+      "end": "0x9cd4",
+      "name": "Animator_RetroCircle::Animator_RetroCircle(ChuzzleApp*, Point)"
+    },
+    {
+      "address": "0x9cd4",
+      "end": "0x9ed0",
+      "name": "Animator_RetroCircle2::Draw()"
+    },
+    {
+      "address": "0x9ed0",
+      "end": "0x9f1c",
+      "name": "Matrix::Reset()"
+    },
+    {
+      "address": "0x9f1c",
+      "end": "0x9fe8",
+      "name": "Animator_ScorePop::~Animator_ScorePop()"
+    },
+    {
+      "address": "0x9fe8",
+      "end": "0xa0bc",
+      "name": "Animator_ScorePop::~Animator_ScorePop()"
+    },
+    {
+      "address": "0xa0bc",
+      "end": "0xa15c",
+      "name": "Animator_ScorePop::Update()"
+    },
+    {
+      "address": "0xa15c",
+      "end": "0xa384",
+      "name": "Animator_ScorePop::Animator_ScorePop(ChuzzleApp*, int, Point)"
+    },
+    {
+      "address": "0xa384",
+      "end": "0xa388",
+      "name": "Animator_ScorePop::Animator_ScorePop(ChuzzleApp*, int, Point)"
+    },
+    {
+      "address": "0xa388",
+      "end": "0xa4f0",
+      "name": "Animator_ScorePop::Draw()"
+    },
+    {
+      "address": "0xa4f0",
+      "end": "0xa504",
+      "name": "String::Encrypt(String&)"
+    },
+    {
+      "address": "0xa504",
+      "end": "0xa518",
+      "name": "String::Decrypt(String&)"
+    },
+    {
+      "address": "0xa518",
+      "end": "0xa578",
+      "name": "String::Free()"
+    },
+    {
+      "address": "0xa578",
+      "end": "0xa690",
+      "name": "Sprintf(char*, ...)"
+    },
+    {
+      "address": "0xa690",
+      "end": "0xa6ac",
+      "name": "Animator_ScoreUp::~Animator_ScoreUp()"
+    },
+    {
+      "address": "0xa6ac",
+      "end": "0xa6d4",
+      "name": "Animator_ScoreUp::~Animator_ScoreUp()"
+    },
+    {
+      "address": "0xa6d4",
+      "end": "0xa77c",
+      "name": "Animator_ScoreUp::Update()"
+    },
+    {
+      "address": "0xa77c",
+      "end": "0xae10",
+      "name": "Animator_ScoreUp::Animator_ScoreUp(ChuzzleApp*, Point, int)"
+    },
+    {
+      "address": "0xae10",
+      "end": "0xae14",
+      "name": "Animator_ScoreUp::Animator_ScoreUp(ChuzzleApp*, Point, int)"
+    },
+    {
+      "address": "0xae14",
+      "end": "0xb090",
+      "name": "Animator_ScoreUp::Draw()"
+    },
+    {
+      "address": "0xb090",
+      "end": "0xb0ac",
+      "name": "Animator_Shockwave::~Animator_Shockwave()"
+    },
+    {
+      "address": "0xb0ac",
+      "end": "0xb0d4",
+      "name": "Animator_Shockwave::~Animator_Shockwave()"
+    },
+    {
+      "address": "0xb0d4",
+      "end": "0xb11c",
+      "name": "Animator_Shockwave::Update()"
+    },
+    {
+      "address": "0xb11c",
+      "end": "0xb344",
+      "name": "Animator_BombShockwave::Draw()"
+    },
+    {
+      "address": "0xb344",
+      "end": "0xb4f4",
+      "name": "Animator_Shockwave::Animator_Shockwave(ChuzzleApp*, Point)"
+    },
+    {
+      "address": "0xb4f4",
+      "end": "0xb4f8",
+      "name": "Animator_Shockwave::Animator_Shockwave(ChuzzleApp*, Point)"
+    },
+    {
+      "address": "0xb4f8",
+      "end": "0xb720",
+      "name": "Animator_Shockwave::Draw()"
+    },
+    {
+      "address": "0xb720",
+      "end": "0xb73c",
+      "name": "Animator_BombShockwave::~Animator_BombShockwave()"
+    },
+    {
+      "address": "0xb73c",
+      "end": "0xb764",
+      "name": "Animator_BombShockwave::~Animator_BombShockwave()"
+    },
+    {
+      "address": "0xb764",
+      "end": "0xb7a0",
+      "name": "Animator_SleepyZ::~Animator_SleepyZ()"
+    },
+    {
+      "address": "0xb7a0",
+      "end": "0xb818",
+      "name": "Animator_SleepyZ::Update()"
+    },
+    {
+      "address": "0xb818",
+      "end": "0xb8a8",
+      "name": "Animator_SleepyZ::Animator_SleepyZ(Sprite*, Color, float, float, Point)"
+    },
+    {
+      "address": "0xb8a8",
+      "end": "0xb90c",
+      "name": "Animator_SleepyZ::Animator_SleepyZ(Sprite*, Color, float, float, Point)"
+    },
+    {
+      "address": "0xb90c",
+      "end": "0xb93c",
+      "name": "Animator_SleepyZ::~Animator_SleepyZ()"
+    },
+    {
+      "address": "0xb93c",
+      "end": "0xb958",
+      "name": "Animator_SpriteStrip::~Animator_SpriteStrip()"
+    },
+    {
+      "address": "0xb958",
+      "end": "0xb980",
+      "name": "Animator_SpriteStrip::~Animator_SpriteStrip()"
+    },
+    {
+      "address": "0xb980",
+      "end": "0xb9c0",
+      "name": "Animator_SpriteStrip::Update()"
+    },
+    {
+      "address": "0xb9c0",
+      "end": "0xba5c",
+      "name": "Animator_SpriteFader::Update()"
+    },
+    {
+      "address": "0xba5c",
+      "end": "0xba8c",
+      "name": "Animator_SpriteShrinker::Update()"
+    },
+    {
+      "address": "0xba8c",
+      "end": "0xbadc",
+      "name": "Animator_SpriteShrinker::Draw()"
+    },
+    {
+      "address": "0xbadc",
+      "end": "0xbb84",
+      "name": "Animator_SpriteFader::Animator_SpriteFader(Sprite*, Color, float, float, Point)"
+    },
+    {
+      "address": "0xbb84",
+      "end": "0xbbe8",
+      "name": "Animator_SpriteFader::Animator_SpriteFader(Sprite*, Color, float, float, Point)"
+    },
+    {
+      "address": "0xbbe8",
+      "end": "0xbc4c",
+      "name": "Animator_SpriteShrinker::Animator_SpriteShrinker(Sprite*, Point)"
+    },
+    {
+      "address": "0xbc4c",
+      "end": "0xbc50",
+      "name": "Animator_SpriteShrinker::Animator_SpriteShrinker(Sprite*, Point)"
+    },
+    {
+      "address": "0xbc50",
+      "end": "0xbdfc",
+      "name": "Animator_SpriteStrip::Animator_SpriteStrip(ChuzzleApp*, Point, SpriteStrip*, float)"
+    },
+    {
+      "address": "0xbdfc",
+      "end": "0xbe00",
+      "name": "Animator_SpriteStrip::Animator_SpriteStrip(ChuzzleApp*, Point, SpriteStrip*, float)"
+    },
+    {
+      "address": "0xbe00",
+      "end": "0xc0e0",
+      "name": "Animator_SpriteStrip::Draw()"
+    },
+    {
+      "address": "0xc0e0",
+      "end": "0xc3b0",
+      "name": "Animator_SpriteFader::Draw()"
+    },
+    {
+      "address": "0xc3b0",
+      "end": "0xc3cc",
+      "name": "Animator_SpriteShrinker::~Animator_SpriteShrinker()"
+    },
+    {
+      "address": "0xc3cc",
+      "end": "0xc3f4",
+      "name": "Animator_SpriteShrinker::~Animator_SpriteShrinker()"
+    },
+    {
+      "address": "0xc3f4",
+      "end": "0xc410",
+      "name": "Animator_SpriteFader::~Animator_SpriteFader()"
+    },
+    {
+      "address": "0xc410",
+      "end": "0xc438",
+      "name": "Animator_SpriteFader::~Animator_SpriteFader()"
+    },
+    {
+      "address": "0xc438",
+      "end": "0xc454",
+      "name": "Animator_Star::~Animator_Star()"
+    },
+    {
+      "address": "0xc454",
+      "end": "0xc47c",
+      "name": "Animator_Star::~Animator_Star()"
+    },
+    {
+      "address": "0xc47c",
+      "end": "0xc4b0",
+      "name": "Animator_Star::Update()"
+    },
+    {
+      "address": "0xc4b0",
+      "end": "0xc4cc",
+      "name": "Animator_StarSpeeder::~Animator_StarSpeeder()"
+    },
+    {
+      "address": "0xc4cc",
+      "end": "0xc4f4",
+      "name": "Animator_StarSpeeder::~Animator_StarSpeeder()"
+    },
+    {
+      "address": "0xc4f4",
+      "end": "0xc570",
+      "name": "Animator_StarSpeeder::Update()"
+    },
+    {
+      "address": "0xc570",
+      "end": "0xc754",
+      "name": "Animator_Star::Animator_Star(ChuzzleApp*, Point)"
+    },
+    {
+      "address": "0xc754",
+      "end": "0xc758",
+      "name": "Animator_Star::Animator_Star(ChuzzleApp*, Point)"
+    },
+    {
+      "address": "0xc758",
+      "end": "0xca80",
+      "name": "Animator_StarSpeeder::Animator_StarSpeeder(ChuzzleApp*, Point, float)"
+    },
+    {
+      "address": "0xca80",
+      "end": "0xca84",
+      "name": "Animator_StarSpeeder::Animator_StarSpeeder(ChuzzleApp*, Point, float)"
+    },
+    {
+      "address": "0xca84",
+      "end": "0xcc88",
+      "name": "Animator_StarSpeeder::Draw()"
+    },
+    {
+      "address": "0xcc88",
+      "end": "0xcec0",
+      "name": "Animator_Star::Draw()"
+    },
+    {
+      "address": "0xcec0",
+      "end": "0xcefc",
+      "name": "Math::Cos(float)"
+    },
+    {
+      "address": "0xcefc",
+      "end": "0xcf18",
+      "name": "Animator_Starbubble::~Animator_Starbubble()"
+    },
+    {
+      "address": "0xcf18",
+      "end": "0xcf40",
+      "name": "Animator_Starbubble::~Animator_Starbubble()"
+    },
+    {
+      "address": "0xcf40",
+      "end": "0xd160",
+      "name": "Animator_Starbubble::Update()"
+    },
+    {
+      "address": "0xd160",
+      "end": "0xd4d4",
+      "name": "Animator_Starbubble::Draw()"
+    },
+    {
+      "address": "0xd4d4",
+      "end": "0xd7d0",
+      "name": "Animator_Starbubble::Animator_Starbubble(ChuzzleApp*, GameInterface*)"
+    },
+    {
+      "address": "0xd7d0",
+      "end": "0xd7d4",
+      "name": "Animator_Starbubble::Animator_Starbubble(ChuzzleApp*, GameInterface*)"
+    },
+    {
+      "address": "0xd7d4",
+      "end": "0xd7e8",
+      "name": "__gnu_cxx::__normal_iterator<float const*, std::vector<float, std::allocator<float>>>::difference_type __gnu_cxx::operator-<float const*, float const*, std::vector<float, std::allocator<float>>>(__gnu_cxx::__normal_iterator<float const*, std::vector<float, std::allocator<float>>> const&, __gnu_cxx::__normal_iterator<float const*, std::vector<float, std::allocator<float>>> const&)"
+    },
+    {
+      "address": "0xd7e8",
+      "end": "0xd824",
+      "name": "std::vector<float, std::allocator<float>>::size() const"
+    },
+    {
+      "address": "0xd824",
+      "end": "0xd840",
+      "name": "Animator_Starburst::~Animator_Starburst()"
+    },
+    {
+      "address": "0xd840",
+      "end": "0xd868",
+      "name": "Animator_Starburst::~Animator_Starburst()"
+    },
+    {
+      "address": "0xd868",
+      "end": "0xd894",
+      "name": "Animator_Starburst::Update()"
+    },
+    {
+      "address": "0xd894",
+      "end": "0xdad0",
+      "name": "Animator_Starburst::Draw()"
+    },
+    {
+      "address": "0xdad0",
+      "end": "0xdb2c",
+      "name": "Animator_Starburst::Animator_Starburst(ChuzzleApp*, Point)"
+    },
+    {
+      "address": "0xdb2c",
+      "end": "0xdb30",
+      "name": "Animator_Starburst::Animator_Starburst(ChuzzleApp*, Point)"
+    },
+    {
+      "address": "0xdb30",
+      "end": "0xdb70",
+      "name": "Animator_Warning::Animator_Warning(ChuzzleApp*)"
+    },
+    {
+      "address": "0xdb70",
+      "end": "0xdbb0",
+      "name": "Animator_Warning::Animator_Warning(ChuzzleApp*)"
+    },
+    {
+      "address": "0xdbb0",
+      "end": "0xdbcc",
+      "name": "Animator_Warning::~Animator_Warning()"
+    },
+    {
+      "address": "0xdbcc",
+      "end": "0xdbf4",
+      "name": "Animator_Warning::~Animator_Warning()"
+    },
+    {
+      "address": "0xdbf4",
+      "end": "0xdc5c",
+      "name": "Animator_Warning::Update()"
+    },
+    {
+      "address": "0xdc5c",
+      "end": "0xdcb0",
+      "name": "Animator_LevelupBlip::Update()"
+    },
+    {
+      "address": "0xdcb0",
+      "end": "0xdf0c",
+      "name": "Animator_LevelupBlip::Draw()"
+    },
+    {
+      "address": "0xdf0c",
+      "end": "0xe158",
+      "name": "Animator_Warning::Draw()"
+    },
+    {
+      "address": "0xe158",
+      "end": "0xe174",
+      "name": "Animator_LevelupBlip::~Animator_LevelupBlip()"
+    },
+    {
+      "address": "0xe174",
+      "end": "0xe19c",
+      "name": "Animator_LevelupBlip::~Animator_LevelupBlip()"
+    },
+    {
+      "address": "0xe19c",
+      "end": "0xe264",
+      "name": "Board::UpdateUndrag()"
+    },
+    {
+      "address": "0xe264",
+      "end": "0xe2e8",
+      "name": "Board::BadDrag(bool)"
+    },
+    {
+      "address": "0xe2e8",
+      "end": "0xe37c",
+      "name": "Board::AbortDrag()"
+    },
+    {
+      "address": "0xe37c",
+      "end": "0xe394",
+      "name": "___tcf_0"
+    },
+    {
+      "address": "0xe394",
+      "end": "0xe3ac",
+      "name": "___tcf_1"
+    },
+    {
+      "address": "0xe3ac",
+      "end": "0xe3c4",
+      "name": "___tcf_2"
+    },
+    {
+      "address": "0xe3c4",
+      "end": "0xe40c",
+      "name": "Board::AddAmnesty(int)"
+    },
+    {
+      "address": "0xe40c",
+      "end": "0xe424",
+      "name": "___tcf_3"
+    },
+    {
+      "address": "0xe424",
+      "end": "0xe43c",
+      "name": "___tcf_4"
+    },
+    {
+      "address": "0xe43c",
+      "end": "0xe454",
+      "name": "___tcf_5"
+    },
+    {
+      "address": "0xe454",
+      "end": "0xe46c",
+      "name": "___tcf_6"
+    },
+    {
+      "address": "0xe46c",
+      "end": "0xe484",
+      "name": "___tcf_7"
+    },
+    {
+      "address": "0xe484",
+      "end": "0xe49c",
+      "name": "___tcf_8"
+    },
+    {
+      "address": "0xe49c",
+      "end": "0xe4b0",
+      "name": "Board::SignalNoMoves()"
+    },
+    {
+      "address": "0xe4b0",
+      "end": "0xe574",
+      "name": "Board::Shriek()"
+    },
+    {
+      "address": "0xe574",
+      "end": "0xe598",
+      "name": "Board::OpenDoors()"
+    },
+    {
+      "address": "0xe598",
+      "end": "0xe5c4",
+      "name": "Board::KillHint()"
+    },
+    {
+      "address": "0xe5c4",
+      "end": "0xe5e0",
+      "name": "Board::AllowChuzzleFun()"
+    },
+    {
+      "address": "0xe5e0",
+      "end": "0xe5ec",
+      "name": "Board::ForbidChuzzleFun()"
+    },
+    {
+      "address": "0xe5ec",
+      "end": "0xe69c",
+      "name": "Board::CleanRemoveChuzzle(Chuzzle*, bool)"
+    },
+    {
+      "address": "0xe69c",
+      "end": "0xe8d8",
+      "name": "Board::Tip(float, float, float)"
+    },
+    {
+      "address": "0xe8d8",
+      "end": "0xe95c",
+      "name": "Board::FindBigChuzzle()"
+    },
+    {
+      "address": "0xe95c",
+      "end": "0xe9bc",
+      "name": "Board::ImplementHoldovers()"
+    },
+    {
+      "address": "0xe9bc",
+      "end": "0xeb7c",
+      "name": "Board::Scramble()"
+    },
+    {
+      "address": "0xeb7c",
+      "end": "0xec90",
+      "name": "Board::AnimateCascadeScore(Point, int)"
+    },
+    {
+      "address": "0xec90",
+      "end": "0xed1c",
+      "name": "Board::IncSimulatenousLocks(Point)"
+    },
+    {
+      "address": "0xed1c",
+      "end": "0xed74",
+      "name": "Board::AddScoreFloater(int, Point)"
+    },
+    {
+      "address": "0xed74",
+      "end": "0xedc8",
+      "name": "Board::Score(int, Point)"
+    },
+    {
+      "address": "0xedc8",
+      "end": "0xef94",
+      "name": "Board::AnimateJustEyes(Point*, Chuzzle*)"
+    },
+    {
+      "address": "0xef94",
+      "end": "0xf220",
+      "name": "Board::Save(IOBuffer*)"
+    },
+    {
+      "address": "0xf220",
+      "end": "0xf2bc",
+      "name": "Board::ScrollV(int, int)"
+    },
+    {
+      "address": "0xf2bc",
+      "end": "0xf444",
+      "name": "Board::DrawChuzzle(int, int)"
+    },
+    {
+      "address": "0xf444",
+      "end": "0xf4d0",
+      "name": "Board::ScrollH(int, int)"
+    },
+    {
+      "address": "0xf4d0",
+      "end": "0xfefc",
+      "name": "Board::AnimateChuzzlePop(Point*)"
+    },
+    {
+      "address": "0xfefc",
+      "end": "0x10120",
+      "name": "Board::AnimateBumpStars(float, float, float, float)"
+    },
+    {
+      "address": "0x10120",
+      "end": "0x1064c",
+      "name": "Board::Load(IOBuffer*)"
+    },
+    {
+      "address": "0x1064c",
+      "end": "0x10e28",
+      "name": "Board::Board(GameInterface*)"
+    },
+    {
+      "address": "0x10e28",
+      "end": "0x10e2c",
+      "name": "Board::Board(GameInterface*)"
+    },
+    {
+      "address": "0x10e2c",
+      "end": "0x10e38",
+      "name": "Board::Leave()"
+    },
+    {
+      "address": "0x10e38",
+      "end": "0x10f58",
+      "name": "Board::MouseMove(int, int)"
+    },
+    {
+      "address": "0x10f58",
+      "end": "0x1121c",
+      "name": "Board::MouseDown(int, int, int)"
+    },
+    {
+      "address": "0x1121c",
+      "end": "0x11284",
+      "name": "Board::SetOverChuzzle(Chuzzle*)"
+    },
+    {
+      "address": "0x11284",
+      "end": "0x11508",
+      "name": "Board::Multipop(int)"
+    },
+    {
+      "address": "0x11508",
+      "end": "0x12084",
+      "name": "Board::AnimateBombChuzzlePop(Point*)"
+    },
+    {
+      "address": "0x12084",
+      "end": "0x12980",
+      "name": "Board::AnimateBigChuzzlePop(Point*)"
+    },
+    {
+      "address": "0x12980",
+      "end": "0x12d50",
+      "name": "Board::~Board()"
+    },
+    {
+      "address": "0x12d50",
+      "end": "0x12d54",
+      "name": "Board::~Board()"
+    },
+    {
+      "address": "0x12d54",
+      "end": "0x1312c",
+      "name": "Board::~Board()"
+    },
+    {
+      "address": "0x1312c",
+      "end": "0x14254",
+      "name": "Board::ExplodeBombsPostMatch()"
+    },
+    {
+      "address": "0x14254",
+      "end": "0x145a0",
+      "name": "Board::DrawOverlay()"
+    },
+    {
+      "address": "0x145a0",
+      "end": "0x15070",
+      "name": "Board::QuickMatchSearch(List*, bool)"
+    },
+    {
+      "address": "0x15070",
+      "end": "0x15298",
+      "name": "Board::SetupTutorial()"
+    },
+    {
+      "address": "0x15298",
+      "end": "0x1627c",
+      "name": "Board::GetHint(bool)"
+    },
+    {
+      "address": "0x1627c",
+      "end": "0x163e8",
+      "name": "Board::TestForNoMoves()"
+    },
+    {
+      "address": "0x163e8",
+      "end": "0x16548",
+      "name": "Board::PossiblyLockChuzzle()"
+    },
+    {
+      "address": "0x16548",
+      "end": "0x16a18",
+      "name": "Board::LockChuzzle(bool)"
+    },
+    {
+      "address": "0x16a18",
+      "end": "0x16e10",
+      "name": "Board::QuickScramble()"
+    },
+    {
+      "address": "0x16e10",
+      "end": "0x17214",
+      "name": "Board::MakeBombChuzzle(List&, List&, Point, bool)"
+    },
+    {
+      "address": "0x17214",
+      "end": "0x18e34",
+      "name": "Board::MatchChuzzles(int, int)"
+    },
+    {
+      "address": "0x18e34",
+      "end": "0x18edc",
+      "name": "Board::MatchAllChuzzles()"
+    },
+    {
+      "address": "0x18edc",
+      "end": "0x191c0",
+      "name": "Board::BounceExplodedChuzzles()"
+    },
+    {
+      "address": "0x191c0",
+      "end": "0x19c34",
+      "name": "Board::EnsureMoves()"
+    },
+    {
+      "address": "0x19c34",
+      "end": "0x1a128",
+      "name": "Board::AnimateBrokenLock(Point*)"
+    },
+    {
+      "address": "0x1a128",
+      "end": "0x1a244",
+      "name": "Board::IndicateNewHilite()"
+    },
+    {
+      "address": "0x1a244",
+      "end": "0x1a2dc",
+      "name": "Board::RecordHoldovers()"
+    },
+    {
+      "address": "0x1a2dc",
+      "end": "0x1a398",
+      "name": "Board::CloseDoors()"
+    },
+    {
+      "address": "0x1a398",
+      "end": "0x1aa00",
+      "name": "Board::ShowScoreFloaters()"
+    },
+    {
+      "address": "0x1aa00",
+      "end": "0x1c188",
+      "name": "Board::DoChuzzledHilite()"
+    },
+    {
+      "address": "0x1c188",
+      "end": "0x1c880",
+      "name": "Board::QuickTestVDrag(bool)"
+    },
+    {
+      "address": "0x1c880",
+      "end": "0x1cf74",
+      "name": "Board::QuickTestHDrag(bool)"
+    },
+    {
+      "address": "0x1cf74",
+      "end": "0x1d01c",
+      "name": "Board::ClearChuzzledHilite()"
+    },
+    {
+      "address": "0x1d01c",
+      "end": "0x1d4a0",
+      "name": "Board::FinishDrag(int, int)"
+    },
+    {
+      "address": "0x1d4a0",
+      "end": "0x1e6a0",
+      "name": "Board::Draw()"
+    },
+    {
+      "address": "0x1e6a0",
+      "end": "0x1e928",
+      "name": "Board::InitializeHDrag(int, int)"
+    },
+    {
+      "address": "0x1e928",
+      "end": "0x1ebd4",
+      "name": "Board::InitializeVDrag(int, int)"
+    },
+    {
+      "address": "0x1ebd4",
+      "end": "0x1f36c",
+      "name": "Board::Drag(int, int)"
+    },
+    {
+      "address": "0x1f36c",
+      "end": "0x1f518",
+      "name": "Board::StartDrag(int, int)"
+    },
+    {
+      "address": "0x1f518",
+      "end": "0x1f658",
+      "name": "Board::DropChuzzle(int, int, bool)"
+    },
+    {
+      "address": "0x1f658",
+      "end": "0x21480",
+      "name": "Board::DropChuzzles()"
+    },
+    {
+      "address": "0x21480",
+      "end": "0x229cc",
+      "name": "Board::Update()"
+    },
+    {
+      "address": "0x229cc",
+      "end": "0x22bb8",
+      "name": "Board::IsWraparoundHint(Point, Point)"
+    },
+    {
+      "address": "0x22bb8",
+      "end": "0x22ec0",
+      "name": "Board::PressSameHint()"
+    },
+    {
+      "address": "0x22ec0",
+      "end": "0x231f0",
+      "name": "Board::PressHint()"
+    },
+    {
+      "address": "0x231f0",
+      "end": "0x23210",
+      "name": "Point::operator/=(float)"
+    },
+    {
+      "address": "0x23210",
+      "end": "0x23228",
+      "name": "Line::~Line()"
+    },
+    {
+      "address": "0x23228",
+      "end": "0x2324c",
+      "name": "Line::~Line()"
+    },
+    {
+      "address": "0x2324c",
+      "end": "0x23250",
+      "name": "Gadget::Initialize()"
+    },
+    {
+      "address": "0x23250",
+      "end": "0x23254",
+      "name": "Gadget::UpdateSlice(float)"
+    },
+    {
+      "address": "0x23254",
+      "end": "0x23360",
+      "name": "Gadget::Size(int, int, int, int)"
+    },
+    {
+      "address": "0x23360",
+      "end": "0x2336c",
+      "name": "Gadget::SetExtendedDrag(bool)"
+    },
+    {
+      "address": "0x2336c",
+      "end": "0x23370",
+      "name": "Gadget::MouseDoubleClick(int, int, int)"
+    },
+    {
+      "address": "0x23370",
+      "end": "0x23374",
+      "name": "Gadget::MouseWheel(int)"
+    },
+    {
+      "address": "0x23374",
+      "end": "0x23378",
+      "name": "Gadget::Enter()"
+    },
+    {
+      "address": "0x23378",
+      "end": "0x2337c",
+      "name": "Gadget::KeyDown(int)"
+    },
+    {
+      "address": "0x2337c",
+      "end": "0x23380",
+      "name": "Gadget::KeyUp(int)"
+    },
+    {
+      "address": "0x23380",
+      "end": "0x23384",
+      "name": "Gadget::Char(int)"
+    },
+    {
+      "address": "0x23384",
+      "end": "0x2339c",
+      "name": "Board::MouseUp(int, int, int)"
+    },
+    {
+      "address": "0x2339c",
+      "end": "0x233a0",
+      "name": "Board::IndicateHint(Point, Point, bool)"
+    },
+    {
+      "address": "0x233a0",
+      "end": "0x2341c",
+      "name": "Animator_BombShockwave::Animator_BombShockwave(ChuzzleApp*, Point)"
+    },
+    {
+      "address": "0x2341c",
+      "end": "0x2343c",
+      "name": "Board_Mindbender::Board_Mindbender(GameInterface*)"
+    },
+    {
+      "address": "0x2343c",
+      "end": "0x23458",
+      "name": "Board_Mindbender::~Board_Mindbender()"
+    },
+    {
+      "address": "0x23458",
+      "end": "0x23480",
+      "name": "Board_Mindbender::~Board_Mindbender()"
+    },
+    {
+      "address": "0x23480",
+      "end": "0x234a0",
+      "name": "Board_Mindbender::Update()"
+    },
+    {
+      "address": "0x234a0",
+      "end": "0x234bc",
+      "name": "Board_Mindbender::StartDrag(int, int)"
+    },
+    {
+      "address": "0x234bc",
+      "end": "0x23524",
+      "name": "Board_Mindbender::Save(IOBuffer*)"
+    },
+    {
+      "address": "0x23524",
+      "end": "0x2358c",
+      "name": "Board_Mindbender::Load(IOBuffer*)"
+    },
+    {
+      "address": "0x2358c",
+      "end": "0x23c1c",
+      "name": "Board_Mindbender::Shuffle(int, int)"
+    },
+    {
+      "address": "0x23c1c",
+      "end": "0x23f30",
+      "name": "Board_Mindbender::PuzzleSetup(char*)"
+    },
+    {
+      "address": "0x23f30",
+      "end": "0x242cc",
+      "name": "Board_Mindbender::FinishDrag(int, int)"
+    },
+    {
+      "address": "0x242cc",
+      "end": "0x242d0",
+      "name": "Board_Mindbender::PressHint()"
+    },
+    {
+      "address": "0x242d0",
+      "end": "0x242fc",
+      "name": "Chuzzle::Randomize(Random*)"
+    },
+    {
+      "address": "0x242fc",
+      "end": "0x24334",
+      "name": "Chuzzle::Dizzy()"
+    },
+    {
+      "address": "0x24334",
+      "end": "0x24484",
+      "name": "Chuzzle::MakeOutfit()"
+    },
+    {
+      "address": "0x24484",
+      "end": "0x24510",
+      "name": "Chuzzle::Clean()"
+    },
+    {
+      "address": "0x24510",
+      "end": "0x24650",
+      "name": "Chuzzle::~Chuzzle()"
+    },
+    {
+      "address": "0x24650",
+      "end": "0x24788",
+      "name": "Chuzzle::~Chuzzle()"
+    },
+    {
+      "address": "0x24788",
+      "end": "0x2478c",
+      "name": "Chuzzle::~Chuzzle()"
+    },
+    {
+      "address": "0x2478c",
+      "end": "0x24cdc",
+      "name": "Chuzzle::Belch()"
+    },
+    {
+      "address": "0x24cdc",
+      "end": "0x25370",
+      "name": "Chuzzle::DrawLock()"
+    },
+    {
+      "address": "0x25370",
+      "end": "0x26b48",
+      "name": "Chuzzle::DrawEyes(Point)"
+    },
+    {
+      "address": "0x26b48",
+      "end": "0x26c08",
+      "name": "Chuzzle::DrawLayer2()"
+    },
+    {
+      "address": "0x26c08",
+      "end": "0x2764c",
+      "name": "Chuzzle::DrawEX(Point)"
+    },
+    {
+      "address": "0x2764c",
+      "end": "0x27704",
+      "name": "Chuzzle::Draw()"
+    },
+    {
+      "address": "0x27704",
+      "end": "0x28174",
+      "name": "Chuzzle::Animate()"
+    },
+    {
+      "address": "0x28174",
+      "end": "0x28600",
+      "name": "Chuzzle::Chuzzle(Board*, int)"
+    },
+    {
+      "address": "0x28600",
+      "end": "0x28604",
+      "name": "Chuzzle::Chuzzle(Board*, int)"
+    },
+    {
+      "address": "0x28604",
+      "end": "0x29404",
+      "name": "Chuzzle::Update()"
+    },
+    {
+      "address": "0x29404",
+      "end": "0x2945c",
+      "name": "Chuzzle::Lock()"
+    },
+    {
+      "address": "0x2945c",
+      "end": "0x294c0",
+      "name": "Chuzzle::SafeChuzzle(bool)"
+    },
+    {
+      "address": "0x294c0",
+      "end": "0x29554",
+      "name": "Chuzzle::Poke()"
+    },
+    {
+      "address": "0x29554",
+      "end": "0x29610",
+      "name": "Chuzzle::OggleOggle()"
+    },
+    {
+      "address": "0x29610",
+      "end": "0x296ac",
+      "name": "Chuzzle::Cough()"
+    },
+    {
+      "address": "0x296ac",
+      "end": "0x29770",
+      "name": "Chuzzle::SmallSneeze()"
+    },
+    {
+      "address": "0x29770",
+      "end": "0x29834",
+      "name": "Chuzzle::HugeSneeze()"
+    },
+    {
+      "address": "0x29834",
+      "end": "0x298d8",
+      "name": "Chuzzle::Sniffly()"
+    },
+    {
+      "address": "0x298d8",
+      "end": "0x29984",
+      "name": "Chuzzle::Hurk()"
+    },
+    {
+      "address": "0x29984",
+      "end": "0x29a30",
+      "name": "Chuzzle::HurkHurk()"
+    },
+    {
+      "address": "0x29a30",
+      "end": "0x29a88",
+      "name": "Graphics::Clip(Rect)"
+    },
+    {
+      "address": "0x29a88",
+      "end": "0x29b90",
+      "name": "ChuzzleApp::CleanAll()"
+    },
+    {
+      "address": "0x29b90",
+      "end": "0x29b94",
+      "name": "ChuzzleApp::GoToSecretMode()"
+    },
+    {
+      "address": "0x29b94",
+      "end": "0x29bdc",
+      "name": "ChuzzleApp::GoBackToGame()"
+    },
+    {
+      "address": "0x29bdc",
+      "end": "0x29c64",
+      "name": "ChuzzleApp::Update()"
+    },
+    {
+      "address": "0x29c64",
+      "end": "0x29c80",
+      "name": "ChuzzleApp::DrawOverlay()"
+    },
+    {
+      "address": "0x29c80",
+      "end": "0x29d60",
+      "name": "ChuzzleApp::TransitionToChuzzlePuzzle()"
+    },
+    {
+      "address": "0x29d60",
+      "end": "0x29e3c",
+      "name": "ChuzzleApp::TransitionToDance()"
+    },
+    {
+      "address": "0x29e3c",
+      "end": "0x29f14",
+      "name": "ChuzzleApp::TransitionToInfiniteChuzzle()"
+    },
+    {
+      "address": "0x29f14",
+      "end": "0x29ff0",
+      "name": "ChuzzleApp::TransitionToSpeedChuzzle()"
+    },
+    {
+      "address": "0x29ff0",
+      "end": "0x2a0cc",
+      "name": "ChuzzleApp::TransitionToMindbender()"
+    },
+    {
+      "address": "0x2a0cc",
+      "end": "0x2a1a8",
+      "name": "ChuzzleApp::TransitionToMainMenu()"
+    },
+    {
+      "address": "0x2a1a8",
+      "end": "0x2a284",
+      "name": "ChuzzleApp::TransitionToHighScores()"
+    },
+    {
+      "address": "0x2a284",
+      "end": "0x2a360",
+      "name": "ChuzzleApp::TransitionToMoreGames()"
+    },
+    {
+      "address": "0x2a360",
+      "end": "0x2a43c",
+      "name": "ChuzzleApp::TransitionToTrophyRoom()"
+    },
+    {
+      "address": "0x2a43c",
+      "end": "0x2a518",
+      "name": "ChuzzleApp::TransitionToTrophyRoomInGame()"
+    },
+    {
+      "address": "0x2a518",
+      "end": "0x2a5f4",
+      "name": "ChuzzleApp::TransitionToBackToGame()"
+    },
+    {
+      "address": "0x2a5f4",
+      "end": "0x2a5f8",
+      "name": "ChuzzleApp::Draw()"
+    },
+    {
+      "address": "0x2a5f8",
+      "end": "0x2a614",
+      "name": "ChuzzleApp::FixScore(float)"
+    },
+    {
+      "address": "0x2a614",
+      "end": "0x2a6b0",
+      "name": "ChuzzleApp::PreRender()"
+    },
+    {
+      "address": "0x2a6b0",
+      "end": "0x2a710",
+      "name": "ChuzzleApp::PostRender()"
+    },
+    {
+      "address": "0x2a710",
+      "end": "0x2a760",
+      "name": "ChuzzleApp::Quit()"
+    },
+    {
+      "address": "0x2a760",
+      "end": "0x2a790",
+      "name": "ChuzzleApp::Activate(bool)"
+    },
+    {
+      "address": "0x2a790",
+      "end": "0x2a7b0",
+      "name": "ChuzzleApp::Cheat()"
+    },
+    {
+      "address": "0x2a7b0",
+      "end": "0x2a8e4",
+      "name": "ChuzzleApp::SetupChuzzleColors()"
+    },
+    {
+      "address": "0x2a8e4",
+      "end": "0x2a980",
+      "name": "ChuzzleApp::OnLoadComplete()"
+    },
+    {
+      "address": "0x2a980",
+      "end": "0x2aa7c",
+      "name": "ChuzzleApp::GoMenu()"
+    },
+    {
+      "address": "0x2aa7c",
+      "end": "0x2abc4",
+      "name": "ChuzzleApp::GoChuzzlePuzzle()"
+    },
+    {
+      "address": "0x2abc4",
+      "end": "0x2acf0",
+      "name": "ChuzzleApp::GoInfiniteChuzzle()"
+    },
+    {
+      "address": "0x2acf0",
+      "end": "0x2ae28",
+      "name": "ChuzzleApp::GoSpeedChuzzle()"
+    },
+    {
+      "address": "0x2ae28",
+      "end": "0x2af58",
+      "name": "ChuzzleApp::GoChuzzleMindbender()"
+    },
+    {
+      "address": "0x2af58",
+      "end": "0x2b06c",
+      "name": "ChuzzleApp::GoHighScores()"
+    },
+    {
+      "address": "0x2b06c",
+      "end": "0x2b164",
+      "name": "ChuzzleApp::GoMoreGames()"
+    },
+    {
+      "address": "0x2b164",
+      "end": "0x2b25c",
+      "name": "ChuzzleApp::GoTrophyRoom()"
+    },
+    {
+      "address": "0x2b25c",
+      "end": "0x2b354",
+      "name": "ChuzzleApp::GoDance()"
+    },
+    {
+      "address": "0x2b354",
+      "end": "0x2b46c",
+      "name": "ChuzzleApp::GoTrophyRoomInGame()"
+    },
+    {
+      "address": "0x2b46c",
+      "end": "0x2ef44",
+      "name": "ChuzzleApp::~ChuzzleApp()"
+    },
+    {
+      "address": "0x2ef44",
+      "end": "0x2ef48",
+      "name": "ChuzzleApp::~ChuzzleApp()"
+    },
+    {
+      "address": "0x2ef48",
+      "end": "0x32a28",
+      "name": "ChuzzleApp::~ChuzzleApp()"
+    },
+    {
+      "address": "0x32a28",
+      "end": "0x36918",
+      "name": "ChuzzleApp::ChuzzleApp()"
+    },
+    {
+      "address": "0x36918",
+      "end": "0x3691c",
+      "name": "ChuzzleApp::ChuzzleApp()"
+    },
+    {
+      "address": "0x3691c",
+      "end": "0x37168",
+      "name": "ChuzzleApp::Initialize()"
+    },
+    {
+      "address": "0x37168",
+      "end": "0x45d9c",
+      "name": "ChuzzleApp::Load()"
+    },
+    {
+      "address": "0x45d9c",
+      "end": "0x45df8",
+      "name": "Color::Clip()"
+    },
+    {
+      "address": "0x45df8",
+      "end": "0x45ecc",
+      "name": "Color::Pastel(float)"
+    },
+    {
+      "address": "0x45ecc",
+      "end": "0x45f50",
+      "name": "String::operator=(char*)"
+    },
+    {
+      "address": "0x45f50",
+      "end": "0x45fd0",
+      "name": "String::String(String const&)"
+    },
+    {
+      "address": "0x45fd0",
+      "end": "0x46028",
+      "name": "-[ChuzzleAppDelegate applicationDidFinishLaunching:]"
+    },
+    {
+      "address": "0x46028",
+      "end": "0x46064",
+      "name": "-[ChuzzleAppDelegate applicationWillResignActive:]"
+    },
+    {
+      "address": "0x46064",
+      "end": "0x460a0",
+      "name": "-[ChuzzleAppDelegate applicationDidBecomeActive:]"
+    },
+    {
+      "address": "0x460a0",
+      "end": "0x46118",
+      "name": "-[ChuzzleAppDelegate dealloc]"
+    },
+    {
+      "address": "0x46118",
+      "end": "0x4612c",
+      "name": "-[ChuzzleAppDelegate glView]"
+    },
+    {
+      "address": "0x4612c",
+      "end": "0x46160",
+      "name": "-[ChuzzleAppDelegate setGlView:]"
+    },
+    {
+      "address": "0x46160",
+      "end": "0x46174",
+      "name": "-[ChuzzleAppDelegate window]"
+    },
+    {
+      "address": "0x46174",
+      "end": "0x461a8",
+      "name": "-[ChuzzleAppDelegate setWindow:]"
+    },
+    {
+      "address": "0x461a8",
+      "end": "0x4622c",
+      "name": "ContinueGame::Update()"
+    },
+    {
+      "address": "0x4622c",
+      "end": "0x46468",
+      "name": "ContinueGame::ContinueGame(ChuzzleApp*)"
+    },
+    {
+      "address": "0x46468",
+      "end": "0x4646c",
+      "name": "ContinueGame::ContinueGame(ChuzzleApp*)"
+    },
+    {
+      "address": "0x4646c",
+      "end": "0x465f8",
+      "name": "ContinueGame::~ContinueGame()"
+    },
+    {
+      "address": "0x465f8",
+      "end": "0x465fc",
+      "name": "ContinueGame::~ContinueGame()"
+    },
+    {
+      "address": "0x465fc",
+      "end": "0x46790",
+      "name": "ContinueGame::~ContinueGame()"
+    },
+    {
+      "address": "0x46790",
+      "end": "0x46e24",
+      "name": "ContinueGame::Draw()"
+    },
+    {
+      "address": "0x46e24",
+      "end": "0x47140",
+      "name": "ContinueGame::GoAskContinue()"
+    },
+    {
+      "address": "0x47140",
+      "end": "0x4745c",
+      "name": "ContinueGame::GoAskSkill()"
+    },
+    {
+      "address": "0x4745c",
+      "end": "0x47538",
+      "name": "ContinueGame::Notify(void*)"
+    },
+    {
+      "address": "0x47538",
+      "end": "0x4753c",
+      "name": "Gadget::DrawOverlay()"
+    },
+    {
+      "address": "0x4753c",
+      "end": "0x4762c",
+      "name": "Gadget::Size(float, float, float, float)"
+    },
+    {
+      "address": "0x4762c",
+      "end": "0x47630",
+      "name": "Gadget::MouseMove(int, int)"
+    },
+    {
+      "address": "0x47630",
+      "end": "0x47634",
+      "name": "Gadget::MouseDown(int, int, int)"
+    },
+    {
+      "address": "0x47634",
+      "end": "0x47638",
+      "name": "Gadget::MouseUp(int, int, int)"
+    },
+    {
+      "address": "0x47638",
+      "end": "0x4763c",
+      "name": "Gadget::FinishDrag(int, int)"
+    },
+    {
+      "address": "0x4763c",
+      "end": "0x47640",
+      "name": "Gadget::StartDrag(int, int)"
+    },
+    {
+      "address": "0x47640",
+      "end": "0x47644",
+      "name": "Gadget::Drag(int, int)"
+    },
+    {
+      "address": "0x47644",
+      "end": "0x47648",
+      "name": "Gadget::Leave()"
+    },
+    {
+      "address": "0x47648",
+      "end": "0x4764c",
+      "name": "Gadget::Tip(float, float, float)"
+    },
+    {
+      "address": "0x4764c",
+      "end": "0x47890",
+      "name": "Font::Center(String, float, float)"
+    },
+    {
+      "address": "0x47890",
+      "end": "0x47a34",
+      "name": "Dance::Notify(void*)"
+    },
+    {
+      "address": "0x47a34",
+      "end": "0x47db8",
+      "name": "Dance::AddChuzzle(Point*, bool)"
+    },
+    {
+      "address": "0x47db8",
+      "end": "0x4837c",
+      "name": "Dance::Dance(ChuzzleApp*)"
+    },
+    {
+      "address": "0x4837c",
+      "end": "0x48380",
+      "name": "Dance::Dance(ChuzzleApp*)"
+    },
+    {
+      "address": "0x48380",
+      "end": "0x48698",
+      "name": "Dance::~Dance()"
+    },
+    {
+      "address": "0x48698",
+      "end": "0x4869c",
+      "name": "Dance::~Dance()"
+    },
+    {
+      "address": "0x4869c",
+      "end": "0x489bc",
+      "name": "Dance::~Dance()"
+    },
+    {
+      "address": "0x489bc",
+      "end": "0x48f5c",
+      "name": "Dance::ProcessChuzzles()"
+    },
+    {
+      "address": "0x48f5c",
+      "end": "0x49174",
+      "name": "Dance::Update()"
+    },
+    {
+      "address": "0x49174",
+      "end": "0x49d04",
+      "name": "Dance::DrawChuzzle(Dance::ChuzzleStruct*)"
+    },
+    {
+      "address": "0x49d04",
+      "end": "0x4a75c",
+      "name": "Dance::Draw()"
+    },
+    {
+      "address": "0x4a75c",
+      "end": "0x4a784",
+      "name": "+[EAGLView layerClass]"
+    },
+    {
+      "address": "0x4a784",
+      "end": "0x4ab24",
+      "name": "-[EAGLView initWithCoder:]"
+    },
+    {
+      "address": "0x4ab24",
+      "end": "0x4abf8",
+      "name": "-[EAGLView drawView]"
+    },
+    {
+      "address": "0x4abf8",
+      "end": "0x4ac70",
+      "name": "-[EAGLView layoutSubviews]"
+    },
+    {
+      "address": "0x4ac70",
+      "end": "0x4ae74",
+      "name": "-[EAGLView createFramebuffer]"
+    },
+    {
+      "address": "0x4ae74",
+      "end": "0x4af00",
+      "name": "-[EAGLView destroyFramebuffer]"
+    },
+    {
+      "address": "0x4af00",
+      "end": "0x4af88",
+      "name": "-[EAGLView startAnimation]"
+    },
+    {
+      "address": "0x4af88",
+      "end": "0x4afa8",
+      "name": "-[EAGLView stopAnimation]"
+    },
+    {
+      "address": "0x4afa8",
+      "end": "0x4afe8",
+      "name": "-[EAGLView setAnimationTimer:]"
+    },
+    {
+      "address": "0x4afe8",
+      "end": "0x4b050",
+      "name": "-[EAGLView setAnimationInterval:]"
+    },
+    {
+      "address": "0x4b050",
+      "end": "0x4b0bc",
+      "name": "-[EAGLView touchesBegan:withEvent:]"
+    },
+    {
+      "address": "0x4b0bc",
+      "end": "0x4b128",
+      "name": "-[EAGLView touchesMoved:withEvent:]"
+    },
+    {
+      "address": "0x4b128",
+      "end": "0x4b194",
+      "name": "-[EAGLView touchesCancelled:withEvent:]"
+    },
+    {
+      "address": "0x4b194",
+      "end": "0x4b200",
+      "name": "-[EAGLView touchesEnded:withEvent:]"
+    },
+    {
+      "address": "0x4b200",
+      "end": "0x4b29c",
+      "name": "-[EAGLView accelerometer:didAccelerate:]"
+    },
+    {
+      "address": "0x4b29c",
+      "end": "0x4b304",
+      "name": "-[EAGLView configureAccelerometer]"
+    },
+    {
+      "address": "0x4b304",
+      "end": "0x4b34c",
+      "name": "-[EAGLView applicationWillTerminate:]"
+    },
+    {
+      "address": "0x4b34c",
+      "end": "0x4b400",
+      "name": "-[EAGLView dealloc]"
+    },
+    {
+      "address": "0x4b400",
+      "end": "0x4b41c",
+      "name": "-[EAGLView animationInterval]"
+    },
+    {
+      "address": "0x4b41c",
+      "end": "0x4b434",
+      "name": "-[EAGLView animationTimer]"
+    },
+    {
+      "address": "0x4b434",
+      "end": "0x4b448",
+      "name": "-[EAGLView context]"
+    },
+    {
+      "address": "0x4b448",
+      "end": "0x4b47c",
+      "name": "-[EAGLView setContext:]"
+    },
+    {
+      "address": "0x4b47c",
+      "end": "0x4b4f0",
+      "name": "GameInterface::UpdateBackdrop()"
+    },
+    {
+      "address": "0x4b4f0",
+      "end": "0x4b500",
+      "name": "GameInterface::DoScramble()"
+    },
+    {
+      "address": "0x4b500",
+      "end": "0x4b5b0",
+      "name": "GameInterface::AddFill(float)"
+    },
+    {
+      "address": "0x4b5b0",
+      "end": "0x4b618",
+      "name": "GameInterface::GoLevelFade(int, int)"
+    },
+    {
+      "address": "0x4b618",
+      "end": "0x4b6a0",
+      "name": "GameInterface::PoppedChuzzleCallback(int)"
+    },
+    {
+      "address": "0x4b6a0",
+      "end": "0x4b6b4",
+      "name": "GameInterface::MaybeSpareFatty()"
+    },
+    {
+      "address": "0x4b6b4",
+      "end": "0x4b6c8",
+      "name": "GameInterface::NoSpareFatty()"
+    },
+    {
+      "address": "0x4b6c8",
+      "end": "0x4b6cc",
+      "name": "GameInterface::Cheat()"
+    },
+    {
+      "address": "0x4b6cc",
+      "end": "0x4b6d4",
+      "name": "GameInterface::FlickerHint(int)"
+    },
+    {
+      "address": "0x4b6d4",
+      "end": "0x4b6fc",
+      "name": "TouchMe::~TouchMe()"
+    },
+    {
+      "address": "0x4b6fc",
+      "end": "0x4b730",
+      "name": "TouchMe::~TouchMe()"
+    },
+    {
+      "address": "0x4b730",
+      "end": "0x4b768",
+      "name": "TouchMe::MouseDown(int, int, int)"
+    },
+    {
+      "address": "0x4b768",
+      "end": "0x4b92c",
+      "name": "GameInterface::Score(int)"
+    },
+    {
+      "address": "0x4b92c",
+      "end": "0x4b964",
+      "name": "GameInterface::PushScore()"
+    },
+    {
+      "address": "0x4b964",
+      "end": "0x4b99c",
+      "name": "GameInterface::PopScore()"
+    },
+    {
+      "address": "0x4b99c",
+      "end": "0x4ba04",
+      "name": "GameInterface::RollbackScore()"
+    },
+    {
+      "address": "0x4ba04",
+      "end": "0x4bab8",
+      "name": "GameInterface::AwardTrophy(int)"
+    },
+    {
+      "address": "0x4bab8",
+      "end": "0x4bae0",
+      "name": "GameInterface::IncTotalPoppedSupers()"
+    },
+    {
+      "address": "0x4bae0",
+      "end": "0x4bb08",
+      "name": "GameInterface::IncTotalPoppedFatties()"
+    },
+    {
+      "address": "0x4bb08",
+      "end": "0x4bb88",
+      "name": "GameInterface::IncTotalPopped()"
+    },
+    {
+      "address": "0x4bb88",
+      "end": "0x4bc78",
+      "name": "GameInterface::FreshenChildren()"
+    },
+    {
+      "address": "0x4bc78",
+      "end": "0x4c7c0",
+      "name": "GameInterface::Update()"
+    },
+    {
+      "address": "0x4c7c0",
+      "end": "0x4c95c",
+      "name": "GameInterface::MouseDown(int, int, int)"
+    },
+    {
+      "address": "0x4c95c",
+      "end": "0x4cbb4",
+      "name": "GameInterface::GoNoMoves()"
+    },
+    {
+      "address": "0x4cbb4",
+      "end": "0x4ce4c",
+      "name": "GameInterface::SwitchPause(int)"
+    },
+    {
+      "address": "0x4ce4c",
+      "end": "0x4ce84",
+      "name": "GameInterface::Char(int)"
+    },
+    {
+      "address": "0x4ce84",
+      "end": "0x4d040",
+      "name": "GameInterface::DrawBackdrop()"
+    },
+    {
+      "address": "0x4d040",
+      "end": "0x4d434",
+      "name": "GameInterface::Draw()"
+    },
+    {
+      "address": "0x4d434",
+      "end": "0x4db24",
+      "name": "GameInterface::~GameInterface()"
+    },
+    {
+      "address": "0x4db24",
+      "end": "0x4db28",
+      "name": "GameInterface::~GameInterface()"
+    },
+    {
+      "address": "0x4db28",
+      "end": "0x4e224",
+      "name": "GameInterface::~GameInterface()"
+    },
+    {
+      "address": "0x4e224",
+      "end": "0x4e498",
+      "name": "GameInterface::Initialize()"
+    },
+    {
+      "address": "0x4e498",
+      "end": "0x4eea4",
+      "name": "GameInterface::Save(char*)"
+    },
+    {
+      "address": "0x4eea4",
+      "end": "0x4f07c",
+      "name": "GameInterface::InvokeLevelup()"
+    },
+    {
+      "address": "0x4f07c",
+      "end": "0x4f3b0",
+      "name": "GameInterface::Notify(void*)"
+    },
+    {
+      "address": "0x4f3b0",
+      "end": "0x4f4c4",
+      "name": "GameInterface::MakeLevelNumber(int, ODigit*)"
+    },
+    {
+      "address": "0x4f4c4",
+      "end": "0x510cc",
+      "name": "GameInterface::DrawOverlay()"
+    },
+    {
+      "address": "0x510cc",
+      "end": "0x51b14",
+      "name": "GameInterface::Load()"
+    },
+    {
+      "address": "0x51b14",
+      "end": "0x51de0",
+      "name": "GameInterface::SetupLevel()"
+    },
+    {
+      "address": "0x51de0",
+      "end": "0x51f40",
+      "name": "GameInterface::DoLevelup()"
+    },
+    {
+      "address": "0x51f40",
+      "end": "0x5300c",
+      "name": "GameInterface::GameInterface(ChuzzleApp*, bool)"
+    },
+    {
+      "address": "0x5300c",
+      "end": "0x53014",
+      "name": "GameInterface::GameInterface(ChuzzleApp*, bool)"
+    },
+    {
+      "address": "0x53014",
+      "end": "0x53048",
+      "name": "String::sprintf(char*, ...)"
+    },
+    {
+      "address": "0x53048",
+      "end": "0x5304c",
+      "name": "Gadget::Update()"
+    },
+    {
+      "address": "0x5304c",
+      "end": "0x53050",
+      "name": "Gadget::Draw()"
+    },
+    {
+      "address": "0x53050",
+      "end": "0x53054",
+      "name": "GameInterface::SaveExtra(IOBuffer&)"
+    },
+    {
+      "address": "0x53054",
+      "end": "0x53058",
+      "name": "GameInterface::LoadExtra(IOBuffer&)"
+    },
+    {
+      "address": "0x53058",
+      "end": "0x53454",
+      "name": "GameInterface_Mindbender::~GameInterface_Mindbender()"
+    },
+    {
+      "address": "0x53454",
+      "end": "0x53458",
+      "name": "GameInterface_Mindbender::~GameInterface_Mindbender()"
+    },
+    {
+      "address": "0x53458",
+      "end": "0x5385c",
+      "name": "GameInterface_Mindbender::~GameInterface_Mindbender()"
+    },
+    {
+      "address": "0x5385c",
+      "end": "0x53c20",
+      "name": "GameInterface_Mindbender::Update()"
+    },
+    {
+      "address": "0x53c20",
+      "end": "0x53d5c",
+      "name": "GameInterface_Mindbender::SaveExtra(IOBuffer&)"
+    },
+    {
+      "address": "0x53d5c",
+      "end": "0x541a4",
+      "name": "GameInterface_Mindbender::FreshenButtons()"
+    },
+    {
+      "address": "0x541a4",
+      "end": "0x542e8",
+      "name": "GameInterface_Mindbender::LoadExtra(IOBuffer&)"
+    },
+    {
+      "address": "0x542e8",
+      "end": "0x547f4",
+      "name": "GameInterface_Mindbender::SwitchToPuzzle(int, bool)"
+    },
+    {
+      "address": "0x547f4",
+      "end": "0x54b4c",
+      "name": "GameInterface_Mindbender::SetupLevel(int)"
+    },
+    {
+      "address": "0x54b4c",
+      "end": "0x54d94",
+      "name": "GameInterface_Mindbender::Notify(void*)"
+    },
+    {
+      "address": "0x54d94",
+      "end": "0x55288",
+      "name": "GameInterface_Mindbender::PuzzleCleared()"
+    },
+    {
+      "address": "0x55288",
+      "end": "0x55db8",
+      "name": "GameInterface_Mindbender::GameInterface_Mindbender(ChuzzleApp*)"
+    },
+    {
+      "address": "0x55db8",
+      "end": "0x55dbc",
+      "name": "GameInterface_Mindbender::GameInterface_Mindbender(ChuzzleApp*)"
+    },
+    {
+      "address": "0x55dbc",
+      "end": "0x56f64",
+      "name": "GameInterface_Mindbender::DrawOverlay()"
+    },
+    {
+      "address": "0x56f64",
+      "end": "0x56fc0",
+      "name": "Animator_LevelupBlip::Animator_LevelupBlip(ChuzzleApp*, Color)"
+    },
+    {
+      "address": "0x56fc0",
+      "end": "0x5712c",
+      "name": "GameInterface_Zen::LandedCallback(Point, int, int)"
+    },
+    {
+      "address": "0x5712c",
+      "end": "0x57250",
+      "name": "GameInterface_Zen::BringCharm()"
+    },
+    {
+      "address": "0x57250",
+      "end": "0x575d8",
+      "name": "GameInterface_Zen::UpdateCharms()"
+    },
+    {
+      "address": "0x575d8",
+      "end": "0x578fc",
+      "name": "GameInterface_Zen::InvokeLevelup()"
+    },
+    {
+      "address": "0x578fc",
+      "end": "0x57de0",
+      "name": "GameInterface_Zen::GameInterface_Zen(ChuzzleApp*)"
+    },
+    {
+      "address": "0x57de0",
+      "end": "0x57de4",
+      "name": "GameInterface_Zen::GameInterface_Zen(ChuzzleApp*)"
+    },
+    {
+      "address": "0x57de4",
+      "end": "0x58098",
+      "name": "GameInterface_Zen::DrawCharms()"
+    },
+    {
+      "address": "0x58098",
+      "end": "0x582b4",
+      "name": "GameInterface_Zen::LoadExtra(IOBuffer&)"
+    },
+    {
+      "address": "0x582b4",
+      "end": "0x58550",
+      "name": "GameInterface_Zen::~GameInterface_Zen()"
+    },
+    {
+      "address": "0x58550",
+      "end": "0x58554",
+      "name": "GameInterface_Zen::~GameInterface_Zen()"
+    },
+    {
+      "address": "0x58554",
+      "end": "0x587f8",
+      "name": "GameInterface_Zen::~GameInterface_Zen()"
+    },
+    {
+      "address": "0x587f8",
+      "end": "0x588e0",
+      "name": "GameInterface_Zen::DoLevelup()"
+    },
+    {
+      "address": "0x588e0",
+      "end": "0x58b08",
+      "name": "GameInterface_Zen::SaveExtra(IOBuffer&)"
+    },
+    {
+      "address": "0x58b08",
+      "end": "0x58bb0",
+      "name": "GameInterface_Zen::CleanZenPile()"
+    },
+    {
+      "address": "0x58bb0",
+      "end": "0x597a4",
+      "name": "GameInterface_Zen::Update()"
+    },
+    {
+      "address": "0x597a4",
+      "end": "0x59c20",
+      "name": "GameInterface_Zen::DrawOverlay()"
+    },
+    {
+      "address": "0x59c20",
+      "end": "0x59dac",
+      "name": "GameInterface_Zen::DrawRainbow()"
+    },
+    {
+      "address": "0x59dac",
+      "end": "0x5a1ac",
+      "name": "GameInterface_Zen::Draw()"
+    },
+    {
+      "address": "0x5a1ac",
+      "end": "0x5a20c",
+      "name": "IOBuffer::ReadColor()"
+    },
+    {
+      "address": "0x5a20c",
+      "end": "0x5a270",
+      "name": "IOBuffer::WriteColor(Color)"
+    },
+    {
+      "address": "0x5a270",
+      "end": "0x5a514",
+      "name": "GameMenu::GameMenu(ChuzzleApp*)"
+    },
+    {
+      "address": "0x5a514",
+      "end": "0x5a518",
+      "name": "GameMenu::GameMenu(ChuzzleApp*)"
+    },
+    {
+      "address": "0x5a518",
+      "end": "0x5a6c4",
+      "name": "GameMenu::~GameMenu()"
+    },
+    {
+      "address": "0x5a6c4",
+      "end": "0x5a6c8",
+      "name": "GameMenu::~GameMenu()"
+    },
+    {
+      "address": "0x5a6c8",
+      "end": "0x5a87c",
+      "name": "GameMenu::~GameMenu()"
+    },
+    {
+      "address": "0x5a87c",
+      "end": "0x5a90c",
+      "name": "GameMenu::Update()"
+    },
+    {
+      "address": "0x5a90c",
+      "end": "0x5abf4",
+      "name": "GameMenu::Notify(void*)"
+    },
+    {
+      "address": "0x5abf4",
+      "end": "0x5afc4",
+      "name": "GameMenu::Draw()"
+    },
+    {
+      "address": "0x5afc4",
+      "end": "0x5afc8",
+      "name": "GameOver::Notify(void*)"
+    },
+    {
+      "address": "0x5afc8",
+      "end": "0x5afdc",
+      "name": "GameOver::MouseDown(int, int, int)"
+    },
+    {
+      "address": "0x5afdc",
+      "end": "0x5b02c",
+      "name": "GameOver::Pick(int, int)"
+    },
+    {
+      "address": "0x5b02c",
+      "end": "0x5b760",
+      "name": "GameOver::Update()"
+    },
+    {
+      "address": "0x5b760",
+      "end": "0x5be00",
+      "name": "GameOver::Draw()"
+    },
+    {
+      "address": "0x5be00",
+      "end": "0x5bfe0",
+      "name": "GameOver::~GameOver()"
+    },
+    {
+      "address": "0x5bfe0",
+      "end": "0x5bfe4",
+      "name": "GameOver::~GameOver()"
+    },
+    {
+      "address": "0x5bfe4",
+      "end": "0x5c1cc",
+      "name": "GameOver::~GameOver()"
+    },
+    {
+      "address": "0x5c1cc",
+      "end": "0x5cac0",
+      "name": "GameOver::GameOver(ChuzzleApp*)"
+    },
+    {
+      "address": "0x5cac0",
+      "end": "0x5cac4",
+      "name": "GameOver::GameOver(ChuzzleApp*)"
+    },
+    {
+      "address": "0x5cac4",
+      "end": "0x5cb48",
+      "name": "GameWillBeSaved::Update()"
+    },
+    {
+      "address": "0x5cb48",
+      "end": "0x5cb94",
+      "name": "GameWillBeSaved::Notify(void*)"
+    },
+    {
+      "address": "0x5cb94",
+      "end": "0x5cee8",
+      "name": "GameWillBeSaved::GameWillBeSaved(ChuzzleApp*)"
+    },
+    {
+      "address": "0x5cee8",
+      "end": "0x5ceec",
+      "name": "GameWillBeSaved::GameWillBeSaved(ChuzzleApp*)"
+    },
+    {
+      "address": "0x5ceec",
+      "end": "0x5cfe4",
+      "name": "GameWillBeSaved::~GameWillBeSaved()"
+    },
+    {
+      "address": "0x5cfe4",
+      "end": "0x5cfe8",
+      "name": "GameWillBeSaved::~GameWillBeSaved()"
+    },
+    {
+      "address": "0x5cfe8",
+      "end": "0x5d0e8",
+      "name": "GameWillBeSaved::~GameWillBeSaved()"
+    },
+    {
+      "address": "0x5d0e8",
+      "end": "0x5d4b0",
+      "name": "GameWillBeSaved::Draw()"
+    },
+    {
+      "address": "0x5d4b0",
+      "end": "0x5d5a4",
+      "name": "HighScores::~HighScores()"
+    },
+    {
+      "address": "0x5d5a4",
+      "end": "0x5d5a8",
+      "name": "HighScores::~HighScores()"
+    },
+    {
+      "address": "0x5d5a8",
+      "end": "0x5d6a4",
+      "name": "HighScores::~HighScores()"
+    },
+    {
+      "address": "0x5d6a4",
+      "end": "0x5d7c4",
+      "name": "HighScores::Update()"
+    },
+    {
+      "address": "0x5d7c4",
+      "end": "0x5d8bc",
+      "name": "MoreGames::MouseMove(int, int)"
+    },
+    {
+      "address": "0x5d8bc",
+      "end": "0x5d8f8",
+      "name": "HighScores::Notify(void*)"
+    },
+    {
+      "address": "0x5d8f8",
+      "end": "0x5dc10",
+      "name": "MoreGames::MouseDown(int, int, int)"
+    },
+    {
+      "address": "0x5dc10",
+      "end": "0x5dcd4",
+      "name": "MoreGames::Update()"
+    },
+    {
+      "address": "0x5dcd4",
+      "end": "0x5e00c",
+      "name": "MoreGames::~MoreGames()"
+    },
+    {
+      "address": "0x5e00c",
+      "end": "0x5e010",
+      "name": "MoreGames::~MoreGames()"
+    },
+    {
+      "address": "0x5e010",
+      "end": "0x5e350",
+      "name": "MoreGames::~MoreGames()"
+    },
+    {
+      "address": "0x5e350",
+      "end": "0x5e694",
+      "name": "MoreGames::MouseUp(int, int, int)"
+    },
+    {
+      "address": "0x5e694",
+      "end": "0x5ec18",
+      "name": "HighScores::HighScores(ChuzzleApp*, bool)"
+    },
+    {
+      "address": "0x5ec18",
+      "end": "0x5ec20",
+      "name": "HighScores::HighScores(ChuzzleApp*, bool)"
+    },
+    {
+      "address": "0x5ec20",
+      "end": "0x5f510",
+      "name": "MoreGames::ReadyToDisplay()"
+    },
+    {
+      "address": "0x5f510",
+      "end": "0x5f9d4",
+      "name": "MoreGames::MoreGames(ChuzzleApp*)"
+    },
+    {
+      "address": "0x5f9d4",
+      "end": "0x5f9d8",
+      "name": "MoreGames::MoreGames(ChuzzleApp*)"
+    },
+    {
+      "address": "0x5f9d8",
+      "end": "0x60fa0",
+      "name": "HighScores::Draw()"
+    },
+    {
+      "address": "0x60fa0",
+      "end": "0x624b0",
+      "name": "MoreGames::Draw()"
+    },
+    {
+      "address": "0x624b0",
+      "end": "0x6254c",
+      "name": "Graphics::ClipColor(float)"
+    },
+    {
+      "address": "0x6254c",
+      "end": "0x625b8",
+      "name": "ParseXMLTag::~ParseXMLTag()"
+    },
+    {
+      "address": "0x625b8",
+      "end": "0x6261c",
+      "name": "ParseXMLTag::~ParseXMLTag()"
+    },
+    {
+      "address": "0x6261c",
+      "end": "0x62638",
+      "name": "ParseXMLTag::~ParseXMLTag()"
+    },
+    {
+      "address": "0x62638",
+      "end": "0x62848",
+      "name": "HowToPlay::~HowToPlay()"
+    },
+    {
+      "address": "0x62848",
+      "end": "0x6284c",
+      "name": "HowToPlay::~HowToPlay()"
+    },
+    {
+      "address": "0x6284c",
+      "end": "0x62a64",
+      "name": "HowToPlay::~HowToPlay()"
+    },
+    {
+      "address": "0x62a64",
+      "end": "0x62a80",
+      "name": "HowToPlay::Initialize()"
+    },
+    {
+      "address": "0x62a80",
+      "end": "0x62a84",
+      "name": "HowToPlay::DrawOverlay()"
+    },
+    {
+      "address": "0x62a84",
+      "end": "0x62c14",
+      "name": "HowToPlay::Draw()"
+    },
+    {
+      "address": "0x62c14",
+      "end": "0x62de8",
+      "name": "HowToPlay::Notify(void*)"
+    },
+    {
+      "address": "0x62de8",
+      "end": "0x638ac",
+      "name": "HowToPlay::HowToPlay(ChuzzleApp*, bool)"
+    },
+    {
+      "address": "0x638ac",
+      "end": "0x638b4",
+      "name": "HowToPlay::HowToPlay(ChuzzleApp*, bool)"
+    },
+    {
+      "address": "0x638b4",
+      "end": "0x63b24",
+      "name": "HowToPlay::Update()"
+    },
+    {
+      "address": "0x63b24",
+      "end": "0x63d54",
+      "name": "Levelup::Levelup(GameInterface*)"
+    },
+    {
+      "address": "0x63d54",
+      "end": "0x63d58",
+      "name": "Levelup::Levelup(GameInterface*)"
+    },
+    {
+      "address": "0x63d58",
+      "end": "0x63e88",
+      "name": "Levelup::~Levelup()"
+    },
+    {
+      "address": "0x63e88",
+      "end": "0x63e8c",
+      "name": "Levelup::~Levelup()"
+    },
+    {
+      "address": "0x63e8c",
+      "end": "0x63fc4",
+      "name": "Levelup::~Levelup()"
+    },
+    {
+      "address": "0x63fc4",
+      "end": "0x6408c",
+      "name": "Levelup::Save(IOBuffer*)"
+    },
+    {
+      "address": "0x6408c",
+      "end": "0x64154",
+      "name": "Levelup::Load(IOBuffer*)"
+    },
+    {
+      "address": "0x64154",
+      "end": "0x64194",
+      "name": "Levelup::Pick(int, int)"
+    },
+    {
+      "address": "0x64194",
+      "end": "0x641a4",
+      "name": "Levelup::Kill()"
+    },
+    {
+      "address": "0x641a4",
+      "end": "0x65154",
+      "name": "Levelup::Update()"
+    },
+    {
+      "address": "0x65154",
+      "end": "0x652e8",
+      "name": "Levelup::Draw()"
+    },
+    {
+      "address": "0x652e8",
+      "end": "0x65c80",
+      "name": "Levelup::DrawOverlay()"
+    },
+    {
+      "address": "0x65c80",
+      "end": "0x65dd4",
+      "name": "Levelup_Zen::Levelup_Zen(GameInterface_Zen*)"
+    },
+    {
+      "address": "0x65dd4",
+      "end": "0x65dd8",
+      "name": "Levelup_Zen::Levelup_Zen(GameInterface_Zen*)"
+    },
+    {
+      "address": "0x65dd8",
+      "end": "0x65ea4",
+      "name": "Levelup_Zen::~Levelup_Zen()"
+    },
+    {
+      "address": "0x65ea4",
+      "end": "0x65f78",
+      "name": "Levelup_Zen::~Levelup_Zen()"
+    },
+    {
+      "address": "0x65f78",
+      "end": "0x66100",
+      "name": "Levelup_Zen::Draw()"
+    },
+    {
+      "address": "0x66100",
+      "end": "0x6665c",
+      "name": "Levelup_Zen::AllDone()"
+    },
+    {
+      "address": "0x6665c",
+      "end": "0x668a4",
+      "name": "Levelup_Zen::Update()"
+    },
+    {
+      "address": "0x668a4",
+      "end": "0x668ac",
+      "name": "Levelup_Zen::Pick(int, int)"
+    },
+    {
+      "address": "0x668ac",
+      "end": "0x66988",
+      "name": "CreateApp()"
+    },
+    {
+      "address": "0x66988",
+      "end": "0x669d4",
+      "name": "DestroyApp()"
+    },
+    {
+      "address": "0x669d4",
+      "end": "0x669f8",
+      "name": "MouseDown(float, float)"
+    },
+    {
+      "address": "0x669f8",
+      "end": "0x66a1c",
+      "name": "MouseMove(float, float)"
+    },
+    {
+      "address": "0x66a1c",
+      "end": "0x66a40",
+      "name": "MouseUp(float, float)"
+    },
+    {
+      "address": "0x66a40",
+      "end": "0x66a58",
+      "name": "Update(float)"
+    },
+    {
+      "address": "0x66a58",
+      "end": "0x66a70",
+      "name": "Draw()"
+    },
+    {
+      "address": "0x66a70",
+      "end": "0x66aa8",
+      "name": "Tip(float, float, float)"
+    },
+    {
+      "address": "0x66aa8",
+      "end": "0x66d78",
+      "name": "MainMenu::~MainMenu()"
+    },
+    {
+      "address": "0x66d78",
+      "end": "0x66d7c",
+      "name": "MainMenu::~MainMenu()"
+    },
+    {
+      "address": "0x66d7c",
+      "end": "0x67054",
+      "name": "MainMenu::~MainMenu()"
+    },
+    {
+      "address": "0x67054",
+      "end": "0x670a4",
+      "name": "MainMenu::Update()"
+    },
+    {
+      "address": "0x670a4",
+      "end": "0x67668",
+      "name": "MainMenu::DrawOverlay()"
+    },
+    {
+      "address": "0x67668",
+      "end": "0x6793c",
+      "name": "MainMenu::IsSaveGameValid(String)"
+    },
+    {
+      "address": "0x6793c",
+      "end": "0x68200",
+      "name": "MainMenu::MainMenu(ChuzzleApp*)"
+    },
+    {
+      "address": "0x68200",
+      "end": "0x68204",
+      "name": "MainMenu::MainMenu(ChuzzleApp*)"
+    },
+    {
+      "address": "0x68204",
+      "end": "0x68974",
+      "name": "MainMenu::Draw()"
+    },
+    {
+      "address": "0x68974",
+      "end": "0x69694",
+      "name": "MainMenu::Notify(void*)"
+    },
+    {
+      "address": "0x69694",
+      "end": "0x69814",
+      "name": "NoMoves::~NoMoves()"
+    },
+    {
+      "address": "0x69814",
+      "end": "0x69818",
+      "name": "NoMoves::~NoMoves()"
+    },
+    {
+      "address": "0x69818",
+      "end": "0x699a0",
+      "name": "NoMoves::~NoMoves()"
+    },
+    {
+      "address": "0x699a0",
+      "end": "0x699ec",
+      "name": "NoMoves::Notify(void*)"
+    },
+    {
+      "address": "0x699ec",
+      "end": "0x69a2c",
+      "name": "NoMoves::Pick(int, int)"
+    },
+    {
+      "address": "0x69a2c",
+      "end": "0x69a4c",
+      "name": "NoMoves::Kill()"
+    },
+    {
+      "address": "0x69a4c",
+      "end": "0x69b9c",
+      "name": "NoMoves::Tip(float, float, float)"
+    },
+    {
+      "address": "0x69b9c",
+      "end": "0x6a214",
+      "name": "NoMoves::Update()"
+    },
+    {
+      "address": "0x6a214",
+      "end": "0x6a974",
+      "name": "NoMoves::NoMoves(GameInterface*)"
+    },
+    {
+      "address": "0x6a974",
+      "end": "0x6a978",
+      "name": "NoMoves::NoMoves(GameInterface*)"
+    },
+    {
+      "address": "0x6a978",
+      "end": "0x6aa4c",
+      "name": "NoMoves::Save(IOBuffer*)"
+    },
+    {
+      "address": "0x6aa4c",
+      "end": "0x6aeb0",
+      "name": "NoMoves::Draw()"
+    },
+    {
+      "address": "0x6aeb0",
+      "end": "0x6afc0",
+      "name": "NoMoves::Load(IOBuffer*)"
+    },
+    {
+      "address": "0x6afc0",
+      "end": "0x6afd4",
+      "name": "ODigit::ODigit()"
+    },
+    {
+      "address": "0x6afd4",
+      "end": "0x6b130",
+      "name": "ODigit::~ODigit()"
+    },
+    {
+      "address": "0x6b130",
+      "end": "0x6b134",
+      "name": "ODigit::~ODigit()"
+    },
+    {
+      "address": "0x6b134",
+      "end": "0x6b388",
+      "name": "ODigit::Setup(String)"
+    },
+    {
+      "address": "0x6b388",
+      "end": "0x6b488",
+      "name": "ODigit::Draw(Point, float)"
+    },
+    {
+      "address": "0x6b488",
+      "end": "0x6b4d4",
+      "name": "ODigit::Center(Point, float)"
+    },
+    {
+      "address": "0x6b4d4",
+      "end": "0x6b5d4",
+      "name": "ODigit::DrawOutline(Point, float)"
+    },
+    {
+      "address": "0x6b5d4",
+      "end": "0x6b620",
+      "name": "ODigit::CenterOutline(Point, float)"
+    },
+    {
+      "address": "0x6b620",
+      "end": "0x6b7f8",
+      "name": "Options::~Options()"
+    },
+    {
+      "address": "0x6b7f8",
+      "end": "0x6b7fc",
+      "name": "Options::~Options()"
+    },
+    {
+      "address": "0x6b7fc",
+      "end": "0x6b9dc",
+      "name": "Options::~Options()"
+    },
+    {
+      "address": "0x6b9dc",
+      "end": "0x6ba60",
+      "name": "Options::Update()"
+    },
+    {
+      "address": "0x6ba60",
+      "end": "0x6bab8",
+      "name": "Options::SetOffset(float)"
+    },
+    {
+      "address": "0x6bab8",
+      "end": "0x6bae0",
+      "name": "Credits::~Credits()"
+    },
+    {
+      "address": "0x6bae0",
+      "end": "0x6bb14",
+      "name": "Credits::~Credits()"
+    },
+    {
+      "address": "0x6bb14",
+      "end": "0x6bb4c",
+      "name": "Credits::Update()"
+    },
+    {
+      "address": "0x6bb4c",
+      "end": "0x6bb74",
+      "name": "Credits::MouseDown(int, int, int)"
+    },
+    {
+      "address": "0x6bb74",
+      "end": "0x6be40",
+      "name": "Options::Notify(void*)"
+    },
+    {
+      "address": "0x6be40",
+      "end": "0x6c430",
+      "name": "Options::Options(ChuzzleApp*)"
+    },
+    {
+      "address": "0x6c430",
+      "end": "0x6c434",
+      "name": "Options::Options(ChuzzleApp*)"
+    },
+    {
+      "address": "0x6c434",
+      "end": "0x6cc00",
+      "name": "Options::Draw()"
+    },
+    {
+      "address": "0x6cc00",
+      "end": "0x6dc54",
+      "name": "Credits::Draw()"
+    },
+    {
+      "address": "0x6dc54",
+      "end": "0x6dd30",
+      "name": "PauseOverlay::PauseOverlay(ChuzzleApp*)"
+    },
+    {
+      "address": "0x6dd30",
+      "end": "0x6dd34",
+      "name": "PauseOverlay::PauseOverlay(ChuzzleApp*)"
+    },
+    {
+      "address": "0x6dd34",
+      "end": "0x6dd50",
+      "name": "PauseOverlay::~PauseOverlay()"
+    },
+    {
+      "address": "0x6dd50",
+      "end": "0x6dd78",
+      "name": "PauseOverlay::~PauseOverlay()"
+    },
+    {
+      "address": "0x6dd78",
+      "end": "0x6e128",
+      "name": "PauseOverlay::Draw()"
+    },
+    {
+      "address": "0x6e128",
+      "end": "0x6e178",
+      "name": "PauseOverlay::MouseDown(int, int, int)"
+    },
+    {
+      "address": "0x6e178",
+      "end": "0x6e1c8",
+      "name": "PauseOverlay::Char(int)"
+    },
+    {
+      "address": "0x6e1c8",
+      "end": "0x6e1f8",
+      "name": "Scrambler::~Scrambler()"
+    },
+    {
+      "address": "0x6e1f8",
+      "end": "0x6e234",
+      "name": "Scrambler::~Scrambler()"
+    },
+    {
+      "address": "0x6e234",
+      "end": "0x6e498",
+      "name": "Scrambler::Update()"
+    },
+    {
+      "address": "0x6e498",
+      "end": "0x6e4fc",
+      "name": "Scrambler::Save(IOBuffer*)"
+    },
+    {
+      "address": "0x6e4fc",
+      "end": "0x6e560",
+      "name": "Scrambler::Load(IOBuffer*)"
+    },
+    {
+      "address": "0x6e560",
+      "end": "0x6e818",
+      "name": "Scrambler::Scrambler(Board*)"
+    },
+    {
+      "address": "0x6e818",
+      "end": "0x6e81c",
+      "name": "Scrambler::Scrambler(Board*)"
+    },
+    {
+      "address": "0x6e81c",
+      "end": "0x6eb30",
+      "name": "TitleScreen::TitleScreen(ChuzzleApp*)"
+    },
+    {
+      "address": "0x6eb30",
+      "end": "0x6eb34",
+      "name": "TitleScreen::TitleScreen(ChuzzleApp*)"
+    },
+    {
+      "address": "0x6eb34",
+      "end": "0x6ec60",
+      "name": "TitleScreen::~TitleScreen()"
+    },
+    {
+      "address": "0x6ec60",
+      "end": "0x6ec64",
+      "name": "TitleScreen::~TitleScreen()"
+    },
+    {
+      "address": "0x6ec64",
+      "end": "0x6ed98",
+      "name": "TitleScreen::~TitleScreen()"
+    },
+    {
+      "address": "0x6ed98",
+      "end": "0x6f330",
+      "name": "TitleScreen::Draw()"
+    },
+    {
+      "address": "0x6f330",
+      "end": "0x6f5a0",
+      "name": "TitleScreen::Go()"
+    },
+    {
+      "address": "0x6f5a0",
+      "end": "0x6f5a4",
+      "name": "TitleScreen::OnLoadComplete()"
+    },
+    {
+      "address": "0x6f5a4",
+      "end": "0x6f8ac",
+      "name": "TitleScreen::SwapFactoid()"
+    },
+    {
+      "address": "0x6f8ac",
+      "end": "0x6fa34",
+      "name": "TitleScreen::Update()"
+    },
+    {
+      "address": "0x6fa34",
+      "end": "0x6fa8c",
+      "name": "App::GetLoadProgress()"
+    },
+    {
+      "address": "0x6fa8c",
+      "end": "0x6faa8",
+      "name": "Transition::~Transition()"
+    },
+    {
+      "address": "0x6faa8",
+      "end": "0x6fad0",
+      "name": "Transition::~Transition()"
+    },
+    {
+      "address": "0x6fad0",
+      "end": "0x6fb70",
+      "name": "TransitionStar::Update()"
+    },
+    {
+      "address": "0x6fb70",
+      "end": "0x6fc98",
+      "name": "Transition::DoTransition()"
+    },
+    {
+      "address": "0x6fc98",
+      "end": "0x70380",
+      "name": "TransitionStar::Draw()"
+    },
+    {
+      "address": "0x70380",
+      "end": "0x704d4",
+      "name": "TransitionStar::TransitionStar(ChuzzleApp*, int)"
+    },
+    {
+      "address": "0x704d4",
+      "end": "0x704d8",
+      "name": "TransitionStar::TransitionStar(ChuzzleApp*, int)"
+    },
+    {
+      "address": "0x704d8",
+      "end": "0x704f4",
+      "name": "TransitionStar::~TransitionStar()"
+    },
+    {
+      "address": "0x704f4",
+      "end": "0x7051c",
+      "name": "TransitionStar::~TransitionStar()"
+    },
+    {
+      "address": "0x7051c",
+      "end": "0x7057c",
+      "name": "TrophyAward::Update()"
+    },
+    {
+      "address": "0x7057c",
+      "end": "0x705c0",
+      "name": "TrophyAward::MouseDown(int, int, int)"
+    },
+    {
+      "address": "0x705c0",
+      "end": "0x705d0",
+      "name": "TrophyAward::Kill()"
+    },
+    {
+      "address": "0x705d0",
+      "end": "0x70744",
+      "name": "TrophyAward::Go()"
+    },
+    {
+      "address": "0x70744",
+      "end": "0x70e04",
+      "name": "TrophyAward::UpdateEX()"
+    },
+    {
+      "address": "0x70e04",
+      "end": "0x7167c",
+      "name": "TrophyAward::TrophyAward(ChuzzleApp*, int)"
+    },
+    {
+      "address": "0x7167c",
+      "end": "0x71680",
+      "name": "TrophyAward::TrophyAward(ChuzzleApp*, int)"
+    },
+    {
+      "address": "0x71680",
+      "end": "0x71858",
+      "name": "TrophyAward::~TrophyAward()"
+    },
+    {
+      "address": "0x71858",
+      "end": "0x7185c",
+      "name": "TrophyAward::~TrophyAward()"
+    },
+    {
+      "address": "0x7185c",
+      "end": "0x71a3c",
+      "name": "TrophyAward::~TrophyAward()"
+    },
+    {
+      "address": "0x71a3c",
+      "end": "0x72d50",
+      "name": "TrophyAward::Draw()"
+    },
+    {
+      "address": "0x72d50",
+      "end": "0x72da4",
+      "name": "TrophyRoom::Notify(void*)"
+    },
+    {
+      "address": "0x72da4",
+      "end": "0x736c0",
+      "name": "TrophyRoom::Update()"
+    },
+    {
+      "address": "0x736c0",
+      "end": "0x7392c",
+      "name": "TrophyRoom::~TrophyRoom()"
+    },
+    {
+      "address": "0x7392c",
+      "end": "0x73930",
+      "name": "TrophyRoom::~TrophyRoom()"
+    },
+    {
+      "address": "0x73930",
+      "end": "0x73ba4",
+      "name": "TrophyRoom::~TrophyRoom()"
+    },
+    {
+      "address": "0x73ba4",
+      "end": "0x748d0",
+      "name": "TrophyRoom::Draw()"
+    },
+    {
+      "address": "0x748d0",
+      "end": "0x751a0",
+      "name": "TrophyRoom::TrophyRoom(ChuzzleApp*)"
+    },
+    {
+      "address": "0x751a0",
+      "end": "0x751a4",
+      "name": "TrophyRoom::TrophyRoom(ChuzzleApp*)"
+    },
+    {
+      "address": "0x751a4",
+      "end": "0x75d14",
+      "name": "TrophyRoom::MouseDown(int, int, int)"
+    },
+    {
+      "address": "0x75d14",
+      "end": "0x75d30",
+      "name": "ZenChuzzle::~ZenChuzzle()"
+    },
+    {
+      "address": "0x75d30",
+      "end": "0x75d58",
+      "name": "ZenChuzzle::~ZenChuzzle()"
+    },
+    {
+      "address": "0x75d58",
+      "end": "0x75db4",
+      "name": "ZenChuzzle::Land()"
+    },
+    {
+      "address": "0x75db4",
+      "end": "0x75ee0",
+      "name": "ZenChuzzle::Update()"
+    },
+    {
+      "address": "0x75ee0",
+      "end": "0x76150",
+      "name": "ZenChuzzle::ZenChuzzle(GameInterface_Zen*, Point, float, int, Point, int)"
+    },
+    {
+      "address": "0x76150",
+      "end": "0x76154",
+      "name": "ZenChuzzle::ZenChuzzle(GameInterface_Zen*, Point, float, int, Point, int)"
+    },
+    {
+      "address": "0x76154",
+      "end": "0x76420",
+      "name": "ZenChuzzle::Draw()"
+    },
+    {
+      "address": "0x76420",
+      "end": "0x7673c",
+      "name": "EquationSystem::Solve()"
+    },
+    {
+      "address": "0x7673c",
+      "end": "0x76844",
+      "name": "BSpline::GetPoint(float, std::vector<float, std::allocator<float>>&)"
+    },
+    {
+      "address": "0x76844",
+      "end": "0x76894",
+      "name": "BSpline::GetPoint(float)"
+    },
+    {
+      "address": "0x76894",
+      "end": "0x76900",
+      "name": "BSpline::~BSpline()"
+    },
+    {
+      "address": "0x76900",
+      "end": "0x76904",
+      "name": "BSpline::~BSpline()"
+    },
+    {
+      "address": "0x76904",
+      "end": "0x76a00",
+      "name": "BSpline::CalcArcLengths()"
+    },
+    {
+      "address": "0x76a00",
+      "end": "0x76a40",
+      "name": "BSpline::AddPoint(float, float)"
+    },
+    {
+      "address": "0x76a40",
+      "end": "0x76b54",
+      "name": "BSpline::CalculateSplinePrvLinear(std::vector<float, std::allocator<float>>&, std::vector<float, std::allocator<float>>&)"
+    },
+    {
+      "address": "0x76b54",
+      "end": "0x76cac",
+      "name": "EquationSystem::EquationSystem(int)"
+    },
+    {
+      "address": "0x76cac",
+      "end": "0x77118",
+      "name": "BSpline::CalculateSplinePrv(std::vector<float, std::allocator<float>>&, std::vector<float, std::allocator<float>>&)"
+    },
+    {
+      "address": "0x77118",
+      "end": "0x77184",
+      "name": "BSpline::CalculateSpline(bool)"
+    },
+    {
+      "address": "0x77184",
+      "end": "0x771b4",
+      "name": "float* std::__copy_backward<true, std::random_access_iterator_tag>::copy_b<float>(float const*, float const*, float*)"
+    },
+    {
+      "address": "0x771b4",
+      "end": "0x771c8",
+      "name": "__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>::difference_type __gnu_cxx::operator-<float*, float*, std::vector<float, std::allocator<float>>>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>> const&, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>> const&)"
+    },
+    {
+      "address": "0x771c8",
+      "end": "0x771e4",
+      "name": "__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>> std::__copy_backward_normal<true, true>::copy_b_n<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>)"
+    },
+    {
+      "address": "0x771e4",
+      "end": "0x77210",
+      "name": "__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>> std::__copy_normal<true, true>::copy_n<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>)"
+    },
+    {
+      "address": "0x77210",
+      "end": "0x7721c",
+      "name": "std::vector<float, std::allocator<float>>::operator[](unsigned long)"
+    },
+    {
+      "address": "0x7721c",
+      "end": "0x77230",
+      "name": "void std::_Destroy<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, std::allocator<float>>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, std::allocator<float>)"
+    },
+    {
+      "address": "0x77230",
+      "end": "0x77250",
+      "name": "void std::uninitialized_fill_n<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, unsigned long, float>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, unsigned long, float const&)"
+    },
+    {
+      "address": "0x77250",
+      "end": "0x772d4",
+      "name": "std::vector<float, std::allocator<float>>::erase(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>)"
+    },
+    {
+      "address": "0x772d4",
+      "end": "0x772f4",
+      "name": "std::vector<float, std::allocator<float>>::clear()"
+    },
+    {
+      "address": "0x772f4",
+      "end": "0x77310",
+      "name": "__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>> std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, float>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, std::allocator<float>)"
+    },
+    {
+      "address": "0x77310",
+      "end": "0x7732c",
+      "name": "std::_Vector_base<float, std::allocator<float>>::~_Vector_base()"
+    },
+    {
+      "address": "0x7732c",
+      "end": "0x77340",
+      "name": "std::_Vector_base<float, std::allocator<float>>::_Vector_base(std::allocator<float> const&)"
+    },
+    {
+      "address": "0x77340",
+      "end": "0x7736c",
+      "name": "__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>> std::__copy_normal<true, true>::copy_n<__gnu_cxx::__normal_iterator<float const*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>>(__gnu_cxx::__normal_iterator<float const*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__normal_iterator<float const*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>)"
+    },
+    {
+      "address": "0x7736c",
+      "end": "0x773a0",
+      "name": "std::vector<float, std::allocator<float>>::~vector()"
+    },
+    {
+      "address": "0x773a0",
+      "end": "0x773dc",
+      "name": "float* std::vector<float, std::allocator<float>>::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<float const*, std::vector<float, std::allocator<float>>>>(unsigned long, __gnu_cxx::__normal_iterator<float const*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__normal_iterator<float const*, std::vector<float, std::allocator<float>>>)"
+    },
+    {
+      "address": "0x773dc",
+      "end": "0x77544",
+      "name": "std::vector<float, std::allocator<float>>::operator=(std::vector<float, std::allocator<float>> const&)"
+    },
+    {
+      "address": "0x77544",
+      "end": "0x77698",
+      "name": "std::vector<float, std::allocator<float>>::_M_insert_aux(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, float const&)"
+    },
+    {
+      "address": "0x77698",
+      "end": "0x776e0",
+      "name": "std::vector<float, std::allocator<float>>::push_back(float const&)"
+    },
+    {
+      "address": "0x776e0",
+      "end": "0x77914",
+      "name": "std::vector<float, std::allocator<float>>::_M_fill_insert(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, unsigned long, float const&)"
+    },
+    {
+      "address": "0x77914",
+      "end": "0x7799c",
+      "name": "std::vector<float, std::allocator<float>>::resize(unsigned long, float const&)"
+    },
+    {
+      "address": "0x7799c",
+      "end": "0x779e0",
+      "name": "App::Initialize()"
+    },
+    {
+      "address": "0x779e0",
+      "end": "0x77a60",
+      "name": "App::LoadController(void*)"
+    },
+    {
+      "address": "0x77a60",
+      "end": "0x77b2c",
+      "name": "App::BaseDraw()"
+    },
+    {
+      "address": "0x77b2c",
+      "end": "0x77b94",
+      "name": "App::CursorCleanup()"
+    },
+    {
+      "address": "0x77b94",
+      "end": "0x77b98",
+      "name": "App::FreshenCursor()"
+    },
+    {
+      "address": "0x77b98",
+      "end": "0x77ba0",
+      "name": "App::SetOverGadget(Gadget*)"
+    },
+    {
+      "address": "0x77ba0",
+      "end": "0x77bb4",
+      "name": "App::ClearOverGadget(Gadget*)"
+    },
+    {
+      "address": "0x77bb4",
+      "end": "0x77bc8",
+      "name": "App::IsMouseButtonDown()"
+    },
+    {
+      "address": "0x77bc8",
+      "end": "0x77bfc",
+      "name": "App::Render()"
+    },
+    {
+      "address": "0x77bfc",
+      "end": "0x77c18",
+      "name": "App::PostRender()"
+    },
+    {
+      "address": "0x77c18",
+      "end": "0x77c28",
+      "name": "App::Tick()"
+    },
+    {
+      "address": "0x77c28",
+      "end": "0x77c40",
+      "name": "App::Tip(float, float, float)"
+    },
+    {
+      "address": "0x77c40",
+      "end": "0x77c64",
+      "name": "App::IsIPhoneApp(bool)"
+    },
+    {
+      "address": "0x77c64",
+      "end": "0x77c74",
+      "name": "App::Quit()"
+    },
+    {
+      "address": "0x77c74",
+      "end": "0x77cec",
+      "name": "App::OpenURL(String)"
+    },
+    {
+      "address": "0x77cec",
+      "end": "0x77d30",
+      "name": "App::MouseFunctionRelease()"
+    },
+    {
+      "address": "0x77d30",
+      "end": "0x77d9c",
+      "name": "App::PreRender()"
+    },
+    {
+      "address": "0x77d9c",
+      "end": "0x77fa4",
+      "name": "App::ChangeOrientation(int, bool)"
+    },
+    {
+      "address": "0x77fa4",
+      "end": "0x78124",
+      "name": "App::PointAtWorkingDir(String)"
+    },
+    {
+      "address": "0x78124",
+      "end": "0x782a0",
+      "name": "App::ProcessFakeMessages()"
+    },
+    {
+      "address": "0x782a0",
+      "end": "0x78354",
+      "name": "App::BaseUpdate()"
+    },
+    {
+      "address": "0x78354",
+      "end": "0x7838c",
+      "name": "App::PostMouseUp(int, int)"
+    },
+    {
+      "address": "0x7838c",
+      "end": "0x783e4",
+      "name": "App::SetAppName(String)"
+    },
+    {
+      "address": "0x783e4",
+      "end": "0x7843c",
+      "name": "App::SetAppVersion(String)"
+    },
+    {
+      "address": "0x7843c",
+      "end": "0x78534",
+      "name": "App::BaseMouseDown(float, float)"
+    },
+    {
+      "address": "0x78534",
+      "end": "0x78608",
+      "name": "App::BaseMouseMove(float, float)"
+    },
+    {
+      "address": "0x78608",
+      "end": "0x786a0",
+      "name": "App::BaseMouseUp(float, float)"
+    },
+    {
+      "address": "0x786a0",
+      "end": "0x78784",
+      "name": "App::MouseDoubleClick(float, float)"
+    },
+    {
+      "address": "0x78784",
+      "end": "0x78884",
+      "name": "App::MouseDown(float, float)"
+    },
+    {
+      "address": "0x78884",
+      "end": "0x789ac",
+      "name": "App::MouseDrag(float, float)"
+    },
+    {
+      "address": "0x789ac",
+      "end": "0x78a98",
+      "name": "App::MouseMove(float, float)"
+    },
+    {
+      "address": "0x78a98",
+      "end": "0x78c58",
+      "name": "App::MouseUp(float, float)"
+    },
+    {
+      "address": "0x78c58",
+      "end": "0x791d4",
+      "name": "App::App()"
+    },
+    {
+      "address": "0x791d4",
+      "end": "0x7953c",
+      "name": "App::~App()"
+    },
+    {
+      "address": "0x7953c",
+      "end": "0x7961c",
+      "name": "App::InitializeWorkingDirInformation()"
+    },
+    {
+      "address": "0x7961c",
+      "end": "0x79620",
+      "name": "App::Update()"
+    },
+    {
+      "address": "0x79620",
+      "end": "0x79624",
+      "name": "App::Draw()"
+    },
+    {
+      "address": "0x79624",
+      "end": "0x79628",
+      "name": "App::DrawOverlay()"
+    },
+    {
+      "address": "0x79628",
+      "end": "0x7962c",
+      "name": "App::OnLoadComplete()"
+    },
+    {
+      "address": "0x7962c",
+      "end": "0x79630",
+      "name": "App::Load()"
+    },
+    {
+      "address": "0x79630",
+      "end": "0x796ac",
+      "name": "GetSandbox(char const*, char*)"
+    },
+    {
+      "address": "0x796ac",
+      "end": "0x796bc",
+      "name": "AppInterface::AppInterface()"
+    },
+    {
+      "address": "0x796bc",
+      "end": "0x796cc",
+      "name": "AppInterface::~AppInterface()"
+    },
+    {
+      "address": "0x796cc",
+      "end": "0x796e4",
+      "name": "AppInterface::TouchStart(float, float)"
+    },
+    {
+      "address": "0x796e4",
+      "end": "0x796fc",
+      "name": "AppInterface::TouchMove(float, float)"
+    },
+    {
+      "address": "0x796fc",
+      "end": "0x79714",
+      "name": "AppInterface::TouchEnd(float, float)"
+    },
+    {
+      "address": "0x79714",
+      "end": "0x79728",
+      "name": "AppInterface::Update(float)"
+    },
+    {
+      "address": "0x79728",
+      "end": "0x79740",
+      "name": "AppInterface::Draw()"
+    },
+    {
+      "address": "0x79740",
+      "end": "0x7975c",
+      "name": "AppInterface::Tip(float, float, float)"
+    },
+    {
+      "address": "0x7975c",
+      "end": "0x79a2c",
+      "name": "ImageToBits(char*, int*, int*)"
+    },
+    {
+      "address": "0x79a2c",
+      "end": "0x79ccc",
+      "name": "AudioToBits(char*, int*, int*, int*)"
+    },
+    {
+      "address": "0x79ccc",
+      "end": "0x79d6c",
+      "name": "OpenURL(char const*)"
+    },
+    {
+      "address": "0x79d6c",
+      "end": "0x79eb0",
+      "name": "AudioLooper::AudioLooper()"
+    },
+    {
+      "address": "0x79eb0",
+      "end": "0x79eb4",
+      "name": "AudioLooper::AudioLooper()"
+    },
+    {
+      "address": "0x79eb4",
+      "end": "0x79fac",
+      "name": "AudioLooper::~AudioLooper()"
+    },
+    {
+      "address": "0x79fac",
+      "end": "0x79fb0",
+      "name": "AudioLooper::~AudioLooper()"
+    },
+    {
+      "address": "0x79fb0",
+      "end": "0x7a0b0",
+      "name": "AudioLooper::~AudioLooper()"
+    },
+    {
+      "address": "0x7a0b0",
+      "end": "0x7a158",
+      "name": "AudioLooper::Update()"
+    },
+    {
+      "address": "0x7a158",
+      "end": "0x7a1b8",
+      "name": "AudioLooper::Inc()"
+    },
+    {
+      "address": "0x7a1b8",
+      "end": "0x7a1ec",
+      "name": "AudioLooper::Dec()"
+    },
+    {
+      "address": "0x7a1ec",
+      "end": "0x7a220",
+      "name": "AudioLooper::Setup(Sound*)"
+    },
+    {
+      "address": "0x7a220",
+      "end": "0x7a224",
+      "name": "Object::Draw()"
+    },
+    {
+      "address": "0x7a224",
+      "end": "0x7a318",
+      "name": "Button::Button()"
+    },
+    {
+      "address": "0x7a318",
+      "end": "0x7a31c",
+      "name": "Button::Button()"
+    },
+    {
+      "address": "0x7a31c",
+      "end": "0x7a448",
+      "name": "Button::~Button()"
+    },
+    {
+      "address": "0x7a448",
+      "end": "0x7a44c",
+      "name": "Button::~Button()"
+    },
+    {
+      "address": "0x7a44c",
+      "end": "0x7a580",
+      "name": "Button::~Button()"
+    },
+    {
+      "address": "0x7a580",
+      "end": "0x7a5a8",
+      "name": "Button::SetNotify(Gadget*, bool)"
+    },
+    {
+      "address": "0x7a5a8",
+      "end": "0x7a5b0",
+      "name": "Button::SetClickSound(Sound*)"
+    },
+    {
+      "address": "0x7a5b0",
+      "end": "0x7a5d0",
+      "name": "Button::GetDrawState(bool)"
+    },
+    {
+      "address": "0x7a5d0",
+      "end": "0x7a660",
+      "name": "Button::MouseDown(int, int, int)"
+    },
+    {
+      "address": "0x7a660",
+      "end": "0x7a6d8",
+      "name": "Button::MouseUp(int, int, int)"
+    },
+    {
+      "address": "0x7a6d8",
+      "end": "0x7a6f8",
+      "name": "Button::Enter()"
+    },
+    {
+      "address": "0x7a6f8",
+      "end": "0x7a720",
+      "name": "Button::MouseDoubleClick(int, int, int)"
+    },
+    {
+      "address": "0x7a720",
+      "end": "0x7a784",
+      "name": "Button::Draw()"
+    },
+    {
+      "address": "0x7a784",
+      "end": "0x7a83c",
+      "name": "Button::SetSpriteStrip(SpriteStrip*, bool)"
+    },
+    {
+      "address": "0x7a83c",
+      "end": "0x7a8c0",
+      "name": "Button::QuickSetup(Gadget*, SpriteStrip*, Point, Sound*, Sound*)"
+    },
+    {
+      "address": "0x7a8c0",
+      "end": "0x7a954",
+      "name": "Console::Out(char*, ...)"
+    },
+    {
+      "address": "0x7a954",
+      "end": "0x7a984",
+      "name": "Console::~Console()"
+    },
+    {
+      "address": "0x7a984",
+      "end": "0x7a99c",
+      "name": "Console::~Console()"
+    },
+    {
+      "address": "0x7a99c",
+      "end": "0x7abdc",
+      "name": "Font::ManualSetupCharacter(char, int, float, float, float, float, float, float, float)"
+    },
+    {
+      "address": "0x7abdc",
+      "end": "0x7ad4c",
+      "name": "Font::StringDimensions(String)"
+    },
+    {
+      "address": "0x7ad4c",
+      "end": "0x7af58",
+      "name": "Font::ManualAddTexture(String, bool)"
+    },
+    {
+      "address": "0x7af58",
+      "end": "0x7b0e4",
+      "name": "Font::Draw(String, float, float)"
+    },
+    {
+      "address": "0x7b0e4",
+      "end": "0x7b418",
+      "name": "Font::Draw(String, Matrix)"
+    },
+    {
+      "address": "0x7b418",
+      "end": "0x7b590",
+      "name": "Font::StringWidth(String)"
+    },
+    {
+      "address": "0x7b590",
+      "end": "0x7b9ac",
+      "name": "Font::WrapString(String, float)"
+    },
+    {
+      "address": "0x7b9ac",
+      "end": "0x7bb2c",
+      "name": "Font::Font()"
+    },
+    {
+      "address": "0x7bb2c",
+      "end": "0x7bb30",
+      "name": "Font::Font()"
+    },
+    {
+      "address": "0x7bb30",
+      "end": "0x7bf04",
+      "name": "Font::~Font()"
+    },
+    {
+      "address": "0x7bf04",
+      "end": "0x7bf08",
+      "name": "Font::~Font()"
+    },
+    {
+      "address": "0x7bf08",
+      "end": "0x7c2e4",
+      "name": "Font::~Font()"
+    },
+    {
+      "address": "0x7c2e4",
+      "end": "0x7cd18",
+      "name": "Font::Load(String, bool)"
+    },
+    {
+      "address": "0x7cd18",
+      "end": "0x7ce54",
+      "name": "Font::FontData::FontData()"
+    },
+    {
+      "address": "0x7ce54",
+      "end": "0x7ce74",
+      "name": "FXImage::FXImage()"
+    },
+    {
+      "address": "0x7ce74",
+      "end": "0x7ce90",
+      "name": "FXImage::~FXImage()"
+    },
+    {
+      "address": "0x7ce90",
+      "end": "0x7ceb8",
+      "name": "FXImage::~FXImage()"
+    },
+    {
+      "address": "0x7ceb8",
+      "end": "0x7cfac",
+      "name": "FXImage::Fill(Color, bool)"
+    },
+    {
+      "address": "0x7cfac",
+      "end": "0x7d1ac",
+      "name": "FXImage::MakeEllipseImage(float, float)"
+    },
+    {
+      "address": "0x7d1ac",
+      "end": "0x7d224",
+      "name": "Image::GetPixel(int, int)"
+    },
+    {
+      "address": "0x7d224",
+      "end": "0x7d26c",
+      "name": "Gadget::Size(int, int, Image*)"
+    },
+    {
+      "address": "0x7d26c",
+      "end": "0x7d2b4",
+      "name": "Gadget::Size(int, int, Sprite*)"
+    },
+    {
+      "address": "0x7d2b4",
+      "end": "0x7d2ec",
+      "name": "Gadget::RemoveChildGadget(Gadget*)"
+    },
+    {
+      "address": "0x7d2ec",
+      "end": "0x7d30c",
+      "name": "Gadget::Size(Rect)"
+    },
+    {
+      "address": "0x7d30c",
+      "end": "0x7d4bc",
+      "name": "Gadget::Gadget()"
+    },
+    {
+      "address": "0x7d4bc",
+      "end": "0x7d4c0",
+      "name": "Gadget::UnfocusKeyboard()"
+    },
+    {
+      "address": "0x7d4c0",
+      "end": "0x7d4c4",
+      "name": "Gadget::UnfocusMouseWheel()"
+    },
+    {
+      "address": "0x7d4c4",
+      "end": "0x7d4e8",
+      "name": "Gadget::UnfocusTipper()"
+    },
+    {
+      "address": "0x7d4e8",
+      "end": "0x7d574",
+      "name": "Gadget::BaseUpdate()"
+    },
+    {
+      "address": "0x7d574",
+      "end": "0x7d5d4",
+      "name": "Gadget::BaseUpdateSlice(float)"
+    },
+    {
+      "address": "0x7d5d4",
+      "end": "0x7d694",
+      "name": "Gadget::BaseDraw()"
+    },
+    {
+      "address": "0x7d694",
+      "end": "0x7d6e0",
+      "name": "Gadget::BaseEnter()"
+    },
+    {
+      "address": "0x7d6e0",
+      "end": "0x7d72c",
+      "name": "Gadget::BaseLeave()"
+    },
+    {
+      "address": "0x7d72c",
+      "end": "0x7d738",
+      "name": "Gadget::BaseMouseWheel(int)"
+    },
+    {
+      "address": "0x7d738",
+      "end": "0x7d7dc",
+      "name": "Gadget::BaseMouseUp(int, int, int)"
+    },
+    {
+      "address": "0x7d7dc",
+      "end": "0x7d858",
+      "name": "Gadget::Manual_StartDrag()"
+    },
+    {
+      "address": "0x7d858",
+      "end": "0x7d8d0",
+      "name": "Gadget::Manual_AbortDrag()"
+    },
+    {
+      "address": "0x7d8d0",
+      "end": "0x7d8f0",
+      "name": "Gadget::Manual_ResumeDrag()"
+    },
+    {
+      "address": "0x7d8f0",
+      "end": "0x7d9ec",
+      "name": "Gadget::AddChildGadget(Gadget*)"
+    },
+    {
+      "address": "0x7d9ec",
+      "end": "0x7db6c",
+      "name": "Gadget::MergeDrawClipping(Rect)"
+    },
+    {
+      "address": "0x7db6c",
+      "end": "0x7ddd4",
+      "name": "Gadget::DoDrawClip()"
+    },
+    {
+      "address": "0x7ddd4",
+      "end": "0x7ddf0",
+      "name": "Gadget::UndoDrawClip()"
+    },
+    {
+      "address": "0x7ddf0",
+      "end": "0x7de08",
+      "name": "Gadget::BaseKeyDown(int)"
+    },
+    {
+      "address": "0x7de08",
+      "end": "0x7de20",
+      "name": "Gadget::BaseKeyUp(int)"
+    },
+    {
+      "address": "0x7de20",
+      "end": "0x7de38",
+      "name": "Gadget::BaseChar(int)"
+    },
+    {
+      "address": "0x7de38",
+      "end": "0x7de3c",
+      "name": "Gadget::FocusKeyboard()"
+    },
+    {
+      "address": "0x7de3c",
+      "end": "0x7de54",
+      "name": "Gadget::FocusTipper()"
+    },
+    {
+      "address": "0x7de54",
+      "end": "0x7de58",
+      "name": "Gadget::FocusMouseWheel()"
+    },
+    {
+      "address": "0x7de58",
+      "end": "0x7de88",
+      "name": "Gadget::NotifyUI(void*)"
+    },
+    {
+      "address": "0x7de88",
+      "end": "0x7dfb8",
+      "name": "Gadget::BaseMouseMove(int, int)"
+    },
+    {
+      "address": "0x7dfb8",
+      "end": "0x7e0cc",
+      "name": "Gadget::BaseDrag(int, int)"
+    },
+    {
+      "address": "0x7e0cc",
+      "end": "0x7e1ec",
+      "name": "Gadget::BaseMouseDown(int, int, int)"
+    },
+    {
+      "address": "0x7e1ec",
+      "end": "0x7e300",
+      "name": "Gadget::BaseMouseDoubleClick(int, int, int)"
+    },
+    {
+      "address": "0x7e300",
+      "end": "0x7e518",
+      "name": "Gadget::~Gadget()"
+    },
+    {
+      "address": "0x7e518",
+      "end": "0x7e728",
+      "name": "Gadget::~Gadget()"
+    },
+    {
+      "address": "0x7e728",
+      "end": "0x7e72c",
+      "name": "Gadget::~Gadget()"
+    },
+    {
+      "address": "0x7e72c",
+      "end": "0x7e83c",
+      "name": "Gadget::Size()"
+    },
+    {
+      "address": "0x7e83c",
+      "end": "0x7ea28",
+      "name": "Gadget::Pick(int, int)"
+    },
+    {
+      "address": "0x7ea28",
+      "end": "0x7eb74",
+      "name": "Gadget::GetRealPosition()"
+    },
+    {
+      "address": "0x7eb74",
+      "end": "0x7ec8c",
+      "name": "GadgetManager::GadgetManager()"
+    },
+    {
+      "address": "0x7ec8c",
+      "end": "0x7ec90",
+      "name": "GadgetManager::GadgetManager()"
+    },
+    {
+      "address": "0x7ec90",
+      "end": "0x7ecf4",
+      "name": "GadgetManager::TrackUniversalOverGadget()"
+    },
+    {
+      "address": "0x7ecf4",
+      "end": "0x7ed28",
+      "name": "GadgetManager::CleanupUniversalOverGadget(Gadget*)"
+    },
+    {
+      "address": "0x7ed28",
+      "end": "0x7ed3c",
+      "name": "GadgetManager::ClearUniversalOverGadget()"
+    },
+    {
+      "address": "0x7ed3c",
+      "end": "0x7edc0",
+      "name": "GadgetManager::Pick(int, int)"
+    },
+    {
+      "address": "0x7edc0",
+      "end": "0x7ee04",
+      "name": "GadgetManager::TrackMouse(Point)"
+    },
+    {
+      "address": "0x7ee04",
+      "end": "0x7eea0",
+      "name": "GadgetManager::operator+=(Object*)"
+    },
+    {
+      "address": "0x7eea0",
+      "end": "0x7ef14",
+      "name": "GadgetManager::operator-=(Object*)"
+    },
+    {
+      "address": "0x7ef14",
+      "end": "0x7f014",
+      "name": "GadgetManager::SetExclusive(Gadget*)"
+    },
+    {
+      "address": "0x7f014",
+      "end": "0x7f194",
+      "name": "GadgetManager::Update()"
+    },
+    {
+      "address": "0x7f194",
+      "end": "0x7f31c",
+      "name": "GadgetManager::UpdateSlice(float)"
+    },
+    {
+      "address": "0x7f31c",
+      "end": "0x7f410",
+      "name": "GadgetManager::DeadGadgetSafety(Gadget*)"
+    },
+    {
+      "address": "0x7f410",
+      "end": "0x7f51c",
+      "name": "GadgetManager::Draw()"
+    },
+    {
+      "address": "0x7f51c",
+      "end": "0x7f650",
+      "name": "GadgetManager::Cleanup()"
+    },
+    {
+      "address": "0x7f650",
+      "end": "0x7f788",
+      "name": "GadgetManager::~GadgetManager()"
+    },
+    {
+      "address": "0x7f788",
+      "end": "0x7f8b8",
+      "name": "GadgetManager::~GadgetManager()"
+    },
+    {
+      "address": "0x7f8b8",
+      "end": "0x7f8bc",
+      "name": "GadgetManager::~GadgetManager()"
+    },
+    {
+      "address": "0x7f8bc",
+      "end": "0x7f8d8",
+      "name": "GraphicDevice::GraphicDevice()"
+    },
+    {
+      "address": "0x7f8d8",
+      "end": "0x7f920",
+      "name": "GraphicDevice::~GraphicDevice()"
+    },
+    {
+      "address": "0x7f920",
+      "end": "0x7f95c",
+      "name": "GraphicDevice::~GraphicDevice()"
+    },
+    {
+      "address": "0x7f95c",
+      "end": "0x7f998",
+      "name": "GraphicDevice::~GraphicDevice()"
+    },
+    {
+      "address": "0x7f998",
+      "end": "0x7f99c",
+      "name": "GraphicDevice::Release()"
+    },
+    {
+      "address": "0x7f99c",
+      "end": "0x7f9a0",
+      "name": "GraphicDevice::Recover()"
+    },
+    {
+      "address": "0x7f9a0",
+      "end": "0x7f9a4",
+      "name": "GraphicDevice::PreRecover()"
+    },
+    {
+      "address": "0x7f9a4",
+      "end": "0x7f9a8",
+      "name": "GraphicDevice::Activate(bool)"
+    },
+    {
+      "address": "0x7f9a8",
+      "end": "0x7f9b4",
+      "name": "Graphics::DefaultSetup(int, int)"
+    },
+    {
+      "address": "0x7f9b4",
+      "end": "0x7fa1c",
+      "name": "Graphics::Release()"
+    },
+    {
+      "address": "0x7fa1c",
+      "end": "0x7fa58",
+      "name": "Graphics::Clear(Color)"
+    },
+    {
+      "address": "0x7fa58",
+      "end": "0x7fa74",
+      "name": "Graphics::EndRender()"
+    },
+    {
+      "address": "0x7fa74",
+      "end": "0x7fa78",
+      "name": "Graphics::SetAlpha(bool)"
+    },
+    {
+      "address": "0x7fa78",
+      "end": "0x7fb04",
+      "name": "Graphics::SetFilter(bool)"
+    },
+    {
+      "address": "0x7fb04",
+      "end": "0x7fb88",
+      "name": "Graphics::SetTextureMode(int)"
+    },
+    {
+      "address": "0x7fb88",
+      "end": "0x7fca0",
+      "name": "Graphics::Clip()"
+    },
+    {
+      "address": "0x7fca0",
+      "end": "0x80024",
+      "name": "Graphics::Clip(float, float, float, float)"
+    },
+    {
+      "address": "0x80024",
+      "end": "0x80054",
+      "name": "Graphics::PushFilter()"
+    },
+    {
+      "address": "0x80054",
+      "end": "0x800bc",
+      "name": "Graphics::PopFilter()"
+    },
+    {
+      "address": "0x800bc",
+      "end": "0x80134",
+      "name": "Graphics::SetAdditive(bool)"
+    },
+    {
+      "address": "0x80134",
+      "end": "0x801ac",
+      "name": "Graphics::RenderWhite(bool)"
+    },
+    {
+      "address": "0x801ac",
+      "end": "0x801d8",
+      "name": "Graphics::GetPickFrameBuffer()"
+    },
+    {
+      "address": "0x801d8",
+      "end": "0x80220",
+      "name": "Graphics::PushColor()"
+    },
+    {
+      "address": "0x80220",
+      "end": "0x80260",
+      "name": "Graphics::PushTranslate()"
+    },
+    {
+      "address": "0x80260",
+      "end": "0x8034c",
+      "name": "Graphics::PushClip()"
+    },
+    {
+      "address": "0x8034c",
+      "end": "0x80410",
+      "name": "Graphics::PopClip()"
+    },
+    {
+      "address": "0x80410",
+      "end": "0x80478",
+      "name": "Graphics::PopTranslate()"
+    },
+    {
+      "address": "0x80478",
+      "end": "0x804d4",
+      "name": "Graphics::PopColor()"
+    },
+    {
+      "address": "0x804d4",
+      "end": "0x807b0",
+      "name": "Graphics::Refresh2DMatrixConfiguration()"
+    },
+    {
+      "address": "0x807b0",
+      "end": "0x807f0",
+      "name": "Graphics::ScaleEntireDisplay(float)"
+    },
+    {
+      "address": "0x807f0",
+      "end": "0x80830",
+      "name": "Graphics::RotateEntireDisplay(float)"
+    },
+    {
+      "address": "0x80830",
+      "end": "0x80928",
+      "name": "Graphics::Defaults()"
+    },
+    {
+      "address": "0x80928",
+      "end": "0x80be0",
+      "name": "Graphics::Go()"
+    },
+    {
+      "address": "0x80be0",
+      "end": "0x80bfc",
+      "name": "Graphics::Initialize()"
+    },
+    {
+      "address": "0x80bfc",
+      "end": "0x80df0",
+      "name": "Graphics::Destroy()"
+    },
+    {
+      "address": "0x80df0",
+      "end": "0x810a8",
+      "name": "Graphics::~Graphics()"
+    },
+    {
+      "address": "0x810a8",
+      "end": "0x81358",
+      "name": "Graphics::~Graphics()"
+    },
+    {
+      "address": "0x81358",
+      "end": "0x8135c",
+      "name": "Graphics::~Graphics()"
+    },
+    {
+      "address": "0x8135c",
+      "end": "0x81444",
+      "name": "Graphics::Recover()"
+    },
+    {
+      "address": "0x81444",
+      "end": "0x814c4",
+      "name": "Graphics::BeginRender()"
+    },
+    {
+      "address": "0x814c4",
+      "end": "0x81730",
+      "name": "Graphics::FillRect(float, float, float, float)"
+    },
+    {
+      "address": "0x81730",
+      "end": "0x81a2c",
+      "name": "Graphics::FillRectEX(Point*, Color*)"
+    },
+    {
+      "address": "0x81a2c",
+      "end": "0x81d08",
+      "name": "Graphics::FillTriangle(Point, Point, Point)"
+    },
+    {
+      "address": "0x81d08",
+      "end": "0x81d9c",
+      "name": "HWXMATRIX::operator float*()"
+    },
+    {
+      "address": "0x81d9c",
+      "end": "0x81e34",
+      "name": "Graphics::FlushBatch()"
+    },
+    {
+      "address": "0x81e34",
+      "end": "0x81fc4",
+      "name": "Graphics::DrawPoly(Rect const*, Vertex2DD*, int, Matrix&)"
+    },
+    {
+      "address": "0x81fc4",
+      "end": "0x82094",
+      "name": "Graphics::SetShader(Shader&)"
+    },
+    {
+      "address": "0x82094",
+      "end": "0x8211c",
+      "name": "Graphics::SetWorldMatrix(Matrix&)"
+    },
+    {
+      "address": "0x8211c",
+      "end": "0x8218c",
+      "name": "Graphics::Go2D()"
+    },
+    {
+      "address": "0x8218c",
+      "end": "0x821d8",
+      "name": "HighScoreList::IsHighScore(int)"
+    },
+    {
+      "address": "0x821d8",
+      "end": "0x8220c",
+      "name": "HighScoreList::GetScore(int)"
+    },
+    {
+      "address": "0x8220c",
+      "end": "0x824fc",
+      "name": "HighScoreList::Save()"
+    },
+    {
+      "address": "0x824fc",
+      "end": "0x82540",
+      "name": "HighScoreList::HighScoreList()"
+    },
+    {
+      "address": "0x82540",
+      "end": "0x825e0",
+      "name": "HighScoreList::~HighScoreList()"
+    },
+    {
+      "address": "0x825e0",
+      "end": "0x825e4",
+      "name": "HighScoreList::~HighScoreList()"
+    },
+    {
+      "address": "0x825e4",
+      "end": "0x8268c",
+      "name": "HighScoreList::~HighScoreList()"
+    },
+    {
+      "address": "0x8268c",
+      "end": "0x82760",
+      "name": "HighScoreList::SetScoreCount(int)"
+    },
+    {
+      "address": "0x82760",
+      "end": "0x82b6c",
+      "name": "HighScoreList::Load(String)"
+    },
+    {
+      "address": "0x82b6c",
+      "end": "0x82cec",
+      "name": "HighScoreList::AddScore(String, int)"
+    },
+    {
+      "address": "0x82cec",
+      "end": "0x82e54",
+      "name": "RelativePath(char*, char*, char*)"
+    },
+    {
+      "address": "0x82e54",
+      "end": "0x82e80",
+      "name": "Image::Image()"
+    },
+    {
+      "address": "0x82e80",
+      "end": "0x82eac",
+      "name": "Image::Image()"
+    },
+    {
+      "address": "0x82eac",
+      "end": "0x82ef8",
+      "name": "Image::Clean()"
+    },
+    {
+      "address": "0x82ef8",
+      "end": "0x82f08",
+      "name": "Image::~Image()"
+    },
+    {
+      "address": "0x82f08",
+      "end": "0x82f18",
+      "name": "Image::~Image()"
+    },
+    {
+      "address": "0x82f18",
+      "end": "0x82f40",
+      "name": "Image::~Image()"
+    },
+    {
+      "address": "0x82f40",
+      "end": "0x82fac",
+      "name": "Image::LoadJPG(char*)"
+    },
+    {
+      "address": "0x82fac",
+      "end": "0x83018",
+      "name": "Image::LoadPNG(char*)"
+    },
+    {
+      "address": "0x83018",
+      "end": "0x830e4",
+      "name": "Image::Pad(int, int)"
+    },
+    {
+      "address": "0x830e4",
+      "end": "0x831cc",
+      "name": "Image::Copy(Image*, int, int, int, int)"
+    },
+    {
+      "address": "0x831cc",
+      "end": "0x83248",
+      "name": "Image::MakeBlank(int, int, bool)"
+    },
+    {
+      "address": "0x83248",
+      "end": "0x83c28",
+      "name": "Image::LoadGIF(char*)"
+    },
+    {
+      "address": "0x83c28",
+      "end": "0x841f8",
+      "name": "Image::Load(char*, char*)"
+    },
+    {
+      "address": "0x841f8",
+      "end": "0x84224",
+      "name": "Image::Image(char*, char*)"
+    },
+    {
+      "address": "0x84224",
+      "end": "0x842dc",
+      "name": "Image::LoadAlpha(char*)"
+    },
+    {
+      "address": "0x842dc",
+      "end": "0x84370",
+      "name": "ClassifyFile(char*)"
+    },
+    {
+      "address": "0x84370",
+      "end": "0x84398",
+      "name": "IOBuffer::IOBuffer()"
+    },
+    {
+      "address": "0x84398",
+      "end": "0x843d4",
+      "name": "IOBuffer::~IOBuffer()"
+    },
+    {
+      "address": "0x843d4",
+      "end": "0x843d8",
+      "name": "IOBuffer::~IOBuffer()"
+    },
+    {
+      "address": "0x843d8",
+      "end": "0x8441c",
+      "name": "IOBuffer::~IOBuffer()"
+    },
+    {
+      "address": "0x8441c",
+      "end": "0x844c0",
+      "name": "IOBuffer::CommitFile(char*)"
+    },
+    {
+      "address": "0x844c0",
+      "end": "0x84510",
+      "name": "IOBuffer::EnsureDataFit(int)"
+    },
+    {
+      "address": "0x84510",
+      "end": "0x84548",
+      "name": "IOBuffer::WriteFloat(float)"
+    },
+    {
+      "address": "0x84548",
+      "end": "0x8457c",
+      "name": "IOBuffer::WriteInt(int)"
+    },
+    {
+      "address": "0x8457c",
+      "end": "0x845c0",
+      "name": "IOBuffer::WriteRaw(void*, int)"
+    },
+    {
+      "address": "0x845c0",
+      "end": "0x845f4",
+      "name": "IOBuffer::WriteChar(char)"
+    },
+    {
+      "address": "0x845f4",
+      "end": "0x84634",
+      "name": "IOBuffer::WriteBool(bool)"
+    },
+    {
+      "address": "0x84634",
+      "end": "0x84684",
+      "name": "IOBuffer::SetEncryptionKey(char*)"
+    },
+    {
+      "address": "0x84684",
+      "end": "0x84708",
+      "name": "IOBuffer::WriteString(char*)"
+    },
+    {
+      "address": "0x84708",
+      "end": "0x84750",
+      "name": "IOBuffer::ReadChar()"
+    },
+    {
+      "address": "0x84750",
+      "end": "0x84798",
+      "name": "IOBuffer::ReadInt()"
+    },
+    {
+      "address": "0x84798",
+      "end": "0x847e4",
+      "name": "IOBuffer::ReadFloat()"
+    },
+    {
+      "address": "0x847e4",
+      "end": "0x8483c",
+      "name": "IOBuffer::ReadBool()"
+    },
+    {
+      "address": "0x8483c",
+      "end": "0x84988",
+      "name": "IOBuffer::SetFileSource(char*)"
+    },
+    {
+      "address": "0x84988",
+      "end": "0x84aa8",
+      "name": "IOBuffer::ReadString()"
+    },
+    {
+      "address": "0x84aa8",
+      "end": "0x84c90",
+      "name": "IOBuffer::ReadLine()"
+    },
+    {
+      "address": "0x84c90",
+      "end": "0x84ce0",
+      "name": "DoesFileExist(String)"
+    },
+    {
+      "address": "0x84ce0",
+      "end": "0x84d24",
+      "name": "DeleteFile(String)"
+    },
+    {
+      "address": "0x84d24",
+      "end": "0x84d6c",
+      "name": "List::Clear()"
+    },
+    {
+      "address": "0x84d6c",
+      "end": "0x84da4",
+      "name": "List::Find(void*)"
+    },
+    {
+      "address": "0x84da4",
+      "end": "0x84dcc",
+      "name": "List::Fetch(int)"
+    },
+    {
+      "address": "0x84dcc",
+      "end": "0x84e50",
+      "name": "List::GetEnumerator(int, int)"
+    },
+    {
+      "address": "0x84e50",
+      "end": "0x84ef4",
+      "name": "List::Remove(int)"
+    },
+    {
+      "address": "0x84ef4",
+      "end": "0x84f58",
+      "name": "List::Shuffle()"
+    },
+    {
+      "address": "0x84f58",
+      "end": "0x84fb8",
+      "name": "List::Shuffle(Random&)"
+    },
+    {
+      "address": "0x84fb8",
+      "end": "0x85044",
+      "name": "List::~List()"
+    },
+    {
+      "address": "0x85044",
+      "end": "0x85144",
+      "name": "List::Insert(void*, int)"
+    },
+    {
+      "address": "0x85144",
+      "end": "0x85198",
+      "name": "List::Remove(void*)"
+    },
+    {
+      "address": "0x85198",
+      "end": "0x852e4",
+      "name": "ListEnumerator::~ListEnumerator()"
+    },
+    {
+      "address": "0x852e4",
+      "end": "0x8536c",
+      "name": "GetBundlePath(char*, char*)"
+    },
+    {
+      "address": "0x8536c",
+      "end": "0x85398",
+      "name": "Math::Distance(float, float, float, float)"
+    },
+    {
+      "address": "0x85398",
+      "end": "0x8539c",
+      "name": "Math::~Math()"
+    },
+    {
+      "address": "0x8539c",
+      "end": "0x853b4",
+      "name": "Math::NearestPowerOfTwo(int)"
+    },
+    {
+      "address": "0x853b4",
+      "end": "0x853e0",
+      "name": "Math::IsPowerOfTwo(int)"
+    },
+    {
+      "address": "0x853e0",
+      "end": "0x85448",
+      "name": "Math::EllipseIntersect(Point, Point, Point, Point)"
+    },
+    {
+      "address": "0x85448",
+      "end": "0x85464",
+      "name": "Matrix::~Matrix()"
+    },
+    {
+      "address": "0x85464",
+      "end": "0x854b8",
+      "name": "Matrix::ProcessPoint(Point)"
+    },
+    {
+      "address": "0x854b8",
+      "end": "0x854d4",
+      "name": "Matrix::SetTranslate(Vector)"
+    },
+    {
+      "address": "0x854d4",
+      "end": "0x854e4",
+      "name": "Object::~Object()"
+    },
+    {
+      "address": "0x854e4",
+      "end": "0x854f4",
+      "name": "Object::~Object()"
+    },
+    {
+      "address": "0x854f4",
+      "end": "0x85510",
+      "name": "Object::~Object()"
+    },
+    {
+      "address": "0x85510",
+      "end": "0x8551c",
+      "name": "Object::Kill()"
+    },
+    {
+      "address": "0x8551c",
+      "end": "0x85568",
+      "name": "Object::Object()"
+    },
+    {
+      "address": "0x85568",
+      "end": "0x8556c",
+      "name": "Object::Update()"
+    },
+    {
+      "address": "0x8556c",
+      "end": "0x856f8",
+      "name": "ObjectManager::ObjectManager()"
+    },
+    {
+      "address": "0x856f8",
+      "end": "0x856fc",
+      "name": "ObjectManager::ObjectManager()"
+    },
+    {
+      "address": "0x856fc",
+      "end": "0x8581c",
+      "name": "ObjectManager::~ObjectManager()"
+    },
+    {
+      "address": "0x8581c",
+      "end": "0x85820",
+      "name": "ObjectManager::~ObjectManager()"
+    },
+    {
+      "address": "0x85820",
+      "end": "0x85948",
+      "name": "ObjectManager::~ObjectManager()"
+    },
+    {
+      "address": "0x85948",
+      "end": "0x85978",
+      "name": "ObjectManager::operator-=(Object*)"
+    },
+    {
+      "address": "0x85978",
+      "end": "0x859ac",
+      "name": "ObjectManager::operator+=(Object*)"
+    },
+    {
+      "address": "0x859ac",
+      "end": "0x85b4c",
+      "name": "ObjectManager::Free()"
+    },
+    {
+      "address": "0x85b4c",
+      "end": "0x85da8",
+      "name": "ObjectManager::Update()"
+    },
+    {
+      "address": "0x85da8",
+      "end": "0x8600c",
+      "name": "ObjectManager::UpdateSlice(float)"
+    },
+    {
+      "address": "0x8600c",
+      "end": "0x86098",
+      "name": "ObjectManager::Draw()"
+    },
+    {
+      "address": "0x86098",
+      "end": "0x8636c",
+      "name": "ObjectManager::DrawSorted()"
+    },
+    {
+      "address": "0x8636c",
+      "end": "0x86648",
+      "name": "ObjectManager::Sort(int)"
+    },
+    {
+      "address": "0x86648",
+      "end": "0x866dc",
+      "name": "ObjectManager::Notify(void*)"
+    },
+    {
+      "address": "0x866dc",
+      "end": "0x8676c",
+      "name": "ObjectManager::operator-=(int)"
+    },
+    {
+      "address": "0x8676c",
+      "end": "0x867f4",
+      "name": "ObjectManager::FindID(int)"
+    },
+    {
+      "address": "0x867f4",
+      "end": "0x8687c",
+      "name": "ObjectManager::FindUID(int)"
+    },
+    {
+      "address": "0x8687c",
+      "end": "0x86904",
+      "name": "ObjectManager::CountID(int)"
+    },
+    {
+      "address": "0x86904",
+      "end": "0x86a08",
+      "name": "Oscillator::Oscillator()"
+    },
+    {
+      "address": "0x86a08",
+      "end": "0x86a0c",
+      "name": "Oscillator::Oscillator()"
+    },
+    {
+      "address": "0x86a0c",
+      "end": "0x86b04",
+      "name": "Oscillator::~Oscillator()"
+    },
+    {
+      "address": "0x86b04",
+      "end": "0x86b08",
+      "name": "Oscillator::~Oscillator()"
+    },
+    {
+      "address": "0x86b08",
+      "end": "0x86c08",
+      "name": "Oscillator::~Oscillator()"
+    },
+    {
+      "address": "0x86c08",
+      "end": "0x86c40",
+      "name": "Oscillator::Update()"
+    },
+    {
+      "address": "0x86c40",
+      "end": "0x86c64",
+      "name": "ParseXML::ParseXML()"
+    },
+    {
+      "address": "0x86c64",
+      "end": "0x86cdc",
+      "name": "ParseXML::GetChar()"
+    },
+    {
+      "address": "0x86cdc",
+      "end": "0x86e0c",
+      "name": "ParseXMLTag::GetParamCount()"
+    },
+    {
+      "address": "0x86e0c",
+      "end": "0x872c8",
+      "name": "ParseXML::NextElement()"
+    },
+    {
+      "address": "0x872c8",
+      "end": "0x8730c",
+      "name": "ParseXML::~ParseXML()"
+    },
+    {
+      "address": "0x8730c",
+      "end": "0x87358",
+      "name": "ParseXML::~ParseXML()"
+    },
+    {
+      "address": "0x87358",
+      "end": "0x873c0",
+      "name": "ParseXML::SetStringSource(char*)"
+    },
+    {
+      "address": "0x873c0",
+      "end": "0x8744c",
+      "name": "ParseXML::SetFileSource(String)"
+    },
+    {
+      "address": "0x8744c",
+      "end": "0x8754c",
+      "name": "ParseXMLTag::operator=(ParseXMLTag)"
+    },
+    {
+      "address": "0x8754c",
+      "end": "0x87b28",
+      "name": "ParseXMLTag::GetParam(int)"
+    },
+    {
+      "address": "0x87b28",
+      "end": "0x87d24",
+      "name": "ParseXMLTag::GetParam(String)"
+    },
+    {
+      "address": "0x87d24",
+      "end": "0x87da8",
+      "name": "ParseXMLTag::ParseXMLTag()"
+    },
+    {
+      "address": "0x87da8",
+      "end": "0x87db8",
+      "name": "Random::~Random()"
+    },
+    {
+      "address": "0x87db8",
+      "end": "0x87dd4",
+      "name": "Random::~Random()"
+    },
+    {
+      "address": "0x87dd4",
+      "end": "0x87e20",
+      "name": "Random::Generate()"
+    },
+    {
+      "address": "0x87e20",
+      "end": "0x87ea0",
+      "name": "Random::Get(int, bool)"
+    },
+    {
+      "address": "0x87ea0",
+      "end": "0x87f0c",
+      "name": "Random::GetFraction(bool)"
+    },
+    {
+      "address": "0x87f0c",
+      "end": "0x87f88",
+      "name": "Random::GetFloat(float, bool)"
+    },
+    {
+      "address": "0x87f88",
+      "end": "0x88150",
+      "name": "Audio::SetSettings()"
+    },
+    {
+      "address": "0x88150",
+      "end": "0x88210",
+      "name": "Audio::Destroy()"
+    },
+    {
+      "address": "0x88210",
+      "end": "0x88324",
+      "name": "Audio::~Audio()"
+    },
+    {
+      "address": "0x88324",
+      "end": "0x88430",
+      "name": "Audio::~Audio()"
+    },
+    {
+      "address": "0x88430",
+      "end": "0x88434",
+      "name": "Audio::~Audio()"
+    },
+    {
+      "address": "0x88434",
+      "end": "0x884c0",
+      "name": "Audio::SetMusicVolume(float)"
+    },
+    {
+      "address": "0x884c0",
+      "end": "0x88548",
+      "name": "Audio::Update()"
+    },
+    {
+      "address": "0x88548",
+      "end": "0x885cc",
+      "name": "Audio::SetSoundVolume(float, bool)"
+    },
+    {
+      "address": "0x885cc",
+      "end": "0x887fc",
+      "name": "Audio::GetSettings()"
+    },
+    {
+      "address": "0x887fc",
+      "end": "0x888dc",
+      "name": "Audio::Initialize()"
+    },
+    {
+      "address": "0x888dc",
+      "end": "0x88958",
+      "name": "Audio::StopAllSound()"
+    },
+    {
+      "address": "0x88958",
+      "end": "0x88a64",
+      "name": "Audio::Activate(bool)"
+    },
+    {
+      "address": "0x88a64",
+      "end": "0x88ab0",
+      "name": "Music::SetVolume(double)"
+    },
+    {
+      "address": "0x88ab0",
+      "end": "0x88af4",
+      "name": "Music::Pause(bool)"
+    },
+    {
+      "address": "0x88af4",
+      "end": "0x88b58",
+      "name": "Music::FadeOut(float)"
+    },
+    {
+      "address": "0x88b58",
+      "end": "0x88bb4",
+      "name": "Music::Stop(bool)"
+    },
+    {
+      "address": "0x88bb4",
+      "end": "0x88dbc",
+      "name": "Music::Music()"
+    },
+    {
+      "address": "0x88dbc",
+      "end": "0x88dc0",
+      "name": "Music::Music()"
+    },
+    {
+      "address": "0x88dc0",
+      "end": "0x89224",
+      "name": "Music::LoadJukebox(String)"
+    },
+    {
+      "address": "0x89224",
+      "end": "0x8951c",
+      "name": "Music::~Music()"
+    },
+    {
+      "address": "0x8951c",
+      "end": "0x89520",
+      "name": "Music::~Music()"
+    },
+    {
+      "address": "0x89520",
+      "end": "0x89820",
+      "name": "Music::~Music()"
+    },
+    {
+      "address": "0x89820",
+      "end": "0x899e8",
+      "name": "Music::Play(String, bool)"
+    },
+    {
+      "address": "0x899e8",
+      "end": "0x89c14",
+      "name": "Music::FadeIn(String, float, bool)"
+    },
+    {
+      "address": "0x89c14",
+      "end": "0x89ee0",
+      "name": "Music::Update()"
+    },
+    {
+      "address": "0x89ee0",
+      "end": "0x89f18",
+      "name": "MusicBridge::MusicBridge()"
+    },
+    {
+      "address": "0x89f18",
+      "end": "0x89f60",
+      "name": "SongBridge::SongBridge()"
+    },
+    {
+      "address": "0x89f60",
+      "end": "0x89f98",
+      "name": "MusicBridge::Stop()"
+    },
+    {
+      "address": "0x89f98",
+      "end": "0x8a024",
+      "name": "MusicBridge::MusicInfo::Initialize()"
+    },
+    {
+      "address": "0x8a024",
+      "end": "0x8a060",
+      "name": "MusicBridge::SetVolume(float)"
+    },
+    {
+      "address": "0x8a060",
+      "end": "0x8a0f4",
+      "name": "SongBridge::SongInfo::DeriveBufferSize(unsigned long, double)"
+    },
+    {
+      "address": "0x8a0f4",
+      "end": "0x8a2e0",
+      "name": "SongBridge::Load(char*)"
+    },
+    {
+      "address": "0x8a2e0",
+      "end": "0x8a34c",
+      "name": "SongBridge::SongInfo::DisposeBuffers()"
+    },
+    {
+      "address": "0x8a34c",
+      "end": "0x8a3d8",
+      "name": "SongBridge::SongInfo::AllocateBuffers()"
+    },
+    {
+      "address": "0x8a3d8",
+      "end": "0x8a598",
+      "name": "SongBridge::SongInfo::FeedAudioQueue(OpaqueAudioQueue*, AudioQueueBuffer*)"
+    },
+    {
+      "address": "0x8a598",
+      "end": "0x8a640",
+      "name": "SongBridge::SongInfo::Start(bool)"
+    },
+    {
+      "address": "0x8a640",
+      "end": "0x8a6b0",
+      "name": "SongBridge::Clean()"
+    },
+    {
+      "address": "0x8a6b0",
+      "end": "0x8a6cc",
+      "name": "AudioQueueCallbackStub(void*, OpaqueAudioQueue*, AudioQueueBuffer*)"
+    },
+    {
+      "address": "0x8a6cc",
+      "end": "0x8a86c",
+      "name": "MusicBridge::Load(char*)"
+    },
+    {
+      "address": "0x8a86c",
+      "end": "0x8a8d0",
+      "name": "AudioQueuePropertyListenerStub(void*, OpaqueAudioQueue*, unsigned long)"
+    },
+    {
+      "address": "0x8a8d0",
+      "end": "0x8a9a0",
+      "name": "MusicBridge::~MusicBridge()"
+    },
+    {
+      "address": "0x8a9a0",
+      "end": "0x8a9a4",
+      "name": "MusicBridge::~MusicBridge()"
+    },
+    {
+      "address": "0x8a9a4",
+      "end": "0x8aa38",
+      "name": "MusicBridge::Initialize(SongBridge*)"
+    },
+    {
+      "address": "0x8aa38",
+      "end": "0x8aabc",
+      "name": "MusicBridge::Play(SongBridge*, bool)"
+    },
+    {
+      "address": "0x8aabc",
+      "end": "0x8acb4",
+      "name": "_oggpack_look"
+    },
+    {
+      "address": "0x8acb4",
+      "end": "0x8ad54",
+      "name": "_span(oggpack_buffer*)"
+    },
+    {
+      "address": "0x8ad54",
+      "end": "0x8ad98",
+      "name": "_oggpack_adv"
+    },
+    {
+      "address": "0x8ad98",
+      "end": "0x8ade8",
+      "name": "_oggpack_readinit"
+    },
+    {
+      "address": "0x8ade8",
+      "end": "0x8b144",
+      "name": "_oggpack_read"
+    },
+    {
+      "address": "0x8b144",
+      "end": "0x8b178",
+      "name": "_vorbis_block_init"
+    },
+    {
+      "address": "0x8b178",
+      "end": "0x8b204",
+      "name": "_vorbis_block_alloc(vorbis_block*, long)"
+    },
+    {
+      "address": "0x8b204",
+      "end": "0x8b288",
+      "name": "_vorbis_block_ripcord(vorbis_block*)"
+    },
+    {
+      "address": "0x8b288",
+      "end": "0x8b2c0",
+      "name": "_vorbis_block_clear"
+    },
+    {
+      "address": "0x8b2c0",
+      "end": "0x8b334",
+      "name": "_vorbis_synthesis_restart"
+    },
+    {
+      "address": "0x8b334",
+      "end": "0x8b514",
+      "name": "_vorbis_synthesis_init"
+    },
+    {
+      "address": "0x8b514",
+      "end": "0x8b634",
+      "name": "_vorbis_dsp_clear"
+    },
+    {
+      "address": "0x8b634",
+      "end": "0x8bc00",
+      "name": "_vorbis_synthesis_blockin"
+    },
+    {
+      "address": "0x8bc00",
+      "end": "0x8bc80",
+      "name": "_vorbis_synthesis_pcmout"
+    },
+    {
+      "address": "0x8bc80",
+      "end": "0x8bcb4",
+      "name": "_vorbis_synthesis_read"
+    },
+    {
+      "address": "0x8bcb4",
+      "end": "0x8bfac",
+      "name": "vorbis_staticbook_unpack(oggpack_buffer*, static_codebook*)"
+    },
+    {
+      "address": "0x8bfac",
+      "end": "0x8c13c",
+      "name": "decode_packed_entry_number(codebook*, oggpack_buffer*)"
+    },
+    {
+      "address": "0x8c13c",
+      "end": "0x8c15c",
+      "name": "vorbis_book_decode(codebook*, oggpack_buffer*)"
+    },
+    {
+      "address": "0x8c15c",
+      "end": "0x8c31c",
+      "name": "vorbis_book_decodevs_add(codebook*, int*, oggpack_buffer*, int, int)"
+    },
+    {
+      "address": "0x8c31c",
+      "end": "0x8c430",
+      "name": "vorbis_book_decodev_add(codebook*, int*, oggpack_buffer*, int, int)"
+    },
+    {
+      "address": "0x8c430",
+      "end": "0x8c53c",
+      "name": "vorbis_book_decodev_set(codebook*, int*, oggpack_buffer*, int, int)"
+    },
+    {
+      "address": "0x8c53c",
+      "end": "0x8c68c",
+      "name": "vorbis_book_decodevv_add(codebook*, int**, long, int, oggpack_buffer*, int, int)"
+    },
+    {
+      "address": "0x8c68c",
+      "end": "0x8c6fc",
+      "name": "toBARK(int)"
+    },
+    {
+      "address": "0x8c6fc",
+      "end": "0x8c724",
+      "name": "floor0_free_info(void*)"
+    },
+    {
+      "address": "0x8c724",
+      "end": "0x8c784",
+      "name": "floor0_free_look(void*)"
+    },
+    {
+      "address": "0x8c784",
+      "end": "0x8c8f0",
+      "name": "floor0_look(vorbis_dsp_state*, vorbis_info_mode*, void*)"
+    },
+    {
+      "address": "0x8c8f0",
+      "end": "0x8ca5c",
+      "name": "floor0_inverse1(vorbis_block*, void*)"
+    },
+    {
+      "address": "0x8ca5c",
+      "end": "0x8ce9c",
+      "name": "vorbis_lsp_to_curve(int*, int*, int, int, int*, int, int, int, int*)"
+    },
+    {
+      "address": "0x8ce9c",
+      "end": "0x8cf14",
+      "name": "floor0_inverse2(vorbis_block*, void*, void*, int*)"
+    },
+    {
+      "address": "0x8cf14",
+      "end": "0x8d038",
+      "name": "floor0_unpack(vorbis_info*, oggpack_buffer*)"
+    },
+    {
+      "address": "0x8d038",
+      "end": "0x8d064",
+      "name": "floor1_free_info(void*)"
+    },
+    {
+      "address": "0x8d064",
+      "end": "0x8d08c",
+      "name": "floor1_free_look(void*)"
+    },
+    {
+      "address": "0x8d08c",
+      "end": "0x8d0a4",
+      "name": "icomp(void const*, void const*)"
+    },
+    {
+      "address": "0x8d0a4",
+      "end": "0x8d2c0",
+      "name": "floor1_look(vorbis_dsp_state*, vorbis_info_mode*, void*)"
+    },
+    {
+      "address": "0x8d2c0",
+      "end": "0x8d610",
+      "name": "floor1_inverse1(vorbis_block*, void*)"
+    },
+    {
+      "address": "0x8d610",
+      "end": "0x8d820",
+      "name": "floor1_inverse2(vorbis_block*, void*, void*, int*)"
+    },
+    {
+      "address": "0x8d820",
+      "end": "0x8daac",
+      "name": "floor1_unpack(vorbis_info*, oggpack_buffer*)"
+    },
+    {
+      "address": "0x8daac",
+      "end": "0x8db38",
+      "name": "_ogg_buffer_destroy(ogg_buffer_state*)"
+    },
+    {
+      "address": "0x8db38",
+      "end": "0x8dbb4",
+      "name": "_fetch_buffer(ogg_buffer_state*, long)"
+    },
+    {
+      "address": "0x8dbb4",
+      "end": "0x8dcf8",
+      "name": "ogg_buffer_split(ogg_reference**, ogg_reference**, long)"
+    },
+    {
+      "address": "0x8dcf8",
+      "end": "0x8dd4c",
+      "name": "ogg_buffer_release_one(ogg_reference*)"
+    },
+    {
+      "address": "0x8dd4c",
+      "end": "0x8ddc4",
+      "name": "oggbyte_read1(oggbyte_buffer*, int)"
+    },
+    {
+      "address": "0x8ddc4",
+      "end": "0x8de1c",
+      "name": "_ogg_sync_create"
+    },
+    {
+      "address": "0x8de1c",
+      "end": "0x8de6c",
+      "name": "_ogg_sync_wrote"
+    },
+    {
+      "address": "0x8de6c",
+      "end": "0x8de94",
+      "name": "_ogg_stream_create"
+    },
+    {
+      "address": "0x8de94",
+      "end": "0x8def8",
+      "name": "_next_lace(oggbyte_buffer*, ogg_stream_state*)"
+    },
+    {
+      "address": "0x8def8",
+      "end": "0x8df84",
+      "name": "_ogg_sync_destroy"
+    },
+    {
+      "address": "0x8df84",
+      "end": "0x8dfc8",
+      "name": "_ogg_sync_reset"
+    },
+    {
+      "address": "0x8dfc8",
+      "end": "0x8e028",
+      "name": "_ogg_stream_destroy"
+    },
+    {
+      "address": "0x8e028",
+      "end": "0x8e0c4",
+      "name": "_ogg_stream_reset"
+    },
+    {
+      "address": "0x8e0c4",
+      "end": "0x8e0e4",
+      "name": "_ogg_stream_reset_serialno"
+    },
+    {
+      "address": "0x8e0e4",
+      "end": "0x8e140",
+      "name": "_ogg_packet_release"
+    },
+    {
+      "address": "0x8e140",
+      "end": "0x8e1a8",
+      "name": "_ogg_page_release"
+    },
+    {
+      "address": "0x8e1a8",
+      "end": "0x8e260",
+      "name": "ogg_buffer_dup(ogg_reference*)"
+    },
+    {
+      "address": "0x8e260",
+      "end": "0x8e29c",
+      "name": "_ogg_page_dup"
+    },
+    {
+      "address": "0x8e29c",
+      "end": "0x8e3dc",
+      "name": "_ogg_sync_bufferin"
+    },
+    {
+      "address": "0x8e3dc",
+      "end": "0x8e50c",
+      "name": "oggbyte_read8(oggbyte_buffer*, int)"
+    },
+    {
+      "address": "0x8e50c",
+      "end": "0x8e5c0",
+      "name": "oggbyte_set4(oggbyte_buffer*, unsigned int, int)"
+    },
+    {
+      "address": "0x8e5c0",
+      "end": "0x8e748",
+      "name": "oggbyte_read4(oggbyte_buffer*, int)"
+    },
+    {
+      "address": "0x8e748",
+      "end": "0x8e96c",
+      "name": "_ogg_stream_pagein"
+    },
+    {
+      "address": "0x8e96c",
+      "end": "0x8e9d8",
+      "name": "_ogg_page_eos"
+    },
+    {
+      "address": "0x8e9d8",
+      "end": "0x8ea40",
+      "name": "_ogg_page_granulepos"
+    },
+    {
+      "address": "0x8ea40",
+      "end": "0x8eaa8",
+      "name": "_ogg_page_serialno"
+    },
+    {
+      "address": "0x8eaa8",
+      "end": "0x8eec0",
+      "name": "_ogg_sync_pageseek"
+    },
+    {
+      "address": "0x8eec0",
+      "end": "0x8f664",
+      "name": "_packetout(ogg_stream_state*, ogg_packet*, int)"
+    },
+    {
+      "address": "0x8f664",
+      "end": "0x8f66c",
+      "name": "_ogg_stream_packetout"
+    },
+    {
+      "address": "0x8f66c",
+      "end": "0x8f68c",
+      "name": "_vorbis_comment_init"
+    },
+    {
+      "address": "0x8f68c",
+      "end": "0x8f720",
+      "name": "_vorbis_comment_clear"
+    },
+    {
+      "address": "0x8f720",
+      "end": "0x8f770",
+      "name": "_vorbis_info_init"
+    },
+    {
+      "address": "0x8f770",
+      "end": "0x8f918",
+      "name": "_vorbis_info_clear"
+    },
+    {
+      "address": "0x8f918",
+      "end": "0x8ff10",
+      "name": "_vorbis_synthesis_headerin"
+    },
+    {
+      "address": "0x8ff10",
+      "end": "0x8ff1c",
+      "name": "oggabs(int)"
+    },
+    {
+      "address": "0x8ff1c",
+      "end": "0x8ff44",
+      "name": "mapping0_free_info(void*)"
+    },
+    {
+      "address": "0x8ff44",
+      "end": "0x90000",
+      "name": "mapping0_free_look(void*)"
+    },
+    {
+      "address": "0x90000",
+      "end": "0x90174",
+      "name": "mapping0_look(vorbis_dsp_state*, vorbis_info_mode*, void*)"
+    },
+    {
+      "address": "0x90174",
+      "end": "0x9055c",
+      "name": "mapping0_inverse(vorbis_block*, void*)"
+    },
+    {
+      "address": "0x9055c",
+      "end": "0x907b0",
+      "name": "mapping0_unpack(vorbis_info*, oggpack_buffer*)"
+    },
+    {
+      "address": "0x907b0",
+      "end": "0x90844",
+      "name": "mdct_butterfly_8(int*)"
+    },
+    {
+      "address": "0x90844",
+      "end": "0x90964",
+      "name": "mdct_butterfly_16(int*)"
+    },
+    {
+      "address": "0x90964",
+      "end": "0x924f4",
+      "name": "mdct_backward(int, int*, int*)"
+    },
+    {
+      "address": "0x924f4",
+      "end": "0x92520",
+      "name": "res0_free_info(void*)"
+    },
+    {
+      "address": "0x92520",
+      "end": "0x925d4",
+      "name": "res0_free_look(void*)"
+    },
+    {
+      "address": "0x925d4",
+      "end": "0x9284c",
+      "name": "res0_look(vorbis_dsp_state*, vorbis_info_mode*, void*)"
+    },
+    {
+      "address": "0x9284c",
+      "end": "0x92ac0",
+      "name": "_01inverse(vorbis_block*, void*, int**, int, long (*)(codebook*, int*, oggpack_buffer*, int, int))"
+    },
+    {
+      "address": "0x92ac0",
+      "end": "0x92b40",
+      "name": "res0_inverse(vorbis_block*, void*, int**, int*, int)"
+    },
+    {
+      "address": "0x92b40",
+      "end": "0x92bc0",
+      "name": "res1_inverse(vorbis_block*, void*, int**, int*, int)"
+    },
+    {
+      "address": "0x92bc0",
+      "end": "0x92dd0",
+      "name": "res2_inverse(vorbis_block*, void*, int**, int*, int)"
+    },
+    {
+      "address": "0x92dd0",
+      "end": "0x92f80",
+      "name": "res0_unpack(vorbis_info*, oggpack_buffer*)"
+    },
+    {
+      "address": "0x92f80",
+      "end": "0x92fa0",
+      "name": "_ilog(unsigned int)"
+    },
+    {
+      "address": "0x92fa0",
+      "end": "0x93054",
+      "name": "VFLOAT_ADD(int, int, int, int, int*)"
+    },
+    {
+      "address": "0x93054",
+      "end": "0x930a0",
+      "name": "_float32_unpack(long, int*)"
+    },
+    {
+      "address": "0x930a0",
+      "end": "0x93258",
+      "name": "_make_words(long*, long, long)"
+    },
+    {
+      "address": "0x93258",
+      "end": "0x932b8",
+      "name": "vorbis_staticbook_clear(static_codebook*)"
+    },
+    {
+      "address": "0x932b8",
+      "end": "0x932d4",
+      "name": "vorbis_staticbook_destroy(static_codebook*)"
+    },
+    {
+      "address": "0x932d4",
+      "end": "0x93374",
+      "name": "vorbis_book_clear(codebook*)"
+    },
+    {
+      "address": "0x93374",
+      "end": "0x933e4",
+      "name": "bitreverse(unsigned int)"
+    },
+    {
+      "address": "0x933e4",
+      "end": "0x93408",
+      "name": "sort32a(void const*, void const*)"
+    },
+    {
+      "address": "0x93408",
+      "end": "0x93494",
+      "name": "_book_maptype1_quantvals(static_codebook const*)"
+    },
+    {
+      "address": "0x93494",
+      "end": "0x93510",
+      "name": "VFLOAT_MULTI(int, int, int, int*)"
+    },
+    {
+      "address": "0x93510",
+      "end": "0x938c4",
+      "name": "_book_unquantize(static_codebook const*, int, int*, int*)"
+    },
+    {
+      "address": "0x938c4",
+      "end": "0x93ce4",
+      "name": "vorbis_book_init_decode(codebook*, static_codebook const*)"
+    },
+    {
+      "address": "0x93ce4",
+      "end": "0x93eac",
+      "name": "_vorbis_synthesis"
+    },
+    {
+      "address": "0x93eac",
+      "end": "0x93f24",
+      "name": "_vorbis_packet_blocksize"
+    },
+    {
+      "address": "0x93f24",
+      "end": "0x9408c",
+      "name": "_get_next_page(OggVorbis_File*, ogg_page*, long long)"
+    },
+    {
+      "address": "0x9408c",
+      "end": "0x94234",
+      "name": "_fetch_headers(OggVorbis_File*, vorbis_info*, vorbis_comment*, unsigned int*, ogg_page*)"
+    },
+    {
+      "address": "0x94234",
+      "end": "0x942a8",
+      "name": "_make_decode_ready(OggVorbis_File*)"
+    },
+    {
+      "address": "0x942a8",
+      "end": "0x94614",
+      "name": "_fetch_and_process_packet(OggVorbis_File*, int, int)"
+    },
+    {
+      "address": "0x94614",
+      "end": "0x94634",
+      "name": "_fseek64_wrap(__sFILE*, long long, int)"
+    },
+    {
+      "address": "0x94634",
+      "end": "0x94720",
+      "name": "_ov_clear"
+    },
+    {
+      "address": "0x94720",
+      "end": "0x94848",
+      "name": "_ov_open1(void*, OggVorbis_File*, char*, long, ov_callbacks)"
+    },
+    {
+      "address": "0x94848",
+      "end": "0x948e8",
+      "name": "_ov_pcm_total"
+    },
+    {
+      "address": "0x948e8",
+      "end": "0x94938",
+      "name": "_ov_info"
+    },
+    {
+      "address": "0x94938",
+      "end": "0x94b00",
+      "name": "_ov_read"
+    },
+    {
+      "address": "0x94b00",
+      "end": "0x94e58",
+      "name": "_bisect_forward_serialno(OggVorbis_File*, long long, long long, long long, unsigned int, long)"
+    },
+    {
+      "address": "0x94e58",
+      "end": "0x95234",
+      "name": "_ov_raw_seek"
+    },
+    {
+      "address": "0x95234",
+      "end": "0x9538c",
+      "name": "_get_prev_page(OggVorbis_File*, ogg_page*)"
+    },
+    {
+      "address": "0x9538c",
+      "end": "0x9578c",
+      "name": "_prefetch_all_headers(OggVorbis_File*, long long)"
+    },
+    {
+      "address": "0x9578c",
+      "end": "0x958dc",
+      "name": "_open_seekable2(OggVorbis_File*)"
+    },
+    {
+      "address": "0x958dc",
+      "end": "0x95968",
+      "name": "_ov_open_callbacks"
+    },
+    {
+      "address": "0x95968",
+      "end": "0x959b8",
+      "name": "_ov_open"
+    },
+    {
+      "address": "0x959b8",
+      "end": "0x95a60",
+      "name": "_vorbis_window(int, int)"
+    },
+    {
+      "address": "0x95a60",
+      "end": "0x95bdc",
+      "name": "_vorbis_apply_window(int*, void const**, long*, int, int, int)"
+    },
+    {
+      "address": "0x95bdc",
+      "end": "0x95c24",
+      "name": "SoundInstance::~SoundInstance()"
+    },
+    {
+      "address": "0x95c24",
+      "end": "0x95c44",
+      "name": "SoundInstance::SetPitch(float)"
+    },
+    {
+      "address": "0x95c44",
+      "end": "0x95c80",
+      "name": "SoundInstance::SetVolume(float)"
+    },
+    {
+      "address": "0x95c80",
+      "end": "0x95c94",
+      "name": "SoundInstance::Stop()"
+    },
+    {
+      "address": "0x95c94",
+      "end": "0x95cd4",
+      "name": "SoundInstance::IsPlaying()"
+    },
+    {
+      "address": "0x95cd4",
+      "end": "0x95cdc",
+      "name": "SoundInstance::GetPosition()"
+    },
+    {
+      "address": "0x95cdc",
+      "end": "0x95ce0",
+      "name": "SoundInstance::Destroy()"
+    },
+    {
+      "address": "0x95ce0",
+      "end": "0x95dd8",
+      "name": "Sound::Sound()"
+    },
+    {
+      "address": "0x95dd8",
+      "end": "0x95ddc",
+      "name": "Sound::Sound()"
+    },
+    {
+      "address": "0x95ddc",
+      "end": "0x95e18",
+      "name": "SoundInstance::~SoundInstance()"
+    },
+    {
+      "address": "0x95e18",
+      "end": "0x95e7c",
+      "name": "SoundInstance::Play(float)"
+    },
+    {
+      "address": "0x95e7c",
+      "end": "0x95ee0",
+      "name": "SoundInstance::Loop(float)"
+    },
+    {
+      "address": "0x95ee0",
+      "end": "0x95f90",
+      "name": "SoundInstance::Pause(bool)"
+    },
+    {
+      "address": "0x95f90",
+      "end": "0x96080",
+      "name": "Sound::Clean()"
+    },
+    {
+      "address": "0x96080",
+      "end": "0x9615c",
+      "name": "Sound::~Sound()"
+    },
+    {
+      "address": "0x9615c",
+      "end": "0x96230",
+      "name": "Sound::~Sound()"
+    },
+    {
+      "address": "0x96230",
+      "end": "0x962d4",
+      "name": "Sound::Play(float)"
+    },
+    {
+      "address": "0x962d4",
+      "end": "0x963a8",
+      "name": "Sound::PlayPitched(float, float)"
+    },
+    {
+      "address": "0x963a8",
+      "end": "0x96408",
+      "name": "Sound::GetSoundInstance()"
+    },
+    {
+      "address": "0x96408",
+      "end": "0x967d8",
+      "name": "Sound::LoadCAF(String, int)"
+    },
+    {
+      "address": "0x967d8",
+      "end": "0x96db8",
+      "name": "Sound::LoadWav(String, int)"
+    },
+    {
+      "address": "0x96db8",
+      "end": "0x972d8",
+      "name": "Sound::LoadOgg(String, int)"
+    },
+    {
+      "address": "0x972d8",
+      "end": "0x97afc",
+      "name": "Sound::Load(String, int)"
+    },
+    {
+      "address": "0x97afc",
+      "end": "0x97b00",
+      "name": "Sound::Reference()"
+    },
+    {
+      "address": "0x97b00",
+      "end": "0x97b5c",
+      "name": "Rect::ContainsPoint(float, float)"
+    },
+    {
+      "address": "0x97b5c",
+      "end": "0x97bc8",
+      "name": "Rect::Intersects(float, float, float, float)"
+    },
+    {
+      "address": "0x97bc8",
+      "end": "0x97bf8",
+      "name": "Rect::Rect(Rect const&)"
+    },
+    {
+      "address": "0x97bf8",
+      "end": "0x97c14",
+      "name": "Rect::~Rect()"
+    },
+    {
+      "address": "0x97c14",
+      "end": "0x97cc0",
+      "name": "Rect::ClipInto(Rect)"
+    },
+    {
+      "address": "0x97cc0",
+      "end": "0x97ce4",
+      "name": "Rect::operator=(Rect const&)"
+    },
+    {
+      "address": "0x97ce4",
+      "end": "0x97d08",
+      "name": "Rect::Rect(float, float, float, float)"
+    },
+    {
+      "address": "0x97d08",
+      "end": "0x97d78",
+      "name": "Line::Line(Point, Point)"
+    },
+    {
+      "address": "0x97d78",
+      "end": "0x97d7c",
+      "name": "Line::Line(Point, Point)"
+    },
+    {
+      "address": "0x97d7c",
+      "end": "0x97dc0",
+      "name": "Line::operator=(Line const&)"
+    },
+    {
+      "address": "0x97dc0",
+      "end": "0x97e58",
+      "name": "Rect::RandomPoint()"
+    },
+    {
+      "address": "0x97e58",
+      "end": "0x97f58",
+      "name": "Rect::Union(Rect)"
+    },
+    {
+      "address": "0x97f58",
+      "end": "0x97f88",
+      "name": "Registry::Registry()"
+    },
+    {
+      "address": "0x97f88",
+      "end": "0x98250",
+      "name": "Registry::Commit()"
+    },
+    {
+      "address": "0x98250",
+      "end": "0x9831c",
+      "name": "Registry::GetEntry(char*)"
+    },
+    {
+      "address": "0x9831c",
+      "end": "0x9835c",
+      "name": "Registry::GetFloat(char*)"
+    },
+    {
+      "address": "0x9835c",
+      "end": "0x9837c",
+      "name": "Registry::GetBool(char*)"
+    },
+    {
+      "address": "0x9837c",
+      "end": "0x983ac",
+      "name": "Registry::GetInt(char*)"
+    },
+    {
+      "address": "0x983ac",
+      "end": "0x98494",
+      "name": "Registry::Close()"
+    },
+    {
+      "address": "0x98494",
+      "end": "0x9858c",
+      "name": "Registry::~Registry()"
+    },
+    {
+      "address": "0x9858c",
+      "end": "0x98678",
+      "name": "Registry::~Registry()"
+    },
+    {
+      "address": "0x98678",
+      "end": "0x9867c",
+      "name": "Registry::~Registry()"
+    },
+    {
+      "address": "0x9867c",
+      "end": "0x98700",
+      "name": "Registry::SetString(char*, char*)"
+    },
+    {
+      "address": "0x98700",
+      "end": "0x987a8",
+      "name": "Registry::SetFloat(char*, float)"
+    },
+    {
+      "address": "0x987a8",
+      "end": "0x98844",
+      "name": "Registry::SetBool(char*, bool)"
+    },
+    {
+      "address": "0x98844",
+      "end": "0x988e4",
+      "name": "Registry::SetInt(char*, int)"
+    },
+    {
+      "address": "0x988e4",
+      "end": "0x98c4c",
+      "name": "Registry::Open(char*)"
+    },
+    {
+      "address": "0x98c4c",
+      "end": "0x98d2c",
+      "name": "Registry::GetString(char*)"
+    },
+    {
+      "address": "0x98d2c",
+      "end": "0x98d78",
+      "name": "Registry::RegistryEntry::RegistryEntry()"
+    },
+    {
+      "address": "0x98d78",
+      "end": "0x98db0",
+      "name": "Shader::Shader()"
+    },
+    {
+      "address": "0x98db0",
+      "end": "0x98dc0",
+      "name": "Shader::~Shader()"
+    },
+    {
+      "address": "0x98dc0",
+      "end": "0x98ddc",
+      "name": "Shader::~Shader()"
+    },
+    {
+      "address": "0x98ddc",
+      "end": "0x98e54",
+      "name": "Shader::Shader(Color&)"
+    },
+    {
+      "address": "0x98e54",
+      "end": "0x98e70",
+      "name": "Slider::~Slider()"
+    },
+    {
+      "address": "0x98e70",
+      "end": "0x98e98",
+      "name": "Slider::~Slider()"
+    },
+    {
+      "address": "0x98e98",
+      "end": "0x98ec0",
+      "name": "Slider::SetNotify(Gadget*, bool)"
+    },
+    {
+      "address": "0x98ec0",
+      "end": "0x99014",
+      "name": "Slider::IsOverThumb(int, int)"
+    },
+    {
+      "address": "0x99014",
+      "end": "0x99020",
+      "name": "Slider::MouseMove(int, int)"
+    },
+    {
+      "address": "0x99020",
+      "end": "0x9905c",
+      "name": "Slider::MouseDown(int, int, int)"
+    },
+    {
+      "address": "0x9905c",
+      "end": "0x990c8",
+      "name": "Slider::StartDrag(int, int)"
+    },
+    {
+      "address": "0x990c8",
+      "end": "0x990d4",
+      "name": "Slider::Leave()"
+    },
+    {
+      "address": "0x990d4",
+      "end": "0x99170",
+      "name": "Slider::Drag(int, int)"
+    },
+    {
+      "address": "0x99170",
+      "end": "0x991ac",
+      "name": "Slider::GetThumbPosition()"
+    },
+    {
+      "address": "0x991ac",
+      "end": "0x9956c",
+      "name": "Slider::Draw()"
+    },
+    {
+      "address": "0x9956c",
+      "end": "0x9961c",
+      "name": "Slider::Slider()"
+    },
+    {
+      "address": "0x9961c",
+      "end": "0x99620",
+      "name": "Slider::Slider()"
+    },
+    {
+      "address": "0x99620",
+      "end": "0x9962c",
+      "name": "Slider::FinishDrag(int, int)"
+    },
+    {
+      "address": "0x9962c",
+      "end": "0x996f8",
+      "name": "Sprite::EnsureWrappable()"
+    },
+    {
+      "address": "0x996f8",
+      "end": "0x99724",
+      "name": "SpriteStrip::SpriteStrip()"
+    },
+    {
+      "address": "0x99724",
+      "end": "0x99794",
+      "name": "SpriteStrip::Clean()"
+    },
+    {
+      "address": "0x99794",
+      "end": "0x997ac",
+      "name": "SpriteStrip::~SpriteStrip()"
+    },
+    {
+      "address": "0x997ac",
+      "end": "0x997cc",
+      "name": "Sprite::MakeStatic()"
+    },
+    {
+      "address": "0x997cc",
+      "end": "0x99800",
+      "name": "SpriteStrip::CanSharpen(bool)"
+    },
+    {
+      "address": "0x99800",
+      "end": "0x999cc",
+      "name": "Sprite::Sprite()"
+    },
+    {
+      "address": "0x999cc",
+      "end": "0x999d0",
+      "name": "Sprite::Sprite()"
+    },
+    {
+      "address": "0x999d0",
+      "end": "0x99ca8",
+      "name": "Sprite::Clean()"
+    },
+    {
+      "address": "0x99ca8",
+      "end": "0x99e48",
+      "name": "Sprite::~Sprite()"
+    },
+    {
+      "address": "0x99e48",
+      "end": "0x99fe0",
+      "name": "Sprite::~Sprite()"
+    },
+    {
+      "address": "0x99fe0",
+      "end": "0x99fe4",
+      "name": "Sprite::~Sprite()"
+    },
+    {
+      "address": "0x99fe4",
+      "end": "0x9a134",
+      "name": "Sprite::Draw(Matrix&)"
+    },
+    {
+      "address": "0x9a134",
+      "end": "0x9a2f8",
+      "name": "Sprite::DrawEx(float, float, float, float)"
+    },
+    {
+      "address": "0x9a2f8",
+      "end": "0x9a404",
+      "name": "Sprite::Center(float, float)"
+    },
+    {
+      "address": "0x9a404",
+      "end": "0x9a544",
+      "name": "Sprite::Draw(float, float)"
+    },
+    {
+      "address": "0x9a544",
+      "end": "0x9a678",
+      "name": "Sprite::ProgressDrawV(float, float, float, int)"
+    },
+    {
+      "address": "0x9a678",
+      "end": "0x9a7ac",
+      "name": "Sprite::ProgressDrawH(float, float, float, int)"
+    },
+    {
+      "address": "0x9a7ac",
+      "end": "0x9acb8",
+      "name": "Sprite::Optimize()"
+    },
+    {
+      "address": "0x9acb8",
+      "end": "0x9b5a4",
+      "name": "Sprite::Realize()"
+    },
+    {
+      "address": "0x9b5a4",
+      "end": "0x9b880",
+      "name": "Sprite::Load(Image*, Rect)"
+    },
+    {
+      "address": "0x9b880",
+      "end": "0x9ba60",
+      "name": "Sprite::Load(Image*)"
+    },
+    {
+      "address": "0x9ba60",
+      "end": "0x9bdc4",
+      "name": "Sprite::Sprite(Texture*, Rect)"
+    },
+    {
+      "address": "0x9bdc4",
+      "end": "0x9bdc8",
+      "name": "Sprite::Sprite(Texture*, Rect)"
+    },
+    {
+      "address": "0x9bdc8",
+      "end": "0x9c5ec",
+      "name": "Sprite::Pick(int, int)"
+    },
+    {
+      "address": "0x9c5ec",
+      "end": "0x9c820",
+      "name": "Sprite::LoadStatic(String)"
+    },
+    {
+      "address": "0x9c820",
+      "end": "0x9ca60",
+      "name": "Sprite::Load(String)"
+    },
+    {
+      "address": "0x9ca60",
+      "end": "0x9cd18",
+      "name": "Sprite::Load(SpriteBundle&, String)"
+    },
+    {
+      "address": "0x9cd18",
+      "end": "0x9d1e4",
+      "name": "SpriteStrip::Load(SpriteBundle&, String, int)"
+    },
+    {
+      "address": "0x9d1e4",
+      "end": "0x9d2f8",
+      "name": "SpriteStrip::LoadV(SpriteBundle&, String, int)"
+    },
+    {
+      "address": "0x9d2f8",
+      "end": "0x9d2fc",
+      "name": "Sprite::Reference()"
+    },
+    {
+      "address": "0x9d2fc",
+      "end": "0x9d300",
+      "name": "SpriteStrip::Reference()"
+    },
+    {
+      "address": "0x9d300",
+      "end": "0x9d3f0",
+      "name": "Graphics::DrawShapeVB(VertexBuffer2D*, int, int)"
+    },
+    {
+      "address": "0x9d3f0",
+      "end": "0x9d4b0",
+      "name": "SpriteBundle::SaveMemory(bool)"
+    },
+    {
+      "address": "0x9d4b0",
+      "end": "0x9d5a0",
+      "name": "SpriteBundle::GetTexture(String, IPoint*, Rect*)"
+    },
+    {
+      "address": "0x9d5a0",
+      "end": "0x9d6f0",
+      "name": "SpriteBundle::SpriteBundle()"
+    },
+    {
+      "address": "0x9d6f0",
+      "end": "0x9d6f4",
+      "name": "SpriteBundle::SpriteBundle()"
+    },
+    {
+      "address": "0x9d6f4",
+      "end": "0x9da08",
+      "name": "SpriteBundle::~SpriteBundle()"
+    },
+    {
+      "address": "0x9da08",
+      "end": "0x9da0c",
+      "name": "SpriteBundle::~SpriteBundle()"
+    },
+    {
+      "address": "0x9da0c",
+      "end": "0x9dd28",
+      "name": "SpriteBundle::~SpriteBundle()"
+    },
+    {
+      "address": "0x9dd28",
+      "end": "0x9e5b8",
+      "name": "SpriteBundle::Load(String)"
+    },
+    {
+      "address": "0x9e5b8",
+      "end": "0x9e77c",
+      "name": "String::ToPoint(float&, float&)"
+    },
+    {
+      "address": "0x9e77c",
+      "end": "0x9e818",
+      "name": "String::Find(char*, int)"
+    },
+    {
+      "address": "0x9e818",
+      "end": "0x9e890",
+      "name": "String::Find(char, char, int)"
+    },
+    {
+      "address": "0x9e890",
+      "end": "0x9e8f8",
+      "name": "String::Find(char, int)"
+    },
+    {
+      "address": "0x9e8f8",
+      "end": "0x9ece0",
+      "name": "String::ParseLong(long long, unsigned int)"
+    },
+    {
+      "address": "0x9ece0",
+      "end": "0x9ed4c",
+      "name": "String::CompareS(char*)"
+    },
+    {
+      "address": "0x9ed4c",
+      "end": "0x9edf4",
+      "name": "String::CompareI(char*)"
+    },
+    {
+      "address": "0x9edf4",
+      "end": "0x9eeb4",
+      "name": "String::Delete(int, int)"
+    },
+    {
+      "address": "0x9eeb4",
+      "end": "0x9ef58",
+      "name": "String::operator+=(String&)"
+    },
+    {
+      "address": "0x9ef58",
+      "end": "0x9efcc",
+      "name": "String::Decrypt(char*)"
+    },
+    {
+      "address": "0x9efcc",
+      "end": "0x9f040",
+      "name": "String::Encrypt(char*)"
+    },
+    {
+      "address": "0x9f040",
+      "end": "0x9f0b8",
+      "name": "String::Uppercase()"
+    },
+    {
+      "address": "0x9f0b8",
+      "end": "0x9f154",
+      "name": "String::ToBool()"
+    },
+    {
+      "address": "0x9f154",
+      "end": "0x9f428",
+      "name": "String::Delete(char*)"
+    },
+    {
+      "address": "0x9f428",
+      "end": "0x9f4d4",
+      "name": "String::operator+=(char*)"
+    },
+    {
+      "address": "0x9f4d4",
+      "end": "0x9f5dc",
+      "name": "String::ParseChar(char*, unsigned int)"
+    },
+    {
+      "address": "0x9f5dc",
+      "end": "0x9f938",
+      "name": "String::ProcessSpecifier(char*, int&, void*&)"
+    },
+    {
+      "address": "0x9f938",
+      "end": "0x9fadc",
+      "name": "String::GetSubString(int, int)"
+    },
+    {
+      "address": "0x9fadc",
+      "end": "0x9fce4",
+      "name": "String::GetNextToken(char, bool)"
+    },
+    {
+      "address": "0x9fce4",
+      "end": "0x9fd0c",
+      "name": "String::GetToken(char, bool)"
+    },
+    {
+      "address": "0x9fd0c",
+      "end": "0x9fecc",
+      "name": "String::operator+(char*)"
+    },
+    {
+      "address": "0x9fecc",
+      "end": "0xa046c",
+      "name": "String::Format(char*, void*&)"
+    },
+    {
+      "address": "0xa046c",
+      "end": "0xa059c",
+      "name": "IntToString(int, bool)"
+    },
+    {
+      "address": "0xa059c",
+      "end": "0xa079c",
+      "name": "SuperscriptNumber(int)"
+    },
+    {
+      "address": "0xa079c",
+      "end": "0xa0838",
+      "name": "FormatTime(int, int)"
+    },
+    {
+      "address": "0xa0838",
+      "end": "0xa0a50",
+      "name": "FormatDate(int, int, int)"
+    },
+    {
+      "address": "0xa0a50",
+      "end": "0xa0a9c",
+      "name": "String::ChrList::operator+=(char*)"
+    },
+    {
+      "address": "0xa0a9c",
+      "end": "0xa0ae8",
+      "name": "String::StringList::operator+=(String*)"
+    },
+    {
+      "address": "0xa0ae8",
+      "end": "0xa0b68",
+      "name": "String::PrepForInlineModification()"
+    },
+    {
+      "address": "0xa0b68",
+      "end": "0xa0cf0",
+      "name": "Texture::Texture()"
+    },
+    {
+      "address": "0xa0cf0",
+      "end": "0xa0cf4",
+      "name": "Texture::Texture()"
+    },
+    {
+      "address": "0xa0cf4",
+      "end": "0xa0e14",
+      "name": "Texture::Initialize(int, int)"
+    },
+    {
+      "address": "0xa0e14",
+      "end": "0xa0ea8",
+      "name": "Texture::AdjustTextureRect(Rect)"
+    },
+    {
+      "address": "0xa0ea8",
+      "end": "0xa0f34",
+      "name": "Texture::CreateQuickPickArray()"
+    },
+    {
+      "address": "0xa0f34",
+      "end": "0xa10f4",
+      "name": "Texture::QuickCopyImage(Image*)"
+    },
+    {
+      "address": "0xa10f4",
+      "end": "0xa1418",
+      "name": "Texture::CreateAlphaArray(Rect, int*, int*)"
+    },
+    {
+      "address": "0xa1418",
+      "end": "0xa14dc",
+      "name": "Texture::Bind()"
+    },
+    {
+      "address": "0xa14dc",
+      "end": "0xa16d8",
+      "name": "Texture::Release()"
+    },
+    {
+      "address": "0xa16d8",
+      "end": "0xa17e0",
+      "name": "Texture::~Texture()"
+    },
+    {
+      "address": "0xa17e0",
+      "end": "0xa18e0",
+      "name": "Texture::~Texture()"
+    },
+    {
+      "address": "0xa18e0",
+      "end": "0xa18e4",
+      "name": "Texture::~Texture()"
+    },
+    {
+      "address": "0xa18e4",
+      "end": "0xa1cc8",
+      "name": "Texture::CopyImage(Image*, Rect)"
+    },
+    {
+      "address": "0xa1cc8",
+      "end": "0xa1dcc",
+      "name": "Texture::CopyImage(Image*)"
+    },
+    {
+      "address": "0xa1dcc",
+      "end": "0xa1f64",
+      "name": "Texture::Load(String)"
+    },
+    {
+      "address": "0xa1f64",
+      "end": "0xa20fc",
+      "name": "Texture::Texture(Image*)"
+    },
+    {
+      "address": "0xa20fc",
+      "end": "0xa2100",
+      "name": "Texture::Texture(Image*)"
+    },
+    {
+      "address": "0xa2100",
+      "end": "0xa22dc",
+      "name": "Texture::Texture(Image*, Rect)"
+    },
+    {
+      "address": "0xa22dc",
+      "end": "0xa22e0",
+      "name": "Texture::Texture(Image*, Rect)"
+    },
+    {
+      "address": "0xa22e0",
+      "end": "0xa241c",
+      "name": "Texture::KludgeTextureRect(Rect, bool)"
+    },
+    {
+      "address": "0xa241c",
+      "end": "0xa2438",
+      "name": "TextureMosaic::TextureMosaic()"
+    },
+    {
+      "address": "0xa2438",
+      "end": "0xa2640",
+      "name": "TextureMosaic::SexyGetBestTextureDimensions(int&, int&, bool, bool, unsigned long)"
+    },
+    {
+      "address": "0xa2640",
+      "end": "0xa2860",
+      "name": "TextureMosaic::SexyMerge()"
+    },
+    {
+      "address": "0xa2860",
+      "end": "0xa29d4",
+      "name": "TextureMosaic::~TextureMosaic()"
+    },
+    {
+      "address": "0xa29d4",
+      "end": "0xa29d8",
+      "name": "TextureMosaic::~TextureMosaic()"
+    },
+    {
+      "address": "0xa29d8",
+      "end": "0xa2b54",
+      "name": "TextureMosaic::~TextureMosaic()"
+    },
+    {
+      "address": "0xa2b54",
+      "end": "0xa30ec",
+      "name": "TextureMosaic::SexyCreateTextureDimensions(int, int)"
+    },
+    {
+      "address": "0xa30ec",
+      "end": "0xa319c",
+      "name": "TextureMosaic::Go(int, int)"
+    },
+    {
+      "address": "0xa319c",
+      "end": "0xa31ec",
+      "name": "Rect* std::__copy<false, std::random_access_iterator_tag>::copy<Rect*, Rect*>(Rect*, Rect*, Rect*)"
+    },
+    {
+      "address": "0xa31ec",
+      "end": "0xa323c",
+      "name": "Rect* std::__copy_backward<false, std::random_access_iterator_tag>::copy_b<Rect*, Rect*>(Rect*, Rect*, Rect*)"
+    },
+    {
+      "address": "0xa323c",
+      "end": "0xa3394",
+      "name": "Rect* std::__uninitialized_copy_aux<Rect*, Rect*>(Rect*, Rect*, Rect*, __false_type)"
+    },
+    {
+      "address": "0xa3394",
+      "end": "0xa33b4",
+      "name": "__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>::difference_type __gnu_cxx::operator-<Rect*, Rect*, std::vector<Rect, std::allocator<Rect>>>(__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>> const&, __gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>> const&)"
+    },
+    {
+      "address": "0xa33b4",
+      "end": "0xa33e8",
+      "name": "void std::_Destroy<__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, std::allocator<Rect>>(__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, __gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, std::allocator<Rect>)"
+    },
+    {
+      "address": "0xa33e8",
+      "end": "0xa3404",
+      "name": "__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>> std::__copy_backward_normal<true, true>::copy_b_n<__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, __gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>>(__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, __gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, __gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>)"
+    },
+    {
+      "address": "0xa3404",
+      "end": "0xa3420",
+      "name": "__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>> std::__copy_normal<true, true>::copy_n<__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, __gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>>(__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, __gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, __gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>)"
+    },
+    {
+      "address": "0xa3420",
+      "end": "0xa3454",
+      "name": "void std::__fill<false>::fill<__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, Rect>(__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, __gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, Rect const&)"
+    },
+    {
+      "address": "0xa3454",
+      "end": "0xa3474",
+      "name": "__gnu_cxx::__normal_iterator<Rect const*, std::vector<Rect, std::allocator<Rect>>>::difference_type __gnu_cxx::operator-<Rect const*, Rect const*, std::vector<Rect, std::allocator<Rect>>>(__gnu_cxx::__normal_iterator<Rect const*, std::vector<Rect, std::allocator<Rect>>> const&, __gnu_cxx::__normal_iterator<Rect const*, std::vector<Rect, std::allocator<Rect>>> const&)"
+    },
+    {
+      "address": "0xa3474",
+      "end": "0xa34b0",
+      "name": "std::vector<Rect, std::allocator<Rect>>::size() const"
+    },
+    {
+      "address": "0xa34b0",
+      "end": "0xa34bc",
+      "name": "std::vector<Rect, std::allocator<Rect>>::back()"
+    },
+    {
+      "address": "0xa34bc",
+      "end": "0xa34d8",
+      "name": "std::_Vector_base<Rect, std::allocator<Rect>>::~_Vector_base()"
+    },
+    {
+      "address": "0xa34d8",
+      "end": "0xa34ec",
+      "name": "std::_Vector_base<Rect, std::allocator<Rect>>::_Vector_base(std::allocator<Rect> const&)"
+    },
+    {
+      "address": "0xa34ec",
+      "end": "0xa3500",
+      "name": "std::vector<Rect, std::allocator<Rect>>::operator[](unsigned long)"
+    },
+    {
+      "address": "0xa3500",
+      "end": "0xa3600",
+      "name": "std::vector<Rect, std::allocator<Rect>>::~vector()"
+    },
+    {
+      "address": "0xa3600",
+      "end": "0xa371c",
+      "name": "std::vector<Rect, std::allocator<Rect>>::erase(__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, __gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>)"
+    },
+    {
+      "address": "0xa371c",
+      "end": "0xa3894",
+      "name": "__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>> std::__uninitialized_copy_aux<__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, __gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>>(__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, __gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, __gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, __false_type)"
+    },
+    {
+      "address": "0xa3894",
+      "end": "0xa38b0",
+      "name": "__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>> std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, __gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, Rect>(__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, __gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, __gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, std::allocator<Rect>)"
+    },
+    {
+      "address": "0xa38b0",
+      "end": "0xa3a20",
+      "name": "void std::__uninitialized_fill_n_aux<__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, unsigned long, Rect>(__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, unsigned long, Rect const&, __false_type)"
+    },
+    {
+      "address": "0xa3a20",
+      "end": "0xa3b88",
+      "name": "Rect* std::__uninitialized_copy_aux<__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, Rect*>(__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, __gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, Rect*, __false_type)"
+    },
+    {
+      "address": "0xa3b88",
+      "end": "0xa3ce4",
+      "name": "void std::__uninitialized_fill_n_aux<Rect*, unsigned long, Rect>(Rect*, unsigned long, Rect const&, __false_type)"
+    },
+    {
+      "address": "0xa3ce4",
+      "end": "0xa41ec",
+      "name": "std::vector<Rect, std::allocator<Rect>>::_M_fill_insert(__gnu_cxx::__normal_iterator<Rect*, std::vector<Rect, std::allocator<Rect>>>, unsigned long, Rect const&)"
+    },
+    {
+      "address": "0xa41ec",
+      "end": "0xa427c",
+      "name": "std::vector<Rect, std::allocator<Rect>>::resize(unsigned long, Rect const&)"
+    },
+    {
+      "address": "0xa427c",
+      "end": "0xa42b8",
+      "name": "VertexBuffer2D::VertexBuffer2D()"
+    },
+    {
+      "address": "0xa42b8",
+      "end": "0xa42bc",
+      "name": "VertexBuffer2D::VertexBuffer2D()"
+    },
+    {
+      "address": "0xa42bc",
+      "end": "0xa42e4",
+      "name": "VertexBuffer2D::Release()"
+    },
+    {
+      "address": "0xa42e4",
+      "end": "0xa4374",
+      "name": "VertexBuffer2D::Go(int, bool)"
+    },
+    {
+      "address": "0xa4374",
+      "end": "0xa437c",
+      "name": "VertexBuffer2D::Lock()"
+    },
+    {
+      "address": "0xa437c",
+      "end": "0xa4380",
+      "name": "VertexBuffer2D::Unlock()"
+    },
+    {
+      "address": "0xa4380",
+      "end": "0xa4384",
+      "name": "VertexBuffer2D::Recover()"
+    },
+    {
+      "address": "0xa4384",
+      "end": "0xa43c0",
+      "name": "VertexBuffer2D::~VertexBuffer2D()"
+    },
+    {
+      "address": "0xa43c0",
+      "end": "0xa4404",
+      "name": "VertexBuffer2D::~VertexBuffer2D()"
+    },
+    {
+      "address": "0xa4404",
+      "end": "0xa44e0",
+      "name": "QuickSpline::Get(int, float&, float&)"
+    },
+    {
+      "address": "0xa44e0",
+      "end": "0xa458c",
+      "name": "QuickSpline::Clear()"
+    },
+    {
+      "address": "0xa458c",
+      "end": "0xa45dc",
+      "name": "QuickSpline::QuickSpline()"
+    },
+    {
+      "address": "0xa45dc",
+      "end": "0xa45e0",
+      "name": "QuickSpline::QuickSpline()"
+    },
+    {
+      "address": "0xa45e0",
+      "end": "0xa45f0",
+      "name": "QuickSpline::~QuickSpline()"
+    },
+    {
+      "address": "0xa45f0",
+      "end": "0xa4618",
+      "name": "QuickSpline::~QuickSpline()"
+    },
+    {
+      "address": "0xa4618",
+      "end": "0xa4828",
+      "name": "QuickSpline::Size(int)"
+    },
+    {
+      "address": "0xa4828",
+      "end": "0xa4894",
+      "name": "QuickSpline::Add(float, float)"
+    },
+    {
+      "address": "0xa4894",
+      "end": "0xa4f58",
+      "name": "QuickSpline::Solve(float*, float*, float*, float*, float*, bool, bool)"
+    },
+    {
+      "address": "0xa4f58",
+      "end": "0xa53b8",
+      "name": "QuickSpline::Solve(float*, float*, float*, float*, bool, bool)"
+    },
+    {
+      "address": "0xa53b8",
+      "end": "0xa5634",
+      "name": "QuickSpline::Solve(bool, bool)"
+    },
+    {
+      "address": "0xa5634",
+      "end": "0xa57bc",
+      "name": "QuickSpline::Get(float, float&, float&)"
+    },
+    {
+      "address": "0xa57bc",
+      "end": "0xa57d4",
+      "name": "___tcf_0"
+    },
+    {
+      "address": "0xa57d4",
+      "end": "0xa57ec",
+      "name": "___tcf_0"
+    },
+    {
+      "address": "0xa57ec",
+      "end": "0xa5804",
+      "name": "___tcf_1"
+    },
+    {
+      "address": "0xa5804",
+      "end": "0xa581c",
+      "name": "___tcf_2"
+    },
+    {
+      "address": "0xa581c",
+      "end": "0xa5834",
+      "name": "___tcf_3"
+    },
+    {
+      "address": "0xa5834",
+      "end": "0xa584c",
+      "name": "___tcf_4"
+    }
+  ]
+}
